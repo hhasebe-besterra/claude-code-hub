@@ -1,0 +1,30 @@
+# 収集ソース定義
+# X は Playwright で pw_profile を使う。views/impressionsを拾う。
+
+x_accounts:
+  - handle: minchoi
+    note: Claude Code 系情報源の定番
+  - handle: kregenrek
+    note: MCP・Agents 関連
+  - handle: hongchao
+    note: Claude Code 実践
+  - handle: AnthropicAI
+    note: 公式
+  - handle: alexalbert__
+    note: Anthropic DevRel
+
+x_search_terms:
+  - "Claude Code"
+  - "claude-code"
+  - "Anthropic MCP"
+  - "Claude Skills"
+
+github_trending:
+  - topic: claude-code
+  - topic: anthropic
+  - topic: mcp-server
+
+thresholds:
+  hot_views: 10000     # サイトで🔥バッジ
+  min_views: 500       # これ未満は収集対象外
+  flag_huge: 100000    # 「表示多い」と報告する閾値

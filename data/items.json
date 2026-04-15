@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-04-15T00:00:00+09:00",
+  "generator": "manual-seed",
+  "items": [
+    {
+      "id": "mcp-playwright",
+      "title": "Playwright MCP",
+      "type": "mcp",
+      "summary": "ブラウザ自動化MCP。スクレイピング・スクリーンショット・UIテストをClaude Codeから直接操作できる。x_fetcher の pw_profile を流用可能。",
+      "source": "https://github.com/microsoft/playwright-mcp",
+      "author": "microsoft",
+      "published_at": "2026-03-10",
+      "collected_at": "2026-04-15",
+      "views": 48000,
+      "hot": true,
+      "tags": ["mcp", "browser", "automation"],
+      "install": {
+        "kind": "mcp",
+        "name": "playwright",
+        "config": {
+          "command": "npx",
+          "args": ["-y", "@playwright/mcp@latest"]
+        }
+      }
+    },
+    {
+      "id": "skill-ppt-hasebe-reference",
+      "title": "Skill: ppt-hasebe（参考例）",
+      "type": "skill",
+      "summary": "プレゼン資料(pptx)を長谷部規格で生成するskillの参考例。このhubから配布する形の雛形。",
+      "source": "local",
+      "author": "長谷部",
+      "published_at": "2026-04-01",
+      "collected_at": "2026-04-15",
+      "views": 0,
+      "hot": false,
+      "tags": ["skill", "pptx"],
+      "install": {
+        "kind": "skill",
+        "slug": "ppt-hasebe-demo",
+        "files": [
+          {"dest": "SKILL.md", "payload": "payloads/skill-ppt-hasebe-reference/SKILL.md"}
+        ]
+      }
+    },
+    {
+      "id": "tip-context-management",
+      "title": "1M context を活かすプロンプト分割のコツ",
+      "type": "tip",
+      "summary": "長文タスクでは最初に方針合意→plan保存→実装フェーズでplan参照、の3段構えにするとcache hit率が上がる。",
+      "source": "https://x.com/minchoi/status/example",
+      "author": "@minchoi",
+      "published_at": "2026-04-10",
+      "collected_at": "2026-04-15",
+      "views": 12000,
+      "hot": true,
+      "tags": ["tip", "context", "plan"],
+      "install": {
+        "kind": "note",
+        "dest_note": "claude_code_tips/context_management.md"
+      }
+    }
+  ]
+}

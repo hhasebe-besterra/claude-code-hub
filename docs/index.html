@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>Claude Code Hub</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Claude Code Hub</h1>
+  <div class="meta">
+    <span id="lastUpdate">最終更新: 読み込み中...</span>
+    <button id="authBtn" title="GitHub PAT を登録">🔑</button>
+    <button id="refreshBtn" title="再読込">↻</button>
+  </div>
+</header>
+
+<nav class="filters">
+  <label><input type="checkbox" class="f" value="mcp" checked> MCP</label>
+  <label><input type="checkbox" class="f" value="skill" checked> Skill</label>
+  <label><input type="checkbox" class="f" value="command" checked> Command</label>
+  <label><input type="checkbox" class="f" value="tip" checked> Tip</label>
+  <label class="hot-only"><input type="checkbox" id="hotOnly"> 🔥のみ</label>
+  <input type="search" id="q" placeholder="検索（タイトル・タグ・要約）">
+</nav>
+
+<main id="cards"></main>
+
+<footer>
+  <div>チェックすると <code>data/selected.json</code> に反映され、ローカル watcher が自動導入します。</div>
+  <div>PATを未登録のまま選択すると右上🔑にプロンプトが出ます。</div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

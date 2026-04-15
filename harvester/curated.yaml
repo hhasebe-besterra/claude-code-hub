@@ -1,0 +1,35 @@
+# 手動キュレーション。ここに書いたアイテムは harvest 実行時に items.json へマージされる。
+- id: mcp-playwright
+  title: Playwright MCP
+  type: mcp
+  summary: ブラウザ自動化MCP。スクレイピング・スクリーンショット・UIテストをClaude Codeから直接操作できる。
+  source: https://github.com/microsoft/playwright-mcp
+  author: microsoft
+  published_at: "2026-03-10"
+  views: 48000
+  tags: [mcp, browser, automation]
+  install:
+    kind: mcp
+    name: playwright
+    config:
+      command: npx
+      args: ["-y", "@playwright/mcp@latest"]
+
+- id: mcp-ms365
+  title: Microsoft 365 MCP
+  type: mcp
+  summary: Outlook / Teams / SharePoint / OneDrive / Excel Online を Claude Code から操作。
+  source: https://github.com/softeria/ms-365-mcp-server
+  author: softeria
+  published_at: "2026-02-20"
+  views: 22000
+  tags: [mcp, microsoft, graph]
+  install:
+    kind: mcp
+    name: ms365
+    config:
+      command: npx
+      args: ["-y", "@softeria/ms-365-mcp-server"]
+      env:
+        MS365_MCP_CLIENT_ID: ""
+        MS365_MCP_TENANT_ID: ""
