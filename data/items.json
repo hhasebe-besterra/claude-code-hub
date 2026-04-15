@@ -1,64 +1,640 @@
 {
-  "generated_at": "2026-04-15T00:00:00+09:00",
-  "generator": "manual-seed",
+  "generated_at": "2026-04-16T06:55:20+09:00",
+  "generator": "harvest.py",
   "items": [
+    {
+      "id": "gh-n8n-io-n8n",
+      "title": "n8n-io/n8n",
+      "type": "tip",
+      "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "source": "https://github.com/n8n-io/n8n",
+      "author": "n8n-io",
+      "published_at": "2019-06-22",
+      "collected_at": "2026-04-16",
+      "views": 1842150,
+      "tags": [
+        "mcp-server",
+        "ai",
+        "apis",
+        "automation",
+        "cli"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/n8n-io_n8n.md"
+      },
+      "hot": true
+    },
+    {
+      "id": "gh-affaan-m-everything-claude-code",
+      "title": "affaan-m/everything-claude-code",
+      "type": "tip",
+      "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "source": "https://github.com/affaan-m/everything-claude-code",
+      "author": "affaan-m",
+      "published_at": "2026-01-18",
+      "collected_at": "2026-04-16",
+      "views": 1573200,
+      "tags": [
+        "anthropic",
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/affaan-m_everything-claude-code.md"
+      },
+      "hot": true
+    },
+    {
+      "id": "gh-langchain-ai-langchain",
+      "title": "langchain-ai/langchain",
+      "type": "tip",
+      "summary": "The agent engineering platform",
+      "source": "https://github.com/langchain-ai/langchain",
+      "author": "langchain-ai",
+      "published_at": "2022-10-17",
+      "collected_at": "2026-04-16",
+      "views": 1336810,
+      "tags": [
+        "anthropic",
+        "agents",
+        "ai",
+        "ai-agents",
+        "anthropic"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/langchain-ai_langchain.md"
+      },
+      "hot": true
+    },
+    {
+      "id": "gh-google-gemini-gemini-cli",
+      "title": "google-gemini/gemini-cli",
+      "type": "tip",
+      "summary": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+      "source": "https://github.com/google-gemini/gemini-cli",
+      "author": "google-gemini",
+      "published_at": "2025-04-17",
+      "collected_at": "2026-04-16",
+      "views": 1013490,
+      "tags": [
+        "mcp-server",
+        "ai",
+        "ai-agents",
+        "cli",
+        "gemini"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/google-gemini_gemini-cli.md"
+      },
+      "hot": true
+    },
+    {
+      "id": "gh-NousResearch-hermes-agent",
+      "title": "NousResearch/hermes-agent",
+      "type": "tip",
+      "summary": "The agent that grows with you",
+      "source": "https://github.com/NousResearch/hermes-agent",
+      "author": "NousResearch",
+      "published_at": "2025-07-22",
+      "collected_at": "2026-04-16",
+      "views": 892360,
+      "tags": [
+        "anthropic",
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "anthropic"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/NousResearch_hermes-agent.md"
+      },
+      "hot": true
+    },
+    {
+      "id": "gh-nextlevelbuilder-ui-ux-pro-max-skill",
+      "title": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "type": "tip",
+      "summary": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms",
+      "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "author": "nextlevelbuilder",
+      "published_at": "2025-11-30",
+      "collected_at": "2026-04-16",
+      "views": 656490,
+      "tags": [
+        "claude-code",
+        "ai-skills",
+        "antigravity",
+        "claude",
+        "claude-code"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/nextlevelbuilder_ui-ux-pro-max-skill.md"
+      },
+      "hot": true
+    },
+    {
+      "id": "gh-thedotmack-claude-mem",
+      "title": "thedotmack/claude-mem",
+      "type": "tip",
+      "summary": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+      "source": "https://github.com/thedotmack/claude-mem",
+      "author": "thedotmack",
+      "published_at": "2025-08-31",
+      "collected_at": "2026-04-16",
+      "views": 576660,
+      "tags": [
+        "anthropic",
+        "ai",
+        "ai-agents",
+        "ai-memory",
+        "anthropic"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/thedotmack_claude-mem.md"
+      },
+      "hot": true
+    },
+    {
+      "id": "gh-ComposioHQ-awesome-claude-skills",
+      "title": "ComposioHQ/awesome-claude-skills",
+      "type": "tip",
+      "summary": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "source": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "author": "ComposioHQ",
+      "published_at": "2025-10-17",
+      "collected_at": "2026-04-16",
+      "views": 540470,
+      "tags": [
+        "claude-code",
+        "agent-skills",
+        "ai-agents",
+        "antigravity",
+        "automation"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/ComposioHQ_awesome-claude-skills.md"
+      },
+      "hot": true
+    },
+    {
+      "id": "gh-shareAI-lab-learn-claude-code",
+      "title": "shareAI-lab/learn-claude-code",
+      "type": "tip",
+      "summary": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
+      "source": "https://github.com/shareAI-lab/learn-claude-code",
+      "author": "shareAI-lab",
+      "published_at": "2025-06-29",
+      "collected_at": "2026-04-16",
+      "views": 537700,
+      "tags": [
+        "claude-code",
+        "agent",
+        "agent-development",
+        "ai-agent",
+        "claude"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/shareAI-lab_learn-claude-code.md"
+      },
+      "hot": true
+    },
+    {
+      "id": "gh-gsd-build-get-shit-done",
+      "title": "gsd-build/get-shit-done",
+      "type": "tip",
+      "summary": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES.",
+      "source": "https://github.com/gsd-build/get-shit-done",
+      "author": "gsd-build",
+      "published_at": "2025-12-14",
+      "collected_at": "2026-04-16",
+      "views": 534980,
+      "tags": [
+        "claude-code",
+        "claude-code",
+        "context-engineering",
+        "meta-prompting",
+        "spec-driven-development"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/gsd-build_get-shit-done.md"
+      },
+      "hot": true
+    },
+    {
+      "id": "gh-upstash-context7",
+      "title": "upstash/context7",
+      "type": "tip",
+      "summary": "Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors",
+      "source": "https://github.com/upstash/context7",
+      "author": "upstash",
+      "published_at": "2025-03-26",
+      "collected_at": "2026-04-16",
+      "views": 527990,
+      "tags": [
+        "mcp-server",
+        "llm",
+        "mcp",
+        "mcp-server",
+        "vibe-coding"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/upstash_context7.md"
+      },
+      "hot": true
+    },
+    {
+      "id": "gh-code-yeongyu-oh-my-openagent",
+      "title": "code-yeongyu/oh-my-openagent",
+      "type": "tip",
+      "summary": "omo; the best agent harness - previously oh-my-opencode",
+      "source": "https://github.com/code-yeongyu/oh-my-openagent",
+      "author": "code-yeongyu",
+      "published_at": "2025-12-03",
+      "collected_at": "2026-04-16",
+      "views": 518560,
+      "tags": [
+        "anthropic",
+        "ai",
+        "ai-agents",
+        "amp",
+        "anthropic"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/code-yeongyu_oh-my-openagent.md"
+      },
+      "hot": true
+    },
+    {
+      "id": "gh-sansan0-TrendRadar",
+      "title": "sansan0/TrendRadar",
+      "type": "mcp",
+      "summary": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。",
+      "source": "https://github.com/sansan0/TrendRadar",
+      "author": "sansan0",
+      "published_at": "2025-04-28",
+      "collected_at": "2026-04-16",
+      "views": 516950,
+      "tags": [
+        "mcp-server",
+        "ai",
+        "bark",
+        "data-analysis",
+        "docker"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/sansan0_TrendRadar.md"
+      },
+      "hot": true
+    },
+    {
+      "id": "gh-farion1231-cc-switch",
+      "title": "farion1231/cc-switch",
+      "type": "tip",
+      "summary": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI.",
+      "source": "https://github.com/farion1231/cc-switch",
+      "author": "farion1231",
+      "published_at": "2025-08-04",
+      "collected_at": "2026-04-16",
+      "views": 453280,
+      "tags": [
+        "claude-code",
+        "ai-tools",
+        "claude-code",
+        "codex",
+        "desktop-app"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/farion1231_cc-switch.md"
+      },
+      "hot": true
+    },
+    {
+      "id": "gh-shanraisshan-claude-code-best-practice",
+      "title": "shanraisshan/claude-code-best-practice",
+      "type": "tip",
+      "summary": "from vibe coding to agentic engineering - practice makes claude perfect",
+      "source": "https://github.com/shanraisshan/claude-code-best-practice",
+      "author": "shanraisshan",
+      "published_at": "2025-10-31",
+      "collected_at": "2026-04-16",
+      "views": 449070,
+      "tags": [
+        "anthropic",
+        "agentic-engineering",
+        "anthropic",
+        "best-practices",
+        "boris"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/shanraisshan_claude-code-best-practice.md"
+      },
+      "hot": true
+    },
+    {
+      "id": "gh-BerriAI-litellm",
+      "title": "BerriAI/litellm",
+      "type": "tip",
+      "summary": "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, VLLM, NVIDIA NIM]",
+      "source": "https://github.com/BerriAI/litellm",
+      "author": "BerriAI",
+      "published_at": "2023-07-27",
+      "collected_at": "2026-04-16",
+      "views": 434260,
+      "tags": [
+        "anthropic",
+        "ai-gateway",
+        "anthropic",
+        "azure-openai",
+        "bedrock"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/BerriAI_litellm.md"
+      },
+      "hot": true
+    },
+    {
+      "id": "gh-Aider-AI-aider",
+      "title": "Aider-AI/aider",
+      "type": "tip",
+      "summary": "aider is AI pair programming in your terminal",
+      "source": "https://github.com/Aider-AI/aider",
+      "author": "Aider-AI",
+      "published_at": "2023-05-09",
+      "collected_at": "2026-04-16",
+      "views": 433880,
+      "tags": [
+        "anthropic",
+        "anthropic",
+        "chatgpt",
+        "claude-3",
+        "cli"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/Aider-AI_aider.md"
+      },
+      "hot": true
+    },
+    {
+      "id": "gh-HKUDS-nanobot",
+      "title": "HKUDS/nanobot",
+      "type": "tip",
+      "summary": "\"🐈 nanobot: The Ultra-Lightweight Personal AI Agent\"",
+      "source": "https://github.com/HKUDS/nanobot",
+      "author": "HKUDS",
+      "published_at": "2026-02-01",
+      "collected_at": "2026-04-16",
+      "views": 396630,
+      "tags": [
+        "anthropic",
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "anthropic"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/HKUDS_nanobot.md"
+      },
+      "hot": true
+    },
+    {
+      "id": "gh-hesreallyhim-awesome-claude-code",
+      "title": "hesreallyhim/awesome-claude-code",
+      "type": "tip",
+      "summary": "A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic",
+      "source": "https://github.com/hesreallyhim/awesome-claude-code",
+      "author": "hesreallyhim",
+      "published_at": "2025-04-19",
+      "collected_at": "2026-04-16",
+      "views": 389310,
+      "tags": [
+        "anthropic",
+        "agent-skills",
+        "agentic-code",
+        "agentic-coding",
+        "ai-workflow-optimization"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/hesreallyhim_awesome-claude-code.md"
+      },
+      "hot": true
+    },
+    {
+      "id": "gh-D4Vinci-Scrapling",
+      "title": "D4Vinci/Scrapling",
+      "type": "tip",
+      "summary": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+      "source": "https://github.com/D4Vinci/Scrapling",
+      "author": "D4Vinci",
+      "published_at": "2024-10-13",
+      "collected_at": "2026-04-16",
+      "views": 372220,
+      "tags": [
+        "mcp-server",
+        "ai",
+        "ai-scraping",
+        "automation",
+        "crawler"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/D4Vinci_Scrapling.md"
+      },
+      "hot": true
+    },
+    {
+      "id": "gh-ChromeDevTools-chrome-devtools-mcp",
+      "title": "ChromeDevTools/chrome-devtools-mcp",
+      "type": "mcp",
+      "summary": "Chrome DevTools for coding agents",
+      "source": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "author": "ChromeDevTools",
+      "published_at": "2025-09-11",
+      "collected_at": "2026-04-16",
+      "views": 352420,
+      "tags": [
+        "mcp-server",
+        "browser",
+        "chrome",
+        "chrome-devtools",
+        "debugging"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/ChromeDevTools_chrome-devtools-mcp.md"
+      },
+      "hot": true
+    },
+    {
+      "id": "gh-ruvnet-ruflo",
+      "title": "ruvnet/ruflo",
+      "type": "tip",
+      "summary": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+      "source": "https://github.com/ruvnet/ruflo",
+      "author": "ruvnet",
+      "published_at": "2025-06-02",
+      "collected_at": "2026-04-16",
+      "views": 319770,
+      "tags": [
+        "mcp-server",
+        "agentic-ai",
+        "agentic-engineering",
+        "agentic-framework",
+        "agentic-rag"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/ruvnet_ruflo.md"
+      },
+      "hot": true
+    },
+    {
+      "id": "gh-bytedance-UI-TARS-desktop",
+      "title": "bytedance/UI-TARS-desktop",
+      "type": "tip",
+      "summary": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+      "source": "https://github.com/bytedance/UI-TARS-desktop",
+      "author": "bytedance",
+      "published_at": "2025-01-19",
+      "collected_at": "2026-04-16",
+      "views": 294170,
+      "tags": [
+        "mcp-server",
+        "agent",
+        "agent-tars",
+        "browser-use",
+        "computer-use"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/bytedance_UI-TARS-desktop.md"
+      },
+      "hot": true
+    },
+    {
+      "id": "gh-github-github-mcp-server",
+      "title": "github/github-mcp-server",
+      "type": "mcp",
+      "summary": "GitHub's official MCP Server",
+      "source": "https://github.com/github/github-mcp-server",
+      "author": "github",
+      "published_at": "2025-03-04",
+      "collected_at": "2026-04-16",
+      "views": 288860,
+      "tags": [
+        "mcp-server",
+        "github",
+        "mcp",
+        "mcp-server"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/github_github-mcp-server.md"
+      },
+      "hot": true
+    },
+    {
+      "id": "gh-assafelovic-gpt-researcher",
+      "title": "assafelovic/gpt-researcher",
+      "type": "tip",
+      "summary": "An autonomous agent that conducts deep research on any data using any LLM providers",
+      "source": "https://github.com/assafelovic/gpt-researcher",
+      "author": "assafelovic",
+      "published_at": "2023-05-12",
+      "collected_at": "2026-04-16",
+      "views": 264710,
+      "tags": [
+        "mcp-server",
+        "agent",
+        "ai",
+        "automation",
+        "deepresearch"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/assafelovic_gpt-researcher.md"
+      },
+      "hot": true
+    },
     {
       "id": "mcp-playwright",
       "title": "Playwright MCP",
       "type": "mcp",
-      "summary": "ブラウザ自動化MCP。スクレイピング・スクリーンショット・UIテストをClaude Codeから直接操作できる。x_fetcher の pw_profile を流用可能。",
+      "summary": "ブラウザ自動化MCP。スクレイピング・スクリーンショット・UIテストをClaude Codeから直接操作できる。",
       "source": "https://github.com/microsoft/playwright-mcp",
       "author": "microsoft",
       "published_at": "2026-03-10",
-      "collected_at": "2026-04-15",
       "views": 48000,
-      "hot": true,
-      "tags": ["mcp", "browser", "automation"],
+      "tags": [
+        "mcp",
+        "browser",
+        "automation"
+      ],
       "install": {
         "kind": "mcp",
         "name": "playwright",
         "config": {
           "command": "npx",
-          "args": ["-y", "@playwright/mcp@latest"]
+          "args": [
+            "-y",
+            "@playwright/mcp@latest"
+          ]
         }
-      }
-    },
-    {
-      "id": "skill-ppt-hasebe-reference",
-      "title": "Skill: ppt-hasebe（参考例）",
-      "type": "skill",
-      "summary": "プレゼン資料(pptx)を長谷部規格で生成するskillの参考例。このhubから配布する形の雛形。",
-      "source": "local",
-      "author": "長谷部",
-      "published_at": "2026-04-01",
-      "collected_at": "2026-04-15",
-      "views": 0,
-      "hot": false,
-      "tags": ["skill", "pptx"],
-      "install": {
-        "kind": "skill",
-        "slug": "ppt-hasebe-demo",
-        "files": [
-          {"dest": "SKILL.md", "payload": "payloads/skill-ppt-hasebe-reference/SKILL.md"}
-        ]
-      }
-    },
-    {
-      "id": "tip-context-management",
-      "title": "1M context を活かすプロンプト分割のコツ",
-      "type": "tip",
-      "summary": "長文タスクでは最初に方針合意→plan保存→実装フェーズでplan参照、の3段構えにするとcache hit率が上がる。",
-      "source": "https://x.com/minchoi/status/example",
-      "author": "@minchoi",
-      "published_at": "2026-04-10",
-      "collected_at": "2026-04-15",
-      "views": 12000,
+      },
       "hot": true,
-      "tags": ["tip", "context", "plan"],
+      "collected_at": "2026-04-16"
+    },
+    {
+      "id": "mcp-ms365",
+      "title": "Microsoft 365 MCP",
+      "type": "mcp",
+      "summary": "Outlook / Teams / SharePoint / OneDrive / Excel Online を Claude Code から操作。",
+      "source": "https://github.com/softeria/ms-365-mcp-server",
+      "author": "softeria",
+      "published_at": "2026-02-20",
+      "views": 22000,
+      "tags": [
+        "mcp",
+        "microsoft",
+        "graph"
+      ],
       "install": {
-        "kind": "note",
-        "dest_note": "claude_code_tips/context_management.md"
-      }
+        "kind": "mcp",
+        "name": "ms365",
+        "config": {
+          "command": "npx",
+          "args": [
+            "-y",
+            "@softeria/ms-365-mcp-server"
+          ],
+          "env": {
+            "MS365_MCP_CLIENT_ID": "",
+            "MS365_MCP_TENANT_ID": ""
+          }
+        }
+      },
+      "hot": true,
+      "collected_at": "2026-04-16"
     }
   ]
 }
