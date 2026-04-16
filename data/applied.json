@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-16T14:28:13+09:00",
+  "updated_at": "2026-04-16T14:28:14+09:00",
   "applied": [
     "gh-NousResearch-hermes-agent",
     "gh-affaan-m-everything-claude-code",
@@ -7,20 +7,17 @@
     "gh-gsd-build-get-shit-done",
     "gh-langchain-ai-langchain",
     "gh-n8n-io-n8n",
+    "gh-nextlevelbuilder-ui-ux-pro-max-skill",
     "mcp-playwright"
   ],
   "progress": {
-    "current_id": "gh-nextlevelbuilder-ui-ux-pro-max-skill",
-    "current_title": "nextlevelbuilder/ui-ux-pro-max-skill",
-    "current_kind": "note",
     "index": 7,
-    "total": 8,
-    "started_at": "2026-04-16T14:28:13+09:00"
+    "total": 8
   },
   "last_result": {
     "action": "applied",
-    "id": "gh-n8n-io-n8n",
-    "at": "2026-04-16T14:28:10+09:00",
+    "id": "gh-nextlevelbuilder-ui-ux-pro-max-skill",
+    "at": "2026-04-16T14:28:14+09:00",
     "kind": "note"
   }
 }
