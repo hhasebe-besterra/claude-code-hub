@@ -1,101 +1,105 @@
 # claude-code-hub 再開ガイド
 
-中断日時: 2026-04-15（PC再起動）
+最終更新: 2026-04-16
 
-## 完了済み
+## 稼働状況
 
-- リポジトリ作成: https://github.com/hhasebe-besterra/claude-code-hub
-- GitHub Pages 有効化: https://hhasebe-besterra.github.io/claude-code-hub/ （`/docs` 配信）
-- サイト本体 / 収集スクリプト / ローカルwatcher を初回 push 済み
-- 作業ディレクトリ: `C:\Users\h.hasebe\Box\999.system_besterra\task\164.ClaudeCodeLibrary\claude-code-hub\`
+| 機能 | 状態 | 備考 |
+|------|------|------|
+| サイト (GitHub Pages) | ✅ 稼働中 | https://hhasebe-besterra.github.io/claude-code-hub/ |
+| 日次 harvest (GH Actions) | ✅ 稼働中 | 毎朝 06:00 JST、GitHub Trending 自動収集 |
+| 日本語翻訳表示 | ✅ 稼働中 | translations.json で管理、導入メリット帯付き |
+| 次回収集タイマー | ✅ 稼働中 | ヘッダーにカウントダウン表示 |
+| watcher (ローカル) | ✅ 稼働中 | スタートアップ自動起動、60秒 polling |
+| X 収集 | ⚠️ 初回ログイン要 | x_login.py で認証後に x_harvest.py |
+| 自動翻訳 (Claude API) | ⚠️ API キー未設定 | ANTHROPIC_API_KEY を設定すれば即稼働 |
 
-## 再開時の最短手順
+## 作業ディレクトリ
 
-新しい Claude Code セッションで次のように投げるだけで続きを進められる：
+`C:\Users\h.hasebe\Box\999.system_besterra\task\164.ClaudeCodeLibrary\claude-code-hub\`
 
+## 残セットアップ
+
+### 1. X 収集の初回ログイン
+
+```bash
+cd harvester
+python x_login.py
 ```
-claude-code-hub の続きを再開。RESUME_GUIDE.md を見て。
+ブラウザが開くので X にログイン → ブラウザを閉じる → プロファイル保存完了。
+以後は `python x_harvest.py` で自動収集可能。
+
+### 2. ANTHROPIC_API_KEY の設定
+
+ローカル用:
 ```
-
-### ステップ1: workflow scope 追加（Claude からは不可能。ユーザー作業）
-
-ターミナルで（Claude Code 内なら `!` プレフィックス）：
-
-```
-gh auth refresh -h github.com -s workflow
-```
-
-ブラウザが開くので承認する。
-
-### ステップ2: workflows を push（Claude に依頼）
-
-以下を投げる：
-
-```
-gh auth refresh 完了したので、.github/workflows を push して。
-/tmp/cchub_gh_backup に退避してある。
-```
-
-Claude 側の作業：
-1. `mv /tmp/cchub_gh_backup .github`
-2. `git add .github && git commit -m "Add workflows" && git push`
-
-※ PC 再起動で /tmp が消えている場合は、以下のファイルを再作成：
-  - `.github/workflows/harvest.yml`
-  - `.github/workflows/pages.yml`
-  いずれも初回 push 時の内容は git log に残っているため
-  `git show a0a2de6^:.github/workflows/harvest.yml` で復元可能。
-
-### ステップ3: PAT 作成（ユーザー作業）
-
-https://github.com/settings/personal-access-tokens/new
-- Resource owner: hhasebe-besterra
-- Repository access: `claude-code-hub` のみ
-- Permissions → Repository permissions → **Contents: Read and write**
-- Expiration: 1 year
-生成トークンを控える（例: `github_pat_xxxxxxxx`）。
-
-### ステップ4: 環境変数設定（ユーザー作業）
-
-```
-setx CCHUB_TOKEN "github_pat_xxxxxxxx"
+setx ANTHROPIC_API_KEY "sk-ant-api03-..."
 ```
 
-（新しいターミナルを開くと有効）
+GitHub Actions 用（自動翻訳を cron で回す場合）:
+```
+cd claude-code-hub
+gh secret set ANTHROPIC_API_KEY
+```
+プロンプトに API キーを貼り付ける。
 
-### ステップ5: watcher 起動
+### 3. 手動で翻訳を実行
+
+```bash
+cd harvester
+python translate.py --dry-run   # プレビュー
+python translate.py              # 実行
+```
+
+### 4. 手動で X 収集を実行
+
+```bash
+cd harvester
+python x_harvest.py --dry-run   # プレビュー
+python x_harvest.py              # 実行＆保存
+# 保存後:
+cd .. && git add data/items.json && git commit -m "x_harvest: add posts" && git push
+```
+
+## watcher の状態確認
+
+```powershell
+Get-Process python*   # watch.py が動いているか
+```
+
+停止していたら:
+```
+wscript.exe "C:\Users\h.hasebe\Box\...\claude-code-hub\installer\start_watcher_silent.vbs"
+```
+
+スタートアップ登録先:
+`%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\ClaudeCodeHub_Watcher.lnk`
+
+## ファイル構成
 
 ```
-cd "C:\Users\h.hasebe\Box\999.system_besterra\task\164.ClaudeCodeLibrary\claude-code-hub\installer"
-python watch.py
+claude-code-hub/
+├── docs/                    # GitHub Pages
+│   ├── index.html
+│   ├── app.js              # 翻訳マージ + タイマー
+│   └── style.css           # 導入メリット帯スタイル
+├── data/
+│   ├── items.json           # 収集済み全アイテム（harvest.py が更新）
+│   ├── translations.json    # 日本語翻訳（translate.py が更新）
+│   └── selected.json        # ユーザー選択（サイトから PUT）
+├── harvester/
+│   ├── harvest.py           # GitHub Trending 収集（GH Actions cron）
+│   ├── x_harvest.py         # X 収集（ローカル実行）
+│   ├── x_login.py           # X ログインプロファイル初期化
+│   ├── translate.py         # Claude API 自動翻訳
+│   ├── sources.yaml         # 収集ソース定義
+│   └── curated.yaml         # 手動キュレーション
+├── installer/
+│   ├── watch.py             # ローカル watcher
+│   ├── apply.py             # アイテム適用
+│   ├── start_watcher.bat    # 手動起動用
+│   └── start_watcher_silent.vbs  # 非表示自動起動
+└── .github/workflows/
+    ├── harvest.yml          # 日次収集 + 翻訳
+    └── pages.yml            # Pages デプロイ
 ```
-
-もしくは `start_watcher.bat` をダブルクリック。
-
-PC 起動時自動起動にする場合は、タスクスケジューラに `start_watcher.bat` を登録（Claude に依頼可能）。
-
-### ステップ6: 動作確認
-
-1. サイト https://hhasebe-besterra.github.io/claude-code-hub/ を開く
-2. 右上 🔑 に PAT を貼り付け（localStorage 保存）
-3. 適当なカードをチェック
-4. watcher の標準出力に `[apply] ...` が出て、`~/.claude/skills/` などに反映されることを確認
-
-## 状態ファイル
-
-- watcher の適用済みID: `~/.cchub_state.json`
-- PAT（環境変数以外に書くなら）: `~/.cchub_token`
-
-## TODO（優先度順）
-
-1. workflows 再 push（ステップ2）
-2. PAT とローカル watcher セットアップ（ステップ3〜5）
-3. タスクスケジューラで watcher 自動起動
-4. X 収集機能の実装（Playwright + pw_profile）。現状は GitHub Trending + curated.yaml のみ
-5. 手動 curated.yaml にベステラ業務用 skill/MCP を追加登録
-
-## 重要な仕組み（忘備）
-
-- **完全自動（Option A）**: サイトでチェック → PAT で `data/selected.json` を直接 PUT → watcher が60秒ごとに polling → 差分を `apply.py` で反映
-- **閾値**: views >= 10k で 🔥バッジ、>= 100k で harvest 時ログに「表示数大」を出力
-- **三層ミラー**: skill は `~/.claude/skills/<slug>/` と Box 配下の `skills\<slug>\` に両方コピー（CLAUDE.md の既存ルール踏襲）
