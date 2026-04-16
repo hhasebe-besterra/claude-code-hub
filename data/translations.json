@@ -1,0 +1,119 @@
+{
+  "_note": "harvester とは別管理。item ID → 日本語要約・業務メリット。サイトが自動マージする。",
+  "gh-n8n-io-n8n": {
+    "summary_ja": "ノーコードでワークフロー自動化ができるプラットフォーム。400以上の外部サービスと連携し、AIエージェントも組み込める。",
+    "benefit": "定型業務（メール通知→Slack投稿→Excel記録など）をドラッグ＆ドロップで自動化。手作業が激減する。"
+  },
+  "gh-affaan-m-everything-claude-code": {
+    "summary_ja": "Claude Code の性能を最大化するための設定集。Skills、メモリ、セキュリティ、開発ワークフローのベストプラクティスをまとめたもの。",
+    "benefit": "Claude Code を「なんとなく使う」から「使い倒す」に変わる。設定1つで応答品質が段違いに改善。"
+  },
+  "gh-langchain-ai-langchain": {
+    "summary_ja": "AIエージェント開発の定番フレームワーク。複数のLLMを組み合わせた高度なAIアプリケーションを構築できる。",
+    "benefit": "社内チャットボットや文書検索AIなど、独自AIツールを開発する際の土台になる。"
+  },
+  "gh-google-gemini-gemini-cli": {
+    "summary_ja": "Googleの AI（Gemini）をターミナルから直接使えるCLIツール。Claude Code と同じ感覚で使える競合ツール。",
+    "benefit": "Claude Code と比較検証することで、最適なAIツールの選定ができる。情報収集として有用。"
+  },
+  "gh-NousResearch-hermes-agent": {
+    "summary_ja": "カスタマイズ性の高いAIエージェント。使い込むほど賢くなる設計思想。",
+    "benefit": "繰り返しタスクの自動化で、エージェントが業務知識を蓄積していく。長期運用で効果が増大。"
+  },
+  "gh-nextlevelbuilder-ui-ux-pro-max-skill": {
+    "summary_ja": "AIにUI/UXデザインの知識を与えるSkill。プロ品質の画面設計をAIが提案してくれる。",
+    "benefit": "社内ツールや提案書の画面デザインを、デザイナーなしでもプロ品質に仕上げられる。"
+  },
+  "gh-thedotmack-claude-mem": {
+    "summary_ja": "Claude Code のセッション内容を自動記録・圧縮し、次回のセッションに引き継ぐプラグイン。",
+    "benefit": "「前回どこまでやったっけ？」がなくなる。セッション切れても作業が途切れない。"
+  },
+  "gh-ComposioHQ-awesome-claude-skills": {
+    "summary_ja": "Claude Code 用の Skills（拡張機能）カタログ。業界別・用途別に整理されたSkill集。",
+    "benefit": "自分の業務に使えるSkillを探せる。車輪の再発明を防いで導入スピードが上がる。"
+  },
+  "gh-shareAI-lab-learn-claude-code": {
+    "summary_ja": "Claude Code の仕組みをゼロから学べる教材。内部動作を理解してより効果的に使うための解説。",
+    "benefit": "Claude Code の「なぜそう動くか」がわかると、プロンプトの書き方や使い方が劇的に改善する。"
+  },
+  "gh-gsd-build-get-shit-done": {
+    "summary_ja": "Claude Code 用のメタプロンプト・コンテキスト設計ツール。仕様書駆動で開発を進める仕組み。",
+    "benefit": "大きなタスクを仕様書に分割→Claude Codeに投げる流れが整理され、複雑な開発でもブレない。"
+  },
+  "gh-upstash-context7": {
+    "summary_ja": "最新のコードドキュメントをAIに提供するプラットフォーム。ライブラリの最新仕様をAIが正確に把握する。",
+    "benefit": "AIが古い情報で間違ったコードを書く問題を解決。最新APIに基づいた正確なコードが出る。"
+  },
+  "gh-code-yeongyu-oh-my-openagent": {
+    "summary_ja": "Claude Code 互換のオープンソースAIエージェント。カスタマイズ性が高い。",
+    "benefit": "Claude Code の代替として検討可能。自社要件に合わせたカスタマイズが自由にできる。"
+  },
+  "gh-sansan0-TrendRadar": {
+    "summary_ja": "AI搭載のトレンド監視ツール。複数プラットフォームの情報をRSS+AIで自動収集・分析・通知。",
+    "benefit": "業界ニュースや競合動向をAIが自動で拾って要約。情報収集の時間を大幅に削減。"
+  },
+  "gh-farion1231-cc-switch": {
+    "summary_ja": "Claude Code / Codex / OpenCode / Gemini CLI をワンクリックで切り替えるデスクトップツール。",
+    "benefit": "複数のAIコーディングツールを使い分ける人向け。切り替えの手間がゼロになる。"
+  },
+  "gh-shanraisshan-claude-code-best-practice": {
+    "summary_ja": "Claude Code のベストプラクティス集。「なんとなくコーディング」から「エージェニック・エンジニアリング」への進化ガイド。",
+    "benefit": "Claude Code の使い方を体系的に学べる。チーム全体のAI活用レベルを底上げできる。"
+  },
+  "gh-BerriAI-litellm": {
+    "summary_ja": "100以上のLLM APIを統一インターフェースで呼び出すプロキシ。コスト追跡・負荷分散・ログ管理付き。",
+    "benefit": "複数のAIサービスを一元管理。コスト可視化とAPI切り替えが容易になり、運用負荷が激減。"
+  },
+  "gh-Aider-AI-aider": {
+    "summary_ja": "ターミナルでAIペアプログラミングができるツール。複数LLMに対応し、gitと自動連携。",
+    "benefit": "Claude Code と併用で二刀流コーディングが可能。得意分野の違うAIを使い分けられる。"
+  },
+  "gh-HKUDS-nanobot": {
+    "summary_ja": "超軽量なパーソナルAIエージェント。最小限のリソースで動く。",
+    "benefit": "スペックの低いPCでもAIエージェントを動かせる。開発環境を選ばない軽さが魅力。"
+  },
+  "gh-hesreallyhim-awesome-claude-code": {
+    "summary_ja": "Claude Code の拡張機能・Skills・Hooks・プラグインの厳選カタログ。Anthropic公式エコシステム全体を網羅。",
+    "benefit": "「Claude Code でこんなこともできるの？」という発見の宝庫。導入すべき機能が一目でわかる。"
+  },
+  "gh-D4Vinci-Scrapling": {
+    "summary_ja": "適応型Webスクレイピングフレームワーク。サイト構造が変わっても自動対応する賢いクローラー。",
+    "benefit": "競合サイトや価格情報の定期収集が安定化。サイト変更で壊れるスクレイピングの保守から解放される。"
+  },
+  "gh-ChromeDevTools-chrome-devtools-mcp": {
+    "summary_ja": "Chrome DevTools をAIエージェントから操作できるMCPサーバー。ブラウザのデバッグをAIが代行。",
+    "benefit": "Webアプリのバグ調査をAIに任せられる。console.logの確認やDOM検査が自動化される。"
+  },
+  "gh-ruvnet-ruflo": {
+    "summary_ja": "複数のAIエージェントを群れのように協調させるオーケストレーションツール。Claude Code / Codex 対応。",
+    "benefit": "大規模プロジェクトで複数のAIを同時投入し、それぞれに異なるタスクを割り振れる。"
+  },
+  "gh-bytedance-UI-TARS-desktop": {
+    "summary_ja": "ByteDance製のマルチモーダルAIエージェント基盤。画面を見て操作できるAI。",
+    "benefit": "GUIアプリの操作自動化に応用可能。画面キャプチャからAIが次のアクションを判断する。"
+  },
+  "gh-github-github-mcp-server": {
+    "summary_ja": "GitHub公式のMCPサーバー。Issue/PR/リポジトリ操作をClaude Codeから直接実行。",
+    "benefit": "ブラウザを開かずにIssue作成・PR管理・コードレビューがClaude Code内で完結する。"
+  },
+  "gh-assafelovic-gpt-researcher": {
+    "summary_ja": "AIが自律的に深掘りリサーチを行うエージェント。Web検索→要約→レポート生成を全自動で。",
+    "benefit": "市場調査や技術調査のレポート作成を丸投げできる。調査時間が数時間→数分に短縮。"
+  },
+  "mcp-playwright": {
+    "summary_ja": "ブラウザ自動化MCP。スクレイピング・スクリーンショット・UIテストをClaude Codeから直接操作できる。",
+    "benefit": "「このサイトを開いてスクショ撮って」が一言で完了。Web操作の自動化が劇的に楽になる。"
+  },
+  "mcp-ms365": {
+    "summary_ja": "Outlook / Teams / SharePoint / OneDrive / Excel Online を Claude Code から操作できるMCP。",
+    "benefit": "メール送信・予定確認・ファイル操作がClaude Codeの会話中に完結。Office作業の手戻りが激減。"
+  },
+  "skill-ppt-hasebe-reference": {
+    "summary_ja": "プレゼン資料(pptx)を長谷部規格で自動生成するSkillの参考例。",
+    "benefit": "プレゼン資料のフォーマット統一が自動化。毎回の体裁調整が不要になる。"
+  },
+  "tip-context-management": {
+    "summary_ja": "1Mコンテキストを活かすプロンプト分割テクニック。方針合意→plan保存→実装の3段構え。",
+    "benefit": "長いタスクでAIの精度が落ちにくくなる。キャッシュヒット率が上がりコストも抑えられる。"
+  }
+}

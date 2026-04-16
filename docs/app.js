@@ -1,10 +1,15 @@
 const REPO = "hhasebe-besterra/claude-code-hub";
 const BRANCH = "main";
 const ITEMS_URL = `https://raw.githubusercontent.com/${REPO}/${BRANCH}/data/items.json`;
+const TRANS_URL = `https://raw.githubusercontent.com/${REPO}/${BRANCH}/data/translations.json`;
 const SELECTED_PATH = "data/selected.json";
 const API = `https://api.github.com/repos/${REPO}/contents/${SELECTED_PATH}`;
 
+// 次回 harvest 時刻 (毎日 06:00 JST = 21:00 UTC)
+const HARVEST_HOUR_JST = 6;
+
 let ITEMS = [];
+let TRANS = {};
 let SELECTED = new Set();
 let SELECTED_SHA = null;
 
@@ -36,7 +41,25 @@ async function loadItems() {
   const r = await fetch(ITEMS_URL + "?t=" + Date.now());
   const j = await r.json();
   ITEMS = j.items || [];
-  $("#lastUpdate").textContent = "最終更新: " + (j.generated_at || "?");
+  const genAt = j.generated_at || "?";
+  // 日本時間で見やすい形式に
+  try {
+    const d = new Date(genAt);
+    const jst = d.toLocaleString("ja-JP", { timeZone: "Asia/Tokyo", month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit" });
+    $("#lastUpdate").textContent = "最終収集: " + jst;
+  } catch {
+    $("#lastUpdate").textContent = "最終収集: " + genAt;
+  }
+}
+
+async function loadTranslations() {
+  try {
+    const r = await fetch(TRANS_URL + "?t=" + Date.now());
+    if (r.ok) {
+      TRANS = await r.json();
+      delete TRANS._note;
+    }
+  } catch { /* translations optional */ }
 }
 
 async function loadSelected() {
@@ -91,7 +114,8 @@ function matchesFilter(item) {
   if ($("#hotOnly").checked && !item.hot) return false;
   const q = $("#q").value.trim().toLowerCase();
   if (q) {
-    const hay = [item.title, item.summary, (item.tags || []).join(" ")].join(" ").toLowerCase();
+    const tr = TRANS[item.id] || {};
+    const hay = [item.title, item.summary, tr.summary_ja, tr.benefit, (item.tags || []).join(" ")].join(" ").toLowerCase();
     if (!hay.includes(q)) return false;
   }
   return true;
@@ -105,15 +129,22 @@ function render() {
     return;
   }
   for (const it of visible) {
+    const tr = TRANS[it.id] || {};
+    const summaryJa = tr.summary_ja || "";
+    const benefit = tr.benefit || "";
+    const summaryEn = it.summary || "";
     const card = document.createElement("article");
     card.className = `card ${it.type}` + (SELECTED.has(it.id) ? " selected" : "");
     const viewStr = it.views ? (it.views >= 1000 ? (it.views / 1000).toFixed(1) + "k" : it.views) : "—";
+
     card.innerHTML = `
       <div class="row">
         <h3>${escapeHtml(it.title)}</h3>
         <span class="type">${it.type}</span>
       </div>
-      <div class="summary">${escapeHtml(it.summary || "")}</div>
+      <div class="summary-ja">${escapeHtml(summaryJa || summaryEn)}</div>
+      ${benefit ? `<div class="benefit"><span class="benefit-label">導入メリット</span>${escapeHtml(benefit)}</div>` : ""}
+      ${summaryJa && summaryEn ? `<details class="en-detail"><summary>原文（英語）</summary><div class="summary-en">${escapeHtml(summaryEn)}</div></details>` : ""}
       <div class="tags">${(it.tags || []).map(t => `<span>#${escapeHtml(t)}</span>`).join("")}</div>
       <div class="foot">
         <label class="select">
@@ -122,7 +153,7 @@ function render() {
         </label>
         <div>
           ${it.hot ? '<span class="hot">🔥</span> ' : ""}
-          👁 ${viewStr} ・
+          ★ ${viewStr} ・
           <a href="${it.source}" target="_blank" rel="noopener">出典</a> ・
           ${it.collected_at || ""}
         </div>
@@ -152,6 +183,24 @@ function escapeHtml(s) {
   }[c]));
 }
 
+// --- タイマー ---
+function updateTimer() {
+  const el = $("#nextUpdate");
+  if (!el) return;
+  const now = new Date();
+  // 次の 06:00 JST を計算
+  const jstOffset = 9 * 60; // minutes
+  const utcMinutes = now.getUTCHours() * 60 + now.getUTCMinutes();
+  const jstMinutes = (utcMinutes + jstOffset) % (24 * 60);
+  const targetMinutes = HARVEST_HOUR_JST * 60; // 06:00
+  let diffMin = targetMinutes - jstMinutes;
+  if (diffMin <= 0) diffMin += 24 * 60;
+  const h = Math.floor(diffMin / 60);
+  const m = diffMin % 60;
+  el.textContent = `次回収集: ${h}時間${m}分後`;
+  el.title = `毎朝 ${HARVEST_HOUR_JST}:00 JST に GitHub Actions で自動収集`;
+}
+
 document.querySelectorAll(".f, #hotOnly").forEach(el => el.addEventListener("change", render));
 $("#q").addEventListener("input", render);
 $("#refreshBtn").addEventListener("click", async () => { await init(); toast("再読込完了"); });
@@ -164,8 +213,10 @@ $("#authBtn").addEventListener("click", () => {
 });
 
 async function init() {
-  await loadItems();
+  await Promise.all([loadItems(), loadTranslations()]);
   try { await loadSelected(); } catch (e) { console.warn(e); }
   render();
+  updateTimer();
 }
 init();
+setInterval(updateTimer, 60000);

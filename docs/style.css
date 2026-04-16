@@ -12,6 +12,10 @@ header h1 { margin: 0; font-size: 18px; letter-spacing: .05em; }
 header .meta { display: flex; gap: 12px; align-items: center; font-size: 12px; }
 header button { background: #30363d; color: #fff; border: 0; padding: 4px 10px; border-radius: 4px; cursor: pointer; }
 header button:hover { background: #484f58; }
+.timer {
+  background: #1f6feb; color: #fff; padding: 3px 10px; border-radius: 12px;
+  font-size: 11px; font-weight: bold; letter-spacing: .03em;
+}
 
 nav.filters {
   display: flex; flex-wrap: wrap; gap: 16px; align-items: center;
@@ -24,26 +28,44 @@ nav.filters input[type=search] {
 }
 
 main {
-  display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
   gap: 16px; padding: 20px 24px;
 }
 .card {
   background: #fff; border: 1px solid #d0d7de; border-radius: 8px;
   padding: 14px 16px; display: flex; flex-direction: column; gap: 8px;
   box-shadow: 0 1px 2px rgba(0,0,0,.04);
+  transition: border-color .2s, box-shadow .2s;
 }
+.card:hover { border-color: #8b949e; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
 .card .row { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
 .card h3 { margin: 0; font-size: 14px; line-height: 1.35; }
 .card .type {
   font-size: 10px; padding: 2px 6px; border-radius: 3px; text-transform: uppercase;
-  letter-spacing: .08em; background: #eaeef2; color: #57606a;
+  letter-spacing: .08em; background: #eaeef2; color: #57606a; flex-shrink: 0;
 }
 .card.mcp .type { background: #ddf4ff; color: #0969da; }
 .card.skill .type { background: #fff8c5; color: #9a6700; }
 .card.command .type { background: #dafbe1; color: #1a7f37; }
 .card.tip .type { background: #ffebe9; color: #cf222e; }
 
-.card .summary { font-size: 12px; color: #424a53; line-height: 1.5; }
+.card .summary-ja {
+  font-size: 13px; color: #1a1d22; line-height: 1.6;
+}
+.card .benefit {
+  font-size: 12px; color: #1a7f37; line-height: 1.5;
+  background: #dafbe1; border-radius: 6px; padding: 8px 10px;
+  border-left: 3px solid #1a7f37;
+}
+.card .benefit-label {
+  display: inline-block; font-weight: bold; font-size: 10px;
+  background: #1a7f37; color: #fff; padding: 1px 6px; border-radius: 3px;
+  margin-right: 6px; vertical-align: middle; letter-spacing: .05em;
+}
+.card .en-detail { font-size: 11px; color: #57606a; }
+.card .en-detail summary { cursor: pointer; user-select: none; }
+.card .summary-en { margin-top: 4px; line-height: 1.4; }
+
 .card .tags { display: flex; flex-wrap: wrap; gap: 4px; }
 .card .tags span { font-size: 10px; background: #f0f3f6; padding: 2px 6px; border-radius: 10px; color: #57606a; }
 .card .foot {
@@ -57,6 +79,9 @@ main {
 .card label.select {
   display: flex; align-items: center; gap: 6px; font-size: 12px;
   cursor: pointer; user-select: none;
+}
+.card label.select input[type=checkbox] {
+  width: 16px; height: 16px; accent-color: #1a7f37;
 }
 .card.selected { border-color: #1a7f37; box-shadow: 0 0 0 2px #b7f5c9; }
 .card.applying { opacity: .6; }
