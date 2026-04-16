@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-16T14:28:06+09:00",
+  "updated_at": "2026-04-16T14:28:07+09:00",
   "applied": [
     "gh-NousResearch-hermes-agent",
     "gh-affaan-m-everything-claude-code",
@@ -9,8 +9,12 @@
     "mcp-playwright"
   ],
   "progress": {
-    "index": 5,
-    "total": 8
+    "current_id": "gh-n8n-io-n8n",
+    "current_title": "n8n-io/n8n",
+    "current_kind": "note",
+    "index": 6,
+    "total": 8,
+    "started_at": "2026-04-16T14:28:07+09:00"
   },
   "last_result": {
     "action": "applied",
