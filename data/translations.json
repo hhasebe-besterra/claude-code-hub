@@ -147,5 +147,73 @@
   "x-claudecode_lab-2042722362643398719": {
     "summary_ja": "Claude Code新機能「/ultraplan」。実装計画をWebブラウザ上で作成・編集・実行できる新モード。",
     "benefit": "大きな開発タスクの計画をブラウザで俯瞰しながら編集→実行。チームでの計画共有にも使える。"
+  },
+  "x-7_eito_7-2023780503250420039": {
+    "summary_ja": "Claude Code や Antigravity で使える実務レベルの Skill を800件まとめた公開集。セキュリティ、仕様書作成、環境構築自動化など幅広いカテゴリが揃う。",
+    "benefit": "見積・報告書・KY記録作成など解体工事の定型作業をSkillとして取り込めば、ゼロから書かずに流用でき作成時間を半分以下にできる。"
+  },
+  "x-AI-2040706485013905646": {
+    "summary_ja": "Anthropic 公式の無料学習サイト「Anthropic Academy」。Claude 入門から Claude Code・MCP・エージェント構築まで計13コース、修了証付きでサブスク不要。",
+    "benefit": "新任のAI推進メンバーや現場の若手に系統立ててClaude/MCPを習得させられ、社内研修コスト（従来1名あたり数万円）を丸ごと削減できる。"
+  },
+  "x-MakeAI_CEO-2022154900340408805": {
+    "summary_ja": "Claude Skills と SEO ツール Ahrefs を MCP 連携させ、キーワード選定から記事執筆まで自動化する手法の紹介。",
+    "benefit": "自社サイト（besterra.co.jp）の記事・協力会社募集ページの集客強化にかかる作業（キーワード調査、見出し作成）を数時間→数分に短縮できる。"
+  },
+  "x-MakeAI_CEO-2027923506533736590": {
+    "summary_ja": "Claude Desktop 版の特長紹介。チャット内プロジェクトのコンテキストを Cowork に引き継ぎつつ Skills を並列利用でき、ナレッジ管理が楽。",
+    "benefit": "案件ごとのやり取り（JFE扇島・JERA等）を切り替えても、文脈を失わず Skills を同時使用できるため、長谷部さんが扱う複数プロジェクトの並行管理が楽になる。"
+  },
+  "x-Naoki_GPT-2042921842533704166": {
+    "summary_ja": "Claude Code を「社員」のように24時間回して、Instagram 複数アカウントの運用とバズアカウントのリサーチを自動化している実例。",
+    "benefit": "本件はプラント解体業務と直接関係薄いが、広報・採用チャネルを自動化したい場合（SNSでの採用募集など）の参考になる。"
+  },
+  "x-ai_jitan-2041715815985377699": {
+    "summary_ja": "Claude Code Skills について書かれた解説記事のレビュー。Skills の全体像を掴むうえで圧倒的に分かりやすいとの評。",
+    "benefit": "Skills を使いたい現場・工務部メンバーの初学者向け教材として、長谷部さんが全社展開説明会で引用できる。"
+  },
+  "x-aigleeson-2041445823767302454": {
+    "summary_ja": "Anthropic が公式無料アカデミーを公開。Claude/Claude Code/MCP/API開発/AI倫理を網羅した13コース、修了証付き。",
+    "benefit": "従来の有料AI研修（1コース数十万円）をゼロ円で代替でき、ベステラ社内のAI研修費用（54期予算計上分）を他の実装投資に振り分けられる。"
+  },
+  "x-claudeai-2044131493966909862": {
+    "summary_ja": "Claude Code デスクトップ版がサイドバー刷新で再設計。1つのウィンドウで複数セッションを並行実行・管理できるようになった。",
+    "benefit": "JFE事故調査・Salesforce移行・社員総会資料など複数案件を同時進行する長谷部さんが、ウィンドウ切替のロスなく並行作業できる。"
+  },
+  "x-claudecode_lab-2044159745561637190": {
+    "summary_ja": "Claude Code に「Routines」機能が登場。プロンプト・リポジトリ・コネクタを一度設定すれば、スケジュール/API/GitHubイベント起動で自動実行され、PCを閉じても動く。",
+    "benefit": "毎朝の /r ダッシュボード生成や Salesforce 日次レポートなどを PC 起動不要で自動化でき、朝の業務開始時には既に最新状態になっている。"
+  },
+  "x-exploraX_-2043578742778277962": {
+    "summary_ja": "Anthropic のエージェント作成者が「エージェント構築を止めてスキル構築に切り替えた理由」を解説。あわせて20の強力なスキル例を紹介。",
+    "benefit": "ベステラが独自の「案件調査スキル」「議事録スキル」等を設計する際の手本になり、エージェント乱立より保守しやすい構成を選べる。"
+  },
+  "x-googlecloud_jp-1939926947150074091": {
+    "summary_ja": "Google Cloud の MCP ツールボックス機能拡張の公式告知。Anthropic が作成した MCP 標準で、データベース開発のライフサイクルを加速。",
+    "benefit": "Salesforce や プリザンター、スクラップ台帳DBなど社内データへAIからクエリできるようになり、データ抽出を都度人手でやる必要がなくなる。"
+  },
+  "x-kajikent-2042783148564713501": {
+    "summary_ja": "メルカリが採用した Claude Code セキュリティ設定の組織展開戦略を5つの対策に整理。コマンド実行・ファイル読み書き・Web取得のリスクに対処。",
+    "benefit": "ベステラIT刷新プロジェクトで Claude Code を100名展開する際、メルカリ事例をそのままテンプレとしてルール策定でき、情シス負担を大幅削減できる。"
+  },
+  "x-santtiagom_-2044438851087733059": {
+    "summary_ja": "Claude Code を始めるなら押さえておくべき12概念の一覧（CLAUDE.md / Permissions / Plan Mode / Checkpoints / Skills / Hooks / MCP / Plugins / Context / Slash Commands / Compaction / Subagents）。",
+    "benefit": "AI推進メンバーの研修カリキュラムをこの12項目に沿って組めば、全社展開時の教育内容に漏れがなくなる。"
+  },
+  "x-sora19ai-2042855965880652026": {
+    "summary_ja": "100%ローカルで動くオープンソースのAI同僚（音声制御・MCPツール・自律エージェント対応）。Claudeにも接続できるがローカル実行。",
+    "benefit": "JFE事故資料や機密情報を扱う場面で、クラウドに情報を出さずローカル処理のみで完結でき、情報漏洩リスクを根本的に断てる。"
+  },
+  "x-tetumemo-1998722813956600294": {
+    "summary_ja": "Anthropic が MCP（Model Context Protocol）を Linux Foundation に寄贈。Anthropic・Block・OpenAI が共同設立し、Google/Microsoft/AWS/Cloudflare/Bloomberg が支援する業界標準に。",
+    "benefit": "特定ベンダーに縛られずMCP対応ツールを組み合わせられるため、ベステラの社内AI基盤が将来ロックインされる心配がなくなる。"
+  },
+  "x-usagi_ai123-2042715494101504461": {
+    "summary_ja": "Anthropic が無料公開した公式AIアカデミーの紹介。AIの超基礎から Claude API アプリ開発、MCPサーバー構築まで全部無料で学べる。",
+    "benefit": "若手社員の自主学習教材として社内案内でき、従来の有料研修コースを置き換えて研修費を削減できる。"
+  },
+  "x-yume_ai123-2039979635232932162": {
+    "summary_ja": "同じく Anthropic 公式AIアカデミー（完全無料）の紹介。超基礎〜Claude APIアプリ開発〜MCPサーバー構築までカバー。",
+    "benefit": "上記と同じ。複数投稿で同内容が話題になっており、AI推進チームでの共有用URLとして使える。"
   }
 }
