@@ -2,13 +2,16 @@ const REPO = "hhasebe-besterra/claude-code-hub";
 const BRANCH = "main";
 const ITEMS_URL = `https://raw.githubusercontent.com/${REPO}/${BRANCH}/data/items.json`;
 const TRANS_URL = `https://raw.githubusercontent.com/${REPO}/${BRANCH}/data/translations.json`;
+const APPLIED_URL = `https://raw.githubusercontent.com/${REPO}/${BRANCH}/data/applied.json`;
 const SELECTED_PATH = "data/selected.json";
 const API = `https://api.github.com/repos/${REPO}/contents/${SELECTED_PATH}`;
 
 let ITEMS = [];
 let TRANS = {};
-let SELECTED_ORIGINAL = new Set();  // 最後に保存された状態（=実際に導入済み）
+let SELECTED_ORIGINAL = new Set();  // GitHubに保存されている選択（PUT済み）
 let SELECTED = new Set();            // 画面での現在の選択（未反映含む）
+let APPLIED = new Set();             // watcher が実際にローカル導入完了したもの
+let APPLIED_INFO = { progress: {}, last_result: {}, updated_at: "" };
 let SELECTED_SHA = null;
 
 const $ = sel => document.querySelector(sel);
@@ -57,6 +60,26 @@ async function loadTranslations() {
       delete TRANS._note;
     }
   } catch { /* translations optional */ }
+}
+
+async function loadApplied() {
+  try {
+    const r = await fetch(APPLIED_URL + "?t=" + Date.now());
+    if (r.ok) {
+      const j = await r.json();
+      APPLIED = new Set(j.applied || []);
+      APPLIED_INFO = {
+        progress: j.progress || {},
+        last_result: j.last_result || {},
+        updated_at: j.updated_at || "",
+      };
+    } else {
+      APPLIED = new Set();
+      APPLIED_INFO = { progress: {}, last_result: {}, updated_at: "" };
+    }
+  } catch {
+    APPLIED = new Set();
+  }
 }
 
 async function loadSelected() {
@@ -131,9 +154,14 @@ function matchesFilter(item) {
 function stateOf(id) {
   const orig = SELECTED_ORIGINAL.has(id);
   const cur = SELECTED.has(id);
-  if (orig && cur) return "installed";     // 導入済み（変更なし）
-  if (!orig && cur) return "pending_add";  // 導入予約
-  if (orig && !cur) return "pending_rm";   // 解除予約
+  const app = APPLIED.has(id);
+  const isProcessing = APPLIED_INFO.progress && APPLIED_INFO.progress.current_id === id;
+
+  if (isProcessing) return "installing";   // watcher が今処理中
+  if (!orig && cur) return "pending_add";  // 導入予約（未反映）
+  if (orig && !cur) return "pending_rm";   // 解除予約（未反映）
+  if (orig && app) return "installed";     // ✅ ローカル導入まで完了
+  if (orig && !app) return "queued";       // ⏳ GitHub保存済、watcher待ち
   return "none";                           // 未導入
 }
 
@@ -170,7 +198,8 @@ function sortItems(items) {
 function renderSortInfo() {
   const by = $("#sortBy").value;
   const total = ITEMS.length;
-  const installed = ITEMS.filter(i => SELECTED_ORIGINAL.has(i.id)).length;
+  const installed = ITEMS.filter(i => APPLIED.has(i.id) && SELECTED_ORIGINAL.has(i.id)).length;
+  const queued = ITEMS.filter(i => SELECTED_ORIGINAL.has(i.id) && !APPLIED.has(i.id)).length;
   const labels = {
     hot: "🔥ホットな投稿を先頭 → 新しい日付順 → 視聴数が多い順",
     date: "📅 収集日が新しい順 → 視聴数が多い順",
@@ -181,8 +210,47 @@ function renderSortInfo() {
   el.innerHTML = `
     <strong>表示順:</strong> ${labels[by]}
     　｜　<strong>導入済みは末尾＋グレーアウト</strong>
-    　｜　件数: ${total} 件（うち導入済み ${installed} 件）
+    　｜　件数: ${total} 件（✅ 完了 ${installed} 件 ／ ⏳ 処理待ち ${queued} 件）
   `;
+}
+
+function renderProgressBar() {
+  const bar = $("#progressBar");
+  const progress = APPLIED_INFO.progress || {};
+  const last = APPLIED_INFO.last_result || {};
+  const queued = ITEMS.filter(i => SELECTED_ORIGINAL.has(i.id) && !APPLIED.has(i.id));
+
+  if (progress.current_id) {
+    const pct = progress.total ? Math.round((progress.index / progress.total) * 100) : 50;
+    bar.classList.add("active");
+    bar.innerHTML = `
+      <div class="progress-head">
+        <span class="progress-spinner"></span>
+        <strong>🔄 watcher 動作中：</strong>
+        ${escapeHtml(progress.current_title || progress.current_id)}
+        <span class="progress-kind">[${progress.current_kind || "?"}]</span>
+      </div>
+      <div class="progress-bar-outer">
+        <div class="progress-bar-inner" style="width: ${pct}%"></div>
+      </div>
+      <div class="progress-foot">${progress.index || "?"} / ${progress.total || "?"} 件目を処理中</div>
+    `;
+  } else if (queued.length) {
+    bar.classList.add("active");
+    bar.innerHTML = `
+      <div class="progress-head">
+        <strong>⏳ watcher 待機中：</strong>
+        ${queued.length} 件が導入待ち（最大 60 秒以内に処理開始）
+      </div>
+      <div class="progress-foot">最終更新: ${APPLIED_INFO.updated_at || "不明"}${last.action ? ` ／ 前回: ${last.action} ${last.id || ""}` : ""}</div>
+    `;
+  } else if (last.action === "applied" && APPLIED.size) {
+    bar.classList.remove("active");
+    bar.innerHTML = `<div class="progress-foot">✅ 全件導入済み（${APPLIED.size} 件） ／ 最終: ${last.at || APPLIED_INFO.updated_at}</div>`;
+  } else {
+    bar.classList.remove("active");
+    bar.innerHTML = `<div class="progress-foot">watcher 進捗: ${APPLIED_INFO.updated_at ? "最終更新 " + APPLIED_INFO.updated_at : "まだ受信なし"}</div>`;
+  }
 }
 
 function renderApplyBar() {
@@ -216,6 +284,7 @@ function render() {
   const visible = sortItems(ITEMS.filter(matchesFilter));
   renderSortInfo();
   renderApplyBar();
+  renderProgressBar();
   if (!visible.length) {
     cardsEl.innerHTML = `<div style="padding:40px;color:#57606a;font-size:15px">該当なし</div>`;
     return;
@@ -232,14 +301,18 @@ function render() {
     const viewStr = it.views ? (it.views >= 1000 ? (it.views / 1000).toFixed(1) + "k" : it.views) : "—";
 
     const stateBadge = ({
-      installed:   '<span class="state-badge b-installed">✅ 導入済み</span>',
-      pending_add: '<span class="state-badge b-pending-add">⏳ 導入予約（未反映）</span>',
+      installed:   '<span class="state-badge b-installed">✅ 導入済み（ローカル反映完了）</span>',
+      queued:      '<span class="state-badge b-queued">⏳ 導入待ち（watcher処理待機中）</span>',
+      installing:  '<span class="state-badge b-installing">🔄 導入処理中…</span>',
+      pending_add: '<span class="state-badge b-pending-add">📝 導入予約（未反映）</span>',
       pending_rm:  '<span class="state-badge b-pending-rm">↩ 解除予約（未反映）</span>',
       none:        ''
     })[state];
 
     const labelText = ({
       installed:   "☑ 選択中（導入済み）",
+      queued:      "☑ 選択中（処理待ち）",
+      installing:  "☑ 選択中（処理中）",
       pending_add: "☑ 選択中（未反映）",
       pending_rm:  "☐ 解除対象（未反映）",
       none:        "☐ 導入する"
@@ -342,10 +415,25 @@ window.addEventListener("beforeunload", (e) => {
 
 async function init() {
   $("#sortBy").value = getSortBy();
-  await Promise.all([loadItems(), loadTranslations()]);
+  await Promise.all([loadItems(), loadTranslations(), loadApplied()]);
   try { await loadSelected(); } catch (e) { console.warn(e); }
   render();
   updateTimer();
 }
+
+async function pollApplied() {
+  // watcher 進捗を10秒おきに polling（処理中なら5秒）
+  const before = APPLIED_INFO.updated_at;
+  const beforeSize = APPLIED.size;
+  await loadApplied();
+  if (APPLIED_INFO.updated_at !== before || APPLIED.size !== beforeSize) {
+    render();
+    if (APPLIED.size > beforeSize) {
+      toast(`✅ ${APPLIED.size - beforeSize} 件のローカル導入が完了しました`);
+    }
+  }
+}
+
 init();
 setInterval(updateTimer, 1000);
+setInterval(pollApplied, 5000);
