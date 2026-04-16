@@ -1,23 +1,20 @@
 {
-  "updated_at": "2026-04-16T14:28:03+09:00",
+  "updated_at": "2026-04-16T14:28:04+09:00",
   "applied": [
     "gh-NousResearch-hermes-agent",
     "gh-affaan-m-everything-claude-code",
     "gh-google-gemini-gemini-cli",
+    "gh-gsd-build-get-shit-done",
     "mcp-playwright"
   ],
   "progress": {
-    "current_id": "gh-gsd-build-get-shit-done",
-    "current_title": "gsd-build/get-shit-done",
-    "current_kind": "note",
     "index": 4,
-    "total": 8,
-    "started_at": "2026-04-16T14:28:03+09:00"
+    "total": 8
   },
   "last_result": {
     "action": "applied",
-    "id": "gh-google-gemini-gemini-cli",
-    "at": "2026-04-16T14:28:01+09:00",
+    "id": "gh-gsd-build-get-shit-done",
+    "at": "2026-04-16T14:28:04+09:00",
     "kind": "note"
   }
 }
