@@ -1,21 +1,18 @@
 {
-  "updated_at": "2026-04-16T14:27:55+09:00",
+  "updated_at": "2026-04-16T14:27:57+09:00",
   "applied": [
     "gh-NousResearch-hermes-agent",
+    "gh-affaan-m-everything-claude-code",
     "mcp-playwright"
   ],
   "progress": {
-    "current_id": "gh-affaan-m-everything-claude-code",
-    "current_title": "affaan-m/everything-claude-code",
-    "current_kind": "note",
     "index": 2,
-    "total": 8,
-    "started_at": "2026-04-16T14:27:55+09:00"
+    "total": 8
   },
   "last_result": {
     "action": "applied",
-    "id": "gh-NousResearch-hermes-agent",
-    "at": "2026-04-16T14:27:54+09:00",
+    "id": "gh-affaan-m-everything-claude-code",
+    "at": "2026-04-16T14:27:57+09:00",
     "kind": "note"
   }
 }
