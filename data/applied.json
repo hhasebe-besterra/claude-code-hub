@@ -1,25 +1,22 @@
 {
-  "updated_at": "2026-04-16T14:28:07+09:00",
+  "updated_at": "2026-04-16T14:28:10+09:00",
   "applied": [
     "gh-NousResearch-hermes-agent",
     "gh-affaan-m-everything-claude-code",
     "gh-google-gemini-gemini-cli",
     "gh-gsd-build-get-shit-done",
     "gh-langchain-ai-langchain",
+    "gh-n8n-io-n8n",
     "mcp-playwright"
   ],
   "progress": {
-    "current_id": "gh-n8n-io-n8n",
-    "current_title": "n8n-io/n8n",
-    "current_kind": "note",
     "index": 6,
-    "total": 8,
-    "started_at": "2026-04-16T14:28:07+09:00"
+    "total": 8
   },
   "last_result": {
     "action": "applied",
-    "id": "gh-langchain-ai-langchain",
-    "at": "2026-04-16T14:28:06+09:00",
+    "id": "gh-n8n-io-n8n",
+    "at": "2026-04-16T14:28:10+09:00",
     "kind": "note"
   }
 }
