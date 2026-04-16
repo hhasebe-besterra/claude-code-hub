@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T06:55:20+09:00",
+  "generated_at": "2026-04-16T11:37:54+09:00",
   "generator": "harvest.py",
   "items": [
     {
@@ -635,6 +635,162 @@
       },
       "hot": true,
       "collected_at": "2026-04-16"
+    },
+    {
+      "id": "x-MakeAI_CEO-2043923039314968716",
+      "title": "@MakeAI_CEO: CLAUDE mdに1行書くだけでClaude Codeの出力品質が100倍変わる方法がある。Ope...",
+      "type": "tip",
+      "summary": "CLAUDE mdに1行書くだけでClaude Codeの出力品質が100倍変わる方法がある。OpenAIが公式でこの仕組みを後押ししてる。",
+      "source": "https://x.com/MakeAI_CEO/status/2043923039314968716",
+      "author": "@MakeAI_CEO",
+      "published_at": "2026-04-14",
+      "collected_at": "2026-04-16",
+      "views": 5000,
+      "hot": false,
+      "tags": [
+        "claude-code"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "x_posts/x-MakeAI_CEO-2043923039314968716.md"
+      }
+    },
+    {
+      "id": "x-SuguruKun_ai-2044256162133225900",
+      "title": "@SuguruKun_ai: PCを閉じてもClaude Codeが動き続ける「Routines」機能が登場！セッションをテンプレ...",
+      "type": "tip",
+      "summary": "PCを閉じてもClaude Codeが動き続ける「Routines」機能が登場！セッションをテンプレート化して3種類のトリガーで自動実行。Schedule/Webhook/Git Push。",
+      "source": "https://x.com/SuguruKun_ai/status/2044256162133225900",
+      "author": "@SuguruKun_ai",
+      "published_at": "2026-04-15",
+      "collected_at": "2026-04-16",
+      "views": 5000,
+      "hot": false,
+      "tags": [
+        "claude-code",
+        "hooks",
+        "routines"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "x_posts/x-SuguruKun_ai-2044256162133225900.md"
+      }
+    },
+    {
+      "id": "x-ai_shinobix-2044015211045368108",
+      "title": "@ai_shinobix: Claude Codeでガチでやるべきなのが、急に記憶喪失になるやつ対策。ゲームのHPっぽくステータ...",
+      "type": "tip",
+      "summary": "Claude Codeでガチでやるべきなのが、急に記憶喪失になるやつ対策。ゲームのHPっぽくステータスバー出したら、脳みその残り容量が一発でわかって超ラクになった。使うのは /statusline。",
+      "source": "https://x.com/ai_shinobix/status/2044015211045368108",
+      "author": "@ai_shinobix",
+      "published_at": "2026-04-14",
+      "collected_at": "2026-04-16",
+      "views": 5000,
+      "hot": false,
+      "tags": [
+        "claude-code"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "x_posts/x-ai_shinobix-2044015211045368108.md"
+      }
+    },
+    {
+      "id": "x-claudecode_lab-2042722362643398719",
+      "title": "@claudecode_lab: Claude Codeに新機能「/ultraplan」登場！ClaudeがWeb上で実装計画を全部作...",
+      "type": "tip",
+      "summary": "Claude Codeに新機能「/ultraplan」登場！ClaudeがWeb上で実装計画を全部作ってくれる新モード。計画をWebブラウザでじっくり読んで編集→そのまま実行。",
+      "source": "https://x.com/claudecode_lab/status/2042722362643398719",
+      "author": "@claudecode_lab",
+      "published_at": "2026-04-10",
+      "collected_at": "2026-04-16",
+      "views": 5000,
+      "hot": false,
+      "tags": [
+        "claude-code",
+        "plan"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "x_posts/x-claudecode_lab-2042722362643398719.md"
+      }
+    },
+    {
+      "id": "x-heygurisingh-2042491121650319562",
+      "title": "@heygurisingh: 誰かがClaude Codeスキルを作った。一つのプロンプトでどんなウェブサイトでもクローンできる。...",
+      "type": "skill",
+      "summary": "誰かがClaude Codeスキルを作った。一つのプロンプトでどんなウェブサイトでもクローンできる。スクリーンショットなし。フォントを目視で推測なし。",
+      "source": "https://x.com/heygurisingh/status/2042491121650319562",
+      "author": "@heygurisingh",
+      "published_at": "2026-04-10",
+      "collected_at": "2026-04-16",
+      "views": 5000,
+      "hot": false,
+      "tags": [
+        "claude-code"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "x_posts/x-heygurisingh-2042491121650319562.md"
+      }
+    },
+    {
+      "id": "x-masahirochaen-2043819057661784279",
+      "title": "@masahirochaen: Claude Codeの性能を上げたい人は必見。Anthropicが公開した「Claudeのハーネス...",
+      "type": "tip",
+      "summary": "Claude Codeの性能を上げたい人は必見。Anthropicが公開した「Claudeのハーネス設計術」が勉強になる。公式の解説が一番為になるので、マストで読みましょう。",
+      "source": "https://x.com/masahirochaen/status/2043819057661784279",
+      "author": "@masahirochaen",
+      "published_at": "2026-04-13",
+      "collected_at": "2026-04-16",
+      "views": 5000,
+      "hot": false,
+      "tags": [
+        "claude-code"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "x_posts/x-masahirochaen-2043819057661784279.md"
+      }
+    },
+    {
+      "id": "x-sora19ai-2041188363580141588",
+      "title": "@sora19ai: Anthropic公式が「Anthropic Academy」を無料公開した。Claude入門〜実務...",
+      "type": "mcp",
+      "summary": "Anthropic公式が「Anthropic Academy」を無料公開した。Claude入門〜実務レベルまで全16コース。Claude Code/MCP/エージェント構築まで学べる。API講座は8時間超えのボリューム。修了証も付いてサブスク不要。",
+      "source": "https://x.com/sora19ai/status/2041188363580141588",
+      "author": "@sora19ai",
+      "published_at": "2026-04-06",
+      "collected_at": "2026-04-16",
+      "views": 5000,
+      "hot": false,
+      "tags": [
+        "claude-code",
+        "mcp"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "x_posts/x-sora19ai-2041188363580141588.md"
+      }
+    },
+    {
+      "id": "x-sora19ai-2044077411478974670",
+      "title": "@sora19ai: Claude Codeの永続的記憶、試したけど神ってる。...",
+      "type": "tip",
+      "summary": "Claude Codeの永続的記憶、試したけど神ってる。",
+      "source": "https://x.com/sora19ai/status/2044077411478974670",
+      "author": "@sora19ai",
+      "published_at": "2026-04-14",
+      "collected_at": "2026-04-16",
+      "views": 5000,
+      "hot": false,
+      "tags": [
+        "claude-code"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "x_posts/x-sora19ai-2044077411478974670.md"
+      }
     }
   ]
 }

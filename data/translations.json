@@ -115,5 +115,37 @@
   "tip-context-management": {
     "summary_ja": "1Mコンテキストを活かすプロンプト分割テクニック。方針合意→plan保存→実装の3段構え。",
     "benefit": "長いタスクでAIの精度が落ちにくくなる。キャッシュヒット率が上がりコストも抑えられる。"
+  },
+  "x-sora19ai-2041188363580141588": {
+    "summary_ja": "Anthropic公式の無料学習コース「Anthropic Academy」全16コース。Claude Code/MCP/エージェント構築まで体系的に学べる。修了証付き。",
+    "benefit": "チーム全員がClaude Codeの基礎から実務レベルまで無料で学べる。研修コスト不要で即戦力化。"
+  },
+  "x-ai_shinobix-2044015211045368108": {
+    "summary_ja": "Claude Codeの残りコンテキスト量をステータスバーで可視化する /statusline テクニック。記憶喪失（コンテキスト切れ）を事前に察知できる。",
+    "benefit": "「途中で話を忘れる」問題を解決。残り容量を見ながら作業できるので、大きなタスクが安定する。"
+  },
+  "x-SuguruKun_ai-2044256162133225900": {
+    "summary_ja": "Claude Code新機能「Routines」。PCを閉じても自動で動き続ける。Schedule/Webhook/Git Pushの3トリガーで自動実行。",
+    "benefit": "夜間バッチ処理やPR作成時の自動レビューなど、人がいなくても Claude Code が働く仕組みが作れる。"
+  },
+  "x-sora19ai-2044077411478974670": {
+    "summary_ja": "Claude Codeの永続的記憶（auto memory）の使い方レビュー。セッションをまたいで文脈を引き継げる。",
+    "benefit": "毎回「前回の続き」を説明しなくて済む。プロジェクトの蓄積がClaude Codeに残り続ける。"
+  },
+  "x-MakeAI_CEO-2043923039314968716": {
+    "summary_ja": "CLAUDE.mdに1行追加するだけでClaude Codeの出力品質が劇的に改善するテクニック。",
+    "benefit": "設定ファイル1行の変更で回答精度が向上。全プロジェクトに即適用できるローコスト改善。"
+  },
+  "x-masahirochaen-2043819057661784279": {
+    "summary_ja": "Anthropic公式の「Claudeハーネス設計術」解説。Claude Codeの性能を引き出す公式ベストプラクティス。",
+    "benefit": "公式が推奨する使い方を知ることで、試行錯誤なしに最適な設定・プロンプトが書ける。"
+  },
+  "x-heygurisingh-2042491121650319562": {
+    "summary_ja": "1プロンプトで任意のWebサイトを完全クローンできるClaude Code Skill。Chrome DevTools MCPでフォントやレイアウトを自動解析。",
+    "benefit": "既存サイトのデザインを素早く再現。提案資料のモックアップやプロトタイプ作成が一瞬。"
+  },
+  "x-claudecode_lab-2042722362643398719": {
+    "summary_ja": "Claude Code新機能「/ultraplan」。実装計画をWebブラウザ上で作成・編集・実行できる新モード。",
+    "benefit": "大きな開発タスクの計画をブラウザで俯瞰しながら編集→実行。チームでの計画共有にも使える。"
   }
 }
