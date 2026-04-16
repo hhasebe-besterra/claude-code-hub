@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>Claude Code Hub</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="style.css?v=3">
+<link rel="stylesheet" href="style.css?v=4">
 </head>
 <body>
 <header>
@@ -37,13 +37,28 @@
 
 <div id="sortInfo" class="sort-info"></div>
 
+<div id="applyBar" class="apply-bar">
+  <div id="applyInfo" class="apply-info">変更なし</div>
+  <div class="apply-buttons">
+    <button id="cancelBtn" disabled>破棄</button>
+    <button id="applyBtn" class="apply-primary" disabled>反映する</button>
+  </div>
+</div>
+
 <main id="cards"></main>
 
 <footer>
-  <div>☑ を入れると <code>data/selected.json</code> に反映され、ローカル watcher が自動導入します（導入済みはグレーアウト表示）。</div>
-  <div>PAT を未登録のまま選択すると右上 🔑 にプロンプトが出ます。収集間隔：毎時 00 分（GitHub Actions）。</div>
+  <div>
+    <strong>使い方：</strong>
+    カードの☑（導入する）をON/OFFした後、上部の緑の「<b>反映する</b>」ボタンを押して GitHub に送信。
+    watcher（ローカル）が60秒以内にダウンロード＆導入します。
+  </div>
+  <div>
+    状態の見方： ⏳導入予約（未反映） → 反映ボタン → ✅導入済み（グレーアウト）／↩解除予約はその逆。
+  </div>
+  <div>収集間隔：毎時 00 分（GitHub Actions）。PAT が未登録の場合は反映時に🔑プロンプト。</div>
 </footer>
 
-<script src="app.js?v=3"></script>
+<script src="app.js?v=4"></script>
 </body>
 </html>

@@ -38,6 +38,35 @@ nav.filters input[type=search] {
 }
 .sort-info strong { color: #1a1d22; }
 
+/* 反映バー */
+.apply-bar {
+  position: sticky; top: 0; z-index: 10;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 12px 28px; background: #eaeef2; border-bottom: 1px solid #d0d7de;
+  font-size: 14px; transition: background .2s;
+}
+.apply-bar.active { background: #fff8dc; border-bottom-color: #e8c765; }
+.apply-info { color: #1a1d22; font-weight: 500; }
+.apply-info .badge-add, .apply-info .badge-rm {
+  display: inline-block; padding: 3px 10px; border-radius: 12px;
+  font-size: 13px; font-weight: 700; margin-right: 8px;
+}
+.apply-info .badge-add { background: #1a7f37; color: #fff; }
+.apply-info .badge-rm  { background: #cf222e; color: #fff; }
+.apply-buttons { display: flex; gap: 10px; }
+.apply-buttons button {
+  padding: 8px 20px; border-radius: 6px; border: 1px solid #d0d7de;
+  background: #fff; cursor: pointer; font-family: inherit; font-size: 14px; font-weight: 600;
+  color: #1a1d22;
+}
+.apply-buttons button:hover:not(:disabled) { background: #f6f7f9; border-color: #8b949e; }
+.apply-buttons button:disabled { opacity: 0.4; cursor: not-allowed; }
+.apply-buttons .apply-primary {
+  background: #1a7f37; color: #fff; border-color: #156a2d;
+}
+.apply-buttons .apply-primary:hover:not(:disabled) { background: #156a2d; }
+.apply-buttons .apply-primary:disabled { background: #8b949e; border-color: #8b949e; color: #fff; }
+
 main {
   display: grid; grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: 18px; padding: 22px 28px;
@@ -46,7 +75,7 @@ main {
   background: #fff; border: 1px solid #d0d7de; border-radius: 8px;
   padding: 16px 18px; display: flex; flex-direction: column; gap: 10px;
   box-shadow: 0 1px 2px rgba(0,0,0,.04);
-  transition: border-color .2s, box-shadow .2s, opacity .2s, filter .2s;
+  transition: border-color .2s, box-shadow .2s, opacity .2s, filter .2s, background .2s;
 }
 .card:hover { border-color: #8b949e; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
 .card .row { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; }
@@ -61,9 +90,7 @@ main {
 .card.command .type { background: #dafbe1; color: #1a7f37; }
 .card.tip .type { background: #ffebe9; color: #cf222e; }
 
-.card .summary-ja {
-  font-size: 15px; color: #1a1d22; line-height: 1.65;
-}
+.card .summary-ja { font-size: 15px; color: #1a1d22; line-height: 1.65; }
 .card .benefit {
   font-size: 14px; color: #1a7f37; line-height: 1.55;
   background: #dafbe1; border-radius: 6px; padding: 10px 12px;
@@ -96,42 +123,52 @@ main {
   width: 18px; height: 18px; accent-color: #1a7f37;
 }
 
-/* 未導入（通常状態） */
-.card:not(.installed) label.select::after { content: ""; }
+/* 状態バッジ（カード上部に配置） */
+.state-badge {
+  display: inline-block; align-self: flex-start;
+  padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 700;
+  letter-spacing: .03em;
+}
+.b-installed   { background: #1a7f37; color: #fff; }
+.b-pending-add { background: #ff8c00; color: #fff; }
+.b-pending-rm  { background: #cf222e; color: #fff; }
 
-/* 導入済み = SELECTED 状態でグレーアウト */
-.card.installed {
-  opacity: 0.55;
-  filter: grayscale(0.5);
-  background: #f0f3f6;
-  border-color: #b8c0c9;
+/* 導入済み（既にGitHubに保存済み） */
+.card.state-installed {
+  opacity: 0.55; filter: grayscale(0.5);
+  background: #f0f3f6; border-color: #b8c0c9;
 }
-.card.installed:hover {
-  opacity: 0.85;
-  filter: grayscale(0.2);
+.card.state-installed:hover { opacity: 0.85; filter: grayscale(0.2); }
+.card.state-installed h3 { color: #57606a; text-decoration: line-through; text-decoration-color: #8b949e; text-decoration-thickness: 1px; }
+.card.state-installed .benefit { background: #eaeef2; color: #57606a; border-left-color: #8b949e; }
+.card.state-installed .benefit-label { background: #8b949e; }
+
+/* 導入予約（未反映） */
+.card.state-pending_add {
+  background: #fff8dc; border-color: #ff8c00; border-width: 2px;
+  box-shadow: 0 0 0 3px rgba(255,140,0,0.15);
 }
-.card.installed h3 { color: #57606a; text-decoration: line-through; text-decoration-color: #8b949e; text-decoration-thickness: 1px; }
-.card.installed .benefit { background: #eaeef2; color: #57606a; border-left-color: #8b949e; }
-.card.installed .benefit-label { background: #8b949e; }
-.card.installed label.select { color: #1a7f37; }
-.card.installed label.select::before {
-  content: "✅ 導入済み"; background: #1a7f37; color: #fff;
-  padding: 3px 10px; border-radius: 12px; font-size: 12px; font-weight: 700;
-  letter-spacing: .05em; margin-right: 8px;
+.card.state-pending_add h3 { color: #b35c00; }
+
+/* 解除予約（未反映） */
+.card.state-pending_rm {
+  background: #ffebe9; border-color: #cf222e; border-width: 2px;
+  box-shadow: 0 0 0 3px rgba(207,34,46,0.15);
 }
-.card.installed label.select input[type=checkbox] + span { display: none; }
+.card.state-pending_rm h3 { color: #9f1824; text-decoration: line-through; }
 
 .card.applying { opacity: .4; pointer-events: none; }
 
 footer {
-  padding: 18px 28px; font-size: 13px; color: #57606a; text-align: center;
-  border-top: 1px solid #e1e4e8; line-height: 1.6;
+  padding: 20px 28px; font-size: 13px; color: #57606a; text-align: center;
+  border-top: 1px solid #e1e4e8; line-height: 1.8; background: #fff;
 }
+footer b { color: #1a7f37; }
 
 #toast {
   position: fixed; bottom: 24px; right: 24px; background: #0d1117; color: #fff;
   padding: 12px 20px; border-radius: 6px; font-size: 14px;
   opacity: 0; transform: translateY(10px); transition: all .2s;
-  pointer-events: none; max-width: 360px;
+  pointer-events: none; max-width: 400px;
 }
 #toast.show { opacity: 1; transform: translateY(0); }
