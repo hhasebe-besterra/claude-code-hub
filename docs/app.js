@@ -5,9 +5,6 @@ const TRANS_URL = `https://raw.githubusercontent.com/${REPO}/${BRANCH}/data/tran
 const SELECTED_PATH = "data/selected.json";
 const API = `https://api.github.com/repos/${REPO}/contents/${SELECTED_PATH}`;
 
-// 次回 harvest 時刻 (毎日 06:00 JST = 21:00 UTC)
-const HARVEST_HOUR_JST = 6;
-
 let ITEMS = [];
 let TRANS = {};
 let SELECTED = new Set();
@@ -29,20 +26,19 @@ function toast(msg, ms = 2200) {
   toast._t = setTimeout(() => el.classList.remove("show"), ms);
 }
 
-function getToken() {
-  return localStorage.getItem("cchub_pat") || "";
-}
+function getToken() { return localStorage.getItem("cchub_pat") || ""; }
 function setToken(t) {
   if (t) localStorage.setItem("cchub_pat", t);
   else localStorage.removeItem("cchub_pat");
 }
+function getSortBy() { return localStorage.getItem("cchub_sort") || "hot"; }
+function setSortBy(v) { localStorage.setItem("cchub_sort", v); }
 
 async function loadItems() {
   const r = await fetch(ITEMS_URL + "?t=" + Date.now());
   const j = await r.json();
   ITEMS = j.items || [];
   const genAt = j.generated_at || "?";
-  // 日本時間で見やすい形式に
   try {
     const d = new Date(genAt);
     const jst = d.toLocaleString("ja-JP", { timeZone: "Asia/Tokyo", month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit" });
@@ -104,7 +100,7 @@ async function pushSelected() {
   }
   const j = await r.json();
   SELECTED_SHA = j.content.sha;
-  toast("保存しました（watcher が数分以内に導入します）");
+  toast("保存しました（watcher が60秒以内に導入します）");
   return true;
 }
 
@@ -112,6 +108,7 @@ function matchesFilter(item) {
   const types = Array.from(document.querySelectorAll(".f:checked")).map(e => e.value);
   if (!types.includes(item.type)) return false;
   if ($("#hotOnly").checked && !item.hot) return false;
+  if ($("#hideInstalled").checked && SELECTED.has(item.id)) return false;
   const q = $("#q").value.trim().toLowerCase();
   if (q) {
     const tr = TRANS[item.id] || {};
@@ -121,11 +118,57 @@ function matchesFilter(item) {
   return true;
 }
 
+function sortItems(items) {
+  const by = $("#sortBy").value;
+  const arr = items.slice();
+  const pad = s => (s || "").padStart(10, "0");
+  const dateKey = x => x.collected_at || x.published_at || "0000-00-00";
+
+  if (by === "date") {
+    arr.sort((a, b) => pad(dateKey(b)).localeCompare(pad(dateKey(a))) || (b.views || 0) - (a.views || 0));
+  } else if (by === "views") {
+    arr.sort((a, b) => (b.views || 0) - (a.views || 0) || pad(dateKey(b)).localeCompare(pad(dateKey(a))));
+  } else if (by === "type") {
+    const tOrder = { mcp: 0, skill: 1, command: 2, tip: 3 };
+    arr.sort((a, b) => (tOrder[a.type] ?? 99) - (tOrder[b.type] ?? 99) || (b.views || 0) - (a.views || 0));
+  } else {
+    // hot + 新着
+    arr.sort((a, b) => {
+      if (!!b.hot - !!a.hot) return !!b.hot - !!a.hot;
+      const dc = pad(dateKey(b)).localeCompare(pad(dateKey(a)));
+      if (dc) return dc;
+      return (b.views || 0) - (a.views || 0);
+    });
+  }
+  // 導入済みを末尾へ
+  arr.sort((a, b) => (SELECTED.has(a.id) ? 1 : 0) - (SELECTED.has(b.id) ? 1 : 0));
+  return arr;
+}
+
+function renderSortInfo() {
+  const by = $("#sortBy").value;
+  const total = ITEMS.length;
+  const installed = ITEMS.filter(i => SELECTED.has(i.id)).length;
+  const labels = {
+    hot: "🔥ホットな投稿を先頭 → 新しい日付順 → 視聴数が多い順",
+    date: "📅 収集日が新しい順 → 視聴数が多い順",
+    views: "⭐ 視聴数が多い順 → 収集日が新しい順",
+    type: "🗂 種別（MCP → Skill → Command → Tip）→ 視聴数が多い順"
+  };
+  const el = $("#sortInfo");
+  el.innerHTML = `
+    <strong>表示順:</strong> ${labels[by]}
+    　｜　<strong>導入済みは末尾＋グレーアウト</strong>
+    　｜　件数: ${total} 件（うち導入済み ${installed} 件）
+  `;
+}
+
 function render() {
   cardsEl.innerHTML = "";
-  const visible = ITEMS.filter(matchesFilter);
+  const visible = sortItems(ITEMS.filter(matchesFilter));
+  renderSortInfo();
   if (!visible.length) {
-    cardsEl.innerHTML = `<div style="padding:40px;color:#57606a">該当なし</div>`;
+    cardsEl.innerHTML = `<div style="padding:40px;color:#57606a;font-size:15px">該当なし</div>`;
     return;
   }
   for (const it of visible) {
@@ -134,7 +177,8 @@ function render() {
     const benefit = tr.benefit || "";
     const summaryEn = it.summary || "";
     const card = document.createElement("article");
-    card.className = `card ${it.type}` + (SELECTED.has(it.id) ? " selected" : "");
+    const isInstalled = SELECTED.has(it.id);
+    card.className = `card ${it.type}` + (isInstalled ? " installed" : "");
     const viewStr = it.views ? (it.views >= 1000 ? (it.views / 1000).toFixed(1) + "k" : it.views) : "—";
 
     card.innerHTML = `
@@ -148,8 +192,8 @@ function render() {
       <div class="tags">${(it.tags || []).map(t => `<span>#${escapeHtml(t)}</span>`).join("")}</div>
       <div class="foot">
         <label class="select">
-          <input type="checkbox" data-id="${it.id}" ${SELECTED.has(it.id) ? "checked" : ""}>
-          導入する
+          <input type="checkbox" data-id="${it.id}" ${isInstalled ? "checked" : ""}>
+          <span>${isInstalled ? "解除する" : "導入する"}</span>
         </label>
         <div>
           ${it.hot ? '<span class="hot">🔥</span> ' : ""}
@@ -172,7 +216,7 @@ function render() {
         e.target.checked = !e.target.checked;
       }
       card.classList.remove("applying");
-      card.classList.toggle("selected", SELECTED.has(id));
+      render();
     });
   });
 }
@@ -183,26 +227,24 @@ function escapeHtml(s) {
   }[c]));
 }
 
-// --- タイマー ---
+// --- タイマー: 毎時 00 分に収集 ---
 function updateTimer() {
   const el = $("#nextUpdate");
   if (!el) return;
   const now = new Date();
-  // 次の 06:00 JST を計算
-  const jstOffset = 9 * 60; // minutes
-  const utcMinutes = now.getUTCHours() * 60 + now.getUTCMinutes();
-  const jstMinutes = (utcMinutes + jstOffset) % (24 * 60);
-  const targetMinutes = HARVEST_HOUR_JST * 60; // 06:00
-  let diffMin = targetMinutes - jstMinutes;
-  if (diffMin <= 0) diffMin += 24 * 60;
-  const h = Math.floor(diffMin / 60);
-  const m = diffMin % 60;
-  el.textContent = `次回収集: ${h}時間${m}分後`;
-  el.title = `毎朝 ${HARVEST_HOUR_JST}:00 JST に GitHub Actions で自動収集`;
+  const nextHour = new Date(now);
+  nextHour.setUTCMinutes(0, 0, 0);
+  nextHour.setUTCHours(nextHour.getUTCHours() + 1);
+  const diffSec = Math.max(0, Math.floor((nextHour - now) / 1000));
+  const m = Math.floor(diffSec / 60);
+  const s = diffSec % 60;
+  el.textContent = `次回収集: ${m}分${s.toString().padStart(2,"0")}秒後`;
+  el.title = "毎時 00 分に GitHub Actions で自動収集";
 }
 
-document.querySelectorAll(".f, #hotOnly").forEach(el => el.addEventListener("change", render));
+document.querySelectorAll(".f, #hotOnly, #hideInstalled").forEach(el => el.addEventListener("change", render));
 $("#q").addEventListener("input", render);
+$("#sortBy").addEventListener("change", () => { setSortBy($("#sortBy").value); render(); });
 $("#refreshBtn").addEventListener("click", async () => { await init(); toast("再読込完了"); });
 $("#authBtn").addEventListener("click", () => {
   const cur = getToken();
@@ -213,10 +255,11 @@ $("#authBtn").addEventListener("click", () => {
 });
 
 async function init() {
+  $("#sortBy").value = getSortBy();
   await Promise.all([loadItems(), loadTranslations()]);
   try { await loadSelected(); } catch (e) { console.warn(e); }
   render();
   updateTimer();
 }
 init();
-setInterval(updateTimer, 60000);
+setInterval(updateTimer, 1000);

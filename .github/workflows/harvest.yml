@@ -2,7 +2,7 @@ name: harvest
 
 on:
   schedule:
-    - cron: "0 21 * * *"   # 06:00 JST
+    - cron: "0 * * * *"   # 毎時 00 分 UTC（JSTでも毎時 00 分）
   workflow_dispatch:
 
 permissions:

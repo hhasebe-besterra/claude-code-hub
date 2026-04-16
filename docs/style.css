@@ -1,48 +1,60 @@
 * { box-sizing: border-box; }
 body {
-  font-family: "Meiryo", "Segoe UI", system-ui, sans-serif;
+  font-family: "Meiryo", "メイリオ", "Segoe UI", system-ui, sans-serif;
   margin: 0; background: #f6f7f9; color: #1a1d22;
+  font-size: 15px;
 }
 header {
   display: flex; justify-content: space-between; align-items: center;
-  padding: 16px 24px; background: #0d1117; color: #fff;
+  padding: 18px 28px; background: #0d1117; color: #fff;
   border-bottom: 3px solid #c00;
 }
-header h1 { margin: 0; font-size: 18px; letter-spacing: .05em; }
-header .meta { display: flex; gap: 12px; align-items: center; font-size: 12px; }
-header button { background: #30363d; color: #fff; border: 0; padding: 4px 10px; border-radius: 4px; cursor: pointer; }
+header h1 { margin: 0; font-size: 22px; letter-spacing: .05em; }
+header .meta { display: flex; gap: 14px; align-items: center; font-size: 14px; }
+header button { background: #30363d; color: #fff; border: 0; padding: 6px 12px; border-radius: 4px; cursor: pointer; font-size: 14px; }
 header button:hover { background: #484f58; }
 .timer {
-  background: #1f6feb; color: #fff; padding: 3px 10px; border-radius: 12px;
-  font-size: 11px; font-weight: bold; letter-spacing: .03em;
+  background: #1f6feb; color: #fff; padding: 4px 12px; border-radius: 12px;
+  font-size: 13px; font-weight: bold; letter-spacing: .03em;
 }
 
 nav.filters {
-  display: flex; flex-wrap: wrap; gap: 16px; align-items: center;
-  padding: 10px 24px; background: #fff; border-bottom: 1px solid #e1e4e8;
-  font-size: 13px;
+  display: flex; flex-wrap: wrap; gap: 18px; align-items: center;
+  padding: 12px 28px; background: #fff; border-bottom: 1px solid #e1e4e8;
+  font-size: 15px;
+}
+nav.filters select {
+  padding: 6px 10px; border: 1px solid #d0d7de; border-radius: 4px;
+  font-family: inherit; font-size: 14px;
 }
 nav.filters input[type=search] {
-  margin-left: auto; padding: 6px 10px; border: 1px solid #d0d7de; border-radius: 4px;
-  min-width: 220px;
+  margin-left: auto; padding: 7px 12px; border: 1px solid #d0d7de; border-radius: 4px;
+  min-width: 240px; font-family: inherit; font-size: 14px;
 }
 
+.sort-info {
+  padding: 10px 28px; background: #fff3cd; border-bottom: 1px solid #ffe69c;
+  font-size: 13px; color: #664d03;
+}
+.sort-info strong { color: #1a1d22; }
+
 main {
-  display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
-  gap: 16px; padding: 20px 24px;
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 18px; padding: 22px 28px;
 }
 .card {
   background: #fff; border: 1px solid #d0d7de; border-radius: 8px;
-  padding: 14px 16px; display: flex; flex-direction: column; gap: 8px;
+  padding: 16px 18px; display: flex; flex-direction: column; gap: 10px;
   box-shadow: 0 1px 2px rgba(0,0,0,.04);
-  transition: border-color .2s, box-shadow .2s;
+  transition: border-color .2s, box-shadow .2s, opacity .2s, filter .2s;
 }
 .card:hover { border-color: #8b949e; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
-.card .row { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
-.card h3 { margin: 0; font-size: 14px; line-height: 1.35; }
+.card .row { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; }
+.card h3 { margin: 0; font-size: 17px; line-height: 1.4; font-weight: 700; }
 .card .type {
-  font-size: 10px; padding: 2px 6px; border-radius: 3px; text-transform: uppercase;
+  font-size: 11px; padding: 3px 8px; border-radius: 3px; text-transform: uppercase;
   letter-spacing: .08em; background: #eaeef2; color: #57606a; flex-shrink: 0;
+  font-weight: 700;
 }
 .card.mcp .type { background: #ddf4ff; color: #0969da; }
 .card.skill .type { background: #fff8c5; color: #9a6700; }
@@ -50,51 +62,76 @@ main {
 .card.tip .type { background: #ffebe9; color: #cf222e; }
 
 .card .summary-ja {
-  font-size: 13px; color: #1a1d22; line-height: 1.6;
+  font-size: 15px; color: #1a1d22; line-height: 1.65;
 }
 .card .benefit {
-  font-size: 12px; color: #1a7f37; line-height: 1.5;
-  background: #dafbe1; border-radius: 6px; padding: 8px 10px;
-  border-left: 3px solid #1a7f37;
+  font-size: 14px; color: #1a7f37; line-height: 1.55;
+  background: #dafbe1; border-radius: 6px; padding: 10px 12px;
+  border-left: 4px solid #1a7f37;
 }
 .card .benefit-label {
-  display: inline-block; font-weight: bold; font-size: 10px;
-  background: #1a7f37; color: #fff; padding: 1px 6px; border-radius: 3px;
-  margin-right: 6px; vertical-align: middle; letter-spacing: .05em;
+  display: inline-block; font-weight: bold; font-size: 11px;
+  background: #1a7f37; color: #fff; padding: 2px 8px; border-radius: 3px;
+  margin-right: 8px; vertical-align: middle; letter-spacing: .05em;
 }
-.card .en-detail { font-size: 11px; color: #57606a; }
-.card .en-detail summary { cursor: pointer; user-select: none; }
-.card .summary-en { margin-top: 4px; line-height: 1.4; }
+.card .en-detail { font-size: 12px; color: #57606a; }
+.card .en-detail summary { cursor: pointer; user-select: none; font-size: 13px; }
+.card .summary-en { margin-top: 6px; line-height: 1.5; font-size: 13px; }
 
-.card .tags { display: flex; flex-wrap: wrap; gap: 4px; }
-.card .tags span { font-size: 10px; background: #f0f3f6; padding: 2px 6px; border-radius: 10px; color: #57606a; }
+.card .tags { display: flex; flex-wrap: wrap; gap: 5px; }
+.card .tags span { font-size: 12px; background: #f0f3f6; padding: 3px 8px; border-radius: 10px; color: #57606a; }
 .card .foot {
   display: flex; justify-content: space-between; align-items: center;
-  font-size: 11px; color: #57606a; margin-top: auto;
+  font-size: 13px; color: #57606a; margin-top: auto;
 }
 .card .foot a { color: #0969da; text-decoration: none; }
 .card .foot a:hover { text-decoration: underline; }
 .card .hot { color: #cf222e; font-weight: bold; }
 
 .card label.select {
-  display: flex; align-items: center; gap: 6px; font-size: 12px;
-  cursor: pointer; user-select: none;
+  display: flex; align-items: center; gap: 8px; font-size: 14px;
+  cursor: pointer; user-select: none; font-weight: 600;
 }
 .card label.select input[type=checkbox] {
-  width: 16px; height: 16px; accent-color: #1a7f37;
+  width: 18px; height: 18px; accent-color: #1a7f37;
 }
-.card.selected { border-color: #1a7f37; box-shadow: 0 0 0 2px #b7f5c9; }
-.card.applying { opacity: .6; }
+
+/* 未導入（通常状態） */
+.card:not(.installed) label.select::after { content: ""; }
+
+/* 導入済み = SELECTED 状態でグレーアウト */
+.card.installed {
+  opacity: 0.55;
+  filter: grayscale(0.5);
+  background: #f0f3f6;
+  border-color: #b8c0c9;
+}
+.card.installed:hover {
+  opacity: 0.85;
+  filter: grayscale(0.2);
+}
+.card.installed h3 { color: #57606a; text-decoration: line-through; text-decoration-color: #8b949e; text-decoration-thickness: 1px; }
+.card.installed .benefit { background: #eaeef2; color: #57606a; border-left-color: #8b949e; }
+.card.installed .benefit-label { background: #8b949e; }
+.card.installed label.select { color: #1a7f37; }
+.card.installed label.select::before {
+  content: "✅ 導入済み"; background: #1a7f37; color: #fff;
+  padding: 3px 10px; border-radius: 12px; font-size: 12px; font-weight: 700;
+  letter-spacing: .05em; margin-right: 8px;
+}
+.card.installed label.select input[type=checkbox] + span { display: none; }
+
+.card.applying { opacity: .4; pointer-events: none; }
 
 footer {
-  padding: 16px 24px; font-size: 11px; color: #57606a; text-align: center;
-  border-top: 1px solid #e1e4e8;
+  padding: 18px 28px; font-size: 13px; color: #57606a; text-align: center;
+  border-top: 1px solid #e1e4e8; line-height: 1.6;
 }
 
 #toast {
-  position: fixed; bottom: 20px; right: 20px; background: #0d1117; color: #fff;
-  padding: 10px 16px; border-radius: 6px; font-size: 12px;
+  position: fixed; bottom: 24px; right: 24px; background: #0d1117; color: #fff;
+  padding: 12px 20px; border-radius: 6px; font-size: 14px;
   opacity: 0; transform: translateY(10px); transition: all .2s;
-  pointer-events: none; max-width: 320px;
+  pointer-events: none; max-width: 360px;
 }
 #toast.show { opacity: 1; transform: translateY(0); }

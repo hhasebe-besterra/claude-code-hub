@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <title>Claude Code Hub</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="style.css?v=2">
+<link rel="stylesheet" href="style.css?v=3">
 </head>
 <body>
 <header>
   <h1>Claude Code Hub</h1>
   <div class="meta">
     <span id="lastUpdate">最終更新: 読み込み中...</span>
-    <span id="nextUpdate" class="timer" title="次回自動収集までのカウントダウン（毎朝6:00 JST）"></span>
+    <span id="nextUpdate" class="timer" title="次回自動収集までのカウントダウン（毎時 00 分 JST）"></span>
     <button id="authBtn" title="GitHub PAT を登録">🔑</button>
     <button id="refreshBtn" title="再読込">↻</button>
   </div>
@@ -23,16 +23,27 @@
   <label><input type="checkbox" class="f" value="command" checked> Command</label>
   <label><input type="checkbox" class="f" value="tip" checked> Tip</label>
   <label class="hot-only"><input type="checkbox" id="hotOnly"> 🔥のみ</label>
+  <label>並び順:
+    <select id="sortBy">
+      <option value="hot">🔥ホット＋新着順（既定）</option>
+      <option value="date">📅 新しい順</option>
+      <option value="views">⭐ 視聴多い順</option>
+      <option value="type">🗂 種別ごと</option>
+    </select>
+  </label>
+  <label><input type="checkbox" id="hideInstalled"> 導入済みを隠す</label>
   <input type="search" id="q" placeholder="検索（タイトル・タグ・要約）">
 </nav>
+
+<div id="sortInfo" class="sort-info"></div>
 
 <main id="cards"></main>
 
 <footer>
-  <div>チェックすると <code>data/selected.json</code> に反映され、ローカル watcher が自動導入します。</div>
-  <div>PATを未登録のまま選択すると右上🔑にプロンプトが出ます。</div>
+  <div>☑ を入れると <code>data/selected.json</code> に反映され、ローカル watcher が自動導入します（導入済みはグレーアウト表示）。</div>
+  <div>PAT を未登録のまま選択すると右上 🔑 にプロンプトが出ます。収集間隔：毎時 00 分（GitHub Actions）。</div>
 </footer>
 
-<script src="app.js?v=2"></script>
+<script src="app.js?v=3"></script>
 </body>
 </html>
