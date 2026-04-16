@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T13:22:29+09:00",
+  "generated_at": "2026-04-16T19:19:11+09:00",
   "generator": "harvest.py",
   "items": [
     {
@@ -11,7 +11,7 @@
       "author": "n8n-io",
       "published_at": "2019-06-22",
       "collected_at": "2026-04-16",
-      "views": 1842150,
+      "views": 1842900,
       "tags": [
         "mcp-server",
         "ai",
@@ -34,7 +34,7 @@
       "author": "affaan-m",
       "published_at": "2026-01-18",
       "collected_at": "2026-04-16",
-      "views": 1573200,
+      "views": 1580260,
       "tags": [
         "anthropic",
         "ai-agents",
@@ -57,7 +57,7 @@
       "author": "langchain-ai",
       "published_at": "2022-10-17",
       "collected_at": "2026-04-16",
-      "views": 1336810,
+      "views": 1337520,
       "tags": [
         "anthropic",
         "agents",
@@ -80,7 +80,7 @@
       "author": "google-gemini",
       "published_at": "2025-04-17",
       "collected_at": "2026-04-16",
-      "views": 1013490,
+      "views": 1014260,
       "tags": [
         "mcp-server",
         "ai",
@@ -103,7 +103,7 @@
       "author": "NousResearch",
       "published_at": "2025-07-22",
       "collected_at": "2026-04-16",
-      "views": 892360,
+      "views": 919070,
       "tags": [
         "anthropic",
         "ai",
@@ -126,7 +126,7 @@
       "author": "nextlevelbuilder",
       "published_at": "2025-11-30",
       "collected_at": "2026-04-16",
-      "views": 656490,
+      "views": 661040,
       "tags": [
         "claude-code",
         "ai-skills",
@@ -149,7 +149,7 @@
       "author": "thedotmack",
       "published_at": "2025-08-31",
       "collected_at": "2026-04-16",
-      "views": 576660,
+      "views": 585580,
       "tags": [
         "anthropic",
         "ai",
@@ -172,7 +172,7 @@
       "author": "ComposioHQ",
       "published_at": "2025-10-17",
       "collected_at": "2026-04-16",
-      "views": 540470,
+      "views": 542020,
       "tags": [
         "claude-code",
         "agent-skills",
@@ -195,7 +195,7 @@
       "author": "shareAI-lab",
       "published_at": "2025-06-29",
       "collected_at": "2026-04-16",
-      "views": 537700,
+      "views": 539750,
       "tags": [
         "claude-code",
         "agent",
@@ -218,7 +218,7 @@
       "author": "gsd-build",
       "published_at": "2025-12-14",
       "collected_at": "2026-04-16",
-      "views": 534980,
+      "views": 537880,
       "tags": [
         "claude-code",
         "claude-code",
@@ -241,7 +241,7 @@
       "author": "upstash",
       "published_at": "2025-03-26",
       "collected_at": "2026-04-16",
-      "views": 527990,
+      "views": 528620,
       "tags": [
         "mcp-server",
         "llm",
@@ -264,7 +264,7 @@
       "author": "code-yeongyu",
       "published_at": "2025-12-03",
       "collected_at": "2026-04-16",
-      "views": 518560,
+      "views": 520140,
       "tags": [
         "anthropic",
         "ai",
@@ -287,7 +287,7 @@
       "author": "sansan0",
       "published_at": "2025-04-28",
       "collected_at": "2026-04-16",
-      "views": 516950,
+      "views": 517300,
       "tags": [
         "mcp-server",
         "ai",
@@ -310,7 +310,7 @@
       "author": "farion1231",
       "published_at": "2025-08-04",
       "collected_at": "2026-04-16",
-      "views": 453280,
+      "views": 457250,
       "tags": [
         "claude-code",
         "ai-tools",
@@ -333,7 +333,7 @@
       "author": "shanraisshan",
       "published_at": "2025-10-31",
       "collected_at": "2026-04-16",
-      "views": 449070,
+      "views": 452830,
       "tags": [
         "anthropic",
         "agentic-engineering",
@@ -356,7 +356,7 @@
       "author": "BerriAI",
       "published_at": "2023-07-27",
       "collected_at": "2026-04-16",
-      "views": 434260,
+      "views": 435000,
       "tags": [
         "anthropic",
         "ai-gateway",
@@ -379,7 +379,7 @@
       "author": "Aider-AI",
       "published_at": "2023-05-09",
       "collected_at": "2026-04-16",
-      "views": 433880,
+      "views": 434250,
       "tags": [
         "anthropic",
         "anthropic",
@@ -402,7 +402,7 @@
       "author": "HKUDS",
       "published_at": "2026-02-01",
       "collected_at": "2026-04-16",
-      "views": 396630,
+      "views": 397460,
       "tags": [
         "anthropic",
         "ai",
@@ -425,7 +425,7 @@
       "author": "hesreallyhim",
       "published_at": "2025-04-19",
       "collected_at": "2026-04-16",
-      "views": 389310,
+      "views": 390390,
       "tags": [
         "anthropic",
         "agent-skills",
@@ -448,7 +448,7 @@
       "author": "D4Vinci",
       "published_at": "2024-10-13",
       "collected_at": "2026-04-16",
-      "views": 372220,
+      "views": 373110,
       "tags": [
         "mcp-server",
         "ai",
@@ -471,7 +471,7 @@
       "author": "ChromeDevTools",
       "published_at": "2025-09-11",
       "collected_at": "2026-04-16",
-      "views": 352420,
+      "views": 353790,
       "tags": [
         "mcp-server",
         "browser",
@@ -494,7 +494,7 @@
       "author": "ruvnet",
       "published_at": "2025-06-02",
       "collected_at": "2026-04-16",
-      "views": 319770,
+      "views": 320280,
       "tags": [
         "mcp-server",
         "agentic-ai",
@@ -517,7 +517,7 @@
       "author": "bytedance",
       "published_at": "2025-01-19",
       "collected_at": "2026-04-16",
-      "views": 294170,
+      "views": 294280,
       "tags": [
         "mcp-server",
         "agent",
@@ -540,7 +540,7 @@
       "author": "github",
       "published_at": "2025-03-04",
       "collected_at": "2026-04-16",
-      "views": 288860,
+      "views": 289020,
       "tags": [
         "mcp-server",
         "github",
@@ -562,7 +562,7 @@
       "author": "assafelovic",
       "published_at": "2023-05-12",
       "collected_at": "2026-04-16",
-      "views": 264710,
+      "views": 264800,
       "tags": [
         "mcp-server",
         "agent",
@@ -635,505 +635,6 @@
       },
       "hot": true,
       "collected_at": "2026-04-16"
-    },
-    {
-      "id": "x-MakeAI_CEO-2043923039314968716",
-      "title": "@MakeAI_CEO: CLAUDE mdに1行書くだけでClaude Codeの出力品質が100倍変わる方法がある。Ope...",
-      "type": "tip",
-      "summary": "CLAUDE mdに1行書くだけでClaude Codeの出力品質が100倍変わる方法がある。OpenAIが公式でこの仕組みを後押ししてる。",
-      "source": "https://x.com/MakeAI_CEO/status/2043923039314968716",
-      "author": "@MakeAI_CEO",
-      "published_at": "2026-04-14",
-      "collected_at": "2026-04-16",
-      "views": 5000,
-      "hot": false,
-      "tags": [
-        "claude-code"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "x_posts/x-MakeAI_CEO-2043923039314968716.md"
-      }
-    },
-    {
-      "id": "x-SuguruKun_ai-2044256162133225900",
-      "title": "@SuguruKun_ai: PCを閉じてもClaude Codeが動き続ける「Routines」機能が登場！セッションをテンプレ...",
-      "type": "tip",
-      "summary": "PCを閉じてもClaude Codeが動き続ける「Routines」機能が登場！セッションをテンプレート化して3種類のトリガーで自動実行。Schedule/Webhook/Git Push。",
-      "source": "https://x.com/SuguruKun_ai/status/2044256162133225900",
-      "author": "@SuguruKun_ai",
-      "published_at": "2026-04-15",
-      "collected_at": "2026-04-16",
-      "views": 5000,
-      "hot": false,
-      "tags": [
-        "claude-code",
-        "hooks",
-        "routines"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "x_posts/x-SuguruKun_ai-2044256162133225900.md"
-      }
-    },
-    {
-      "id": "x-ai_shinobix-2044015211045368108",
-      "title": "@ai_shinobix: Claude Codeでガチでやるべきなのが、急に記憶喪失になるやつ対策。ゲームのHPっぽくステータ...",
-      "type": "tip",
-      "summary": "Claude Codeでガチでやるべきなのが、急に記憶喪失になるやつ対策。ゲームのHPっぽくステータスバー出したら、脳みその残り容量が一発でわかって超ラクになった。使うのは /statusline。",
-      "source": "https://x.com/ai_shinobix/status/2044015211045368108",
-      "author": "@ai_shinobix",
-      "published_at": "2026-04-14",
-      "collected_at": "2026-04-16",
-      "views": 5000,
-      "hot": false,
-      "tags": [
-        "claude-code"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "x_posts/x-ai_shinobix-2044015211045368108.md"
-      }
-    },
-    {
-      "id": "x-claudecode_lab-2042722362643398719",
-      "title": "@claudecode_lab: Claude Codeに新機能「/ultraplan」登場！ClaudeがWeb上で実装計画を全部作...",
-      "type": "tip",
-      "summary": "Claude Codeに新機能「/ultraplan」登場！ClaudeがWeb上で実装計画を全部作ってくれる新モード。計画をWebブラウザでじっくり読んで編集→そのまま実行。",
-      "source": "https://x.com/claudecode_lab/status/2042722362643398719",
-      "author": "@claudecode_lab",
-      "published_at": "2026-04-10",
-      "collected_at": "2026-04-16",
-      "views": 5000,
-      "hot": false,
-      "tags": [
-        "claude-code",
-        "plan"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "x_posts/x-claudecode_lab-2042722362643398719.md"
-      }
-    },
-    {
-      "id": "x-heygurisingh-2042491121650319562",
-      "title": "@heygurisingh: 誰かがClaude Codeスキルを作った。一つのプロンプトでどんなウェブサイトでもクローンできる。...",
-      "type": "skill",
-      "summary": "誰かがClaude Codeスキルを作った。一つのプロンプトでどんなウェブサイトでもクローンできる。スクリーンショットなし。フォントを目視で推測なし。",
-      "source": "https://x.com/heygurisingh/status/2042491121650319562",
-      "author": "@heygurisingh",
-      "published_at": "2026-04-10",
-      "collected_at": "2026-04-16",
-      "views": 5000,
-      "hot": false,
-      "tags": [
-        "claude-code"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "x_posts/x-heygurisingh-2042491121650319562.md"
-      }
-    },
-    {
-      "id": "x-masahirochaen-2043819057661784279",
-      "title": "@masahirochaen: Claude Codeの性能を上げたい人は必見。Anthropicが公開した「Claudeのハーネス...",
-      "type": "tip",
-      "summary": "Claude Codeの性能を上げたい人は必見。Anthropicが公開した「Claudeのハーネス設計術」が勉強になる。公式の解説が一番為になるので、マストで読みましょう。",
-      "source": "https://x.com/masahirochaen/status/2043819057661784279",
-      "author": "@masahirochaen",
-      "published_at": "2026-04-13",
-      "collected_at": "2026-04-16",
-      "views": 5000,
-      "hot": false,
-      "tags": [
-        "claude-code"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "x_posts/x-masahirochaen-2043819057661784279.md"
-      }
-    },
-    {
-      "id": "x-sora19ai-2041188363580141588",
-      "title": "@sora19ai: Anthropic公式が「Anthropic Academy」を無料公開した。Claude入門〜実務...",
-      "type": "mcp",
-      "summary": "Anthropic公式が「Anthropic Academy」を無料公開した。Claude入門〜実務レベルまで全16コース。Claude Code/MCP/エージェント構築まで学べる。API講座は8時間超えのボリューム。修了証も付いてサブスク不要。",
-      "source": "https://x.com/sora19ai/status/2041188363580141588",
-      "author": "@sora19ai",
-      "published_at": "2026-04-06",
-      "collected_at": "2026-04-16",
-      "views": 5000,
-      "hot": false,
-      "tags": [
-        "claude-code",
-        "mcp"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "x_posts/x-sora19ai-2041188363580141588.md"
-      }
-    },
-    {
-      "id": "x-sora19ai-2044077411478974670",
-      "title": "@sora19ai: Claude Codeの永続的記憶、試したけど神ってる。...",
-      "type": "tip",
-      "summary": "Claude Codeの永続的記憶、試したけど神ってる。",
-      "source": "https://x.com/sora19ai/status/2044077411478974670",
-      "author": "@sora19ai",
-      "published_at": "2026-04-14",
-      "collected_at": "2026-04-16",
-      "views": 5000,
-      "hot": false,
-      "tags": [
-        "claude-code"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "x_posts/x-sora19ai-2044077411478974670.md"
-      }
-    },
-    {
-      "id": "x-7_eito_7-2023780503250420039",
-      "title": "@7_eito_7: skills初心者向けに作業効率が10倍良くなる「skills800選」が公開されました。Claude CodeやAnt...",
-      "type": "skill",
-      "summary": "skills初心者向けに作業効率が10倍良くなる「skills800選」が公開されました。Claude CodeやAntigravityなどで使えて\n・セキュリティ\n・仕様書作成\n・環境構築の自動化\nなど実務レベルのSkillが大量に収録。詳しくはこちら",
-      "source": "https://x.com/7_eito_7/status/2023780503250420039",
-      "author": "@7_eito_7",
-      "published_at": "2026-02-17",
-      "collected_at": "2026-04-16",
-      "views": 0,
-      "tags": [
-        "claude-code",
-        "skill"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "x_posts/x-7_eito_7-2023780503250420039.md"
-      },
-      "hot": false
-    },
-    {
-      "id": "x-AI-2040706485013905646",
-      "title": "@AI: え？これヤバすぎない？完全乗り遅れたw\n\nAnthropic公式の「Anthropic Academy」がエグすぎますw...",
-      "type": "tip",
-      "summary": "え？これヤバすぎない？完全乗り遅れたw\n\nAnthropic公式の「Anthropic Academy」がエグすぎますwww\n\n・Claude入門〜実務レベルまで「全13コース」\n・Claude Code／MCP／エージェント構築までしっかり学べる\n・API講座は「8時間超え」のボリューム\n・修了証あり＆サブスク不要",
-      "source": "https://x.com/aimi_sns1/status/2040706485013905646",
-      "author": "@AI",
-      "published_at": "2026-04-05",
-      "collected_at": "2026-04-16",
-      "views": 0,
-      "tags": [
-        "claude-code",
-        "mcp",
-        "anthropic"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "x_posts/x-AI-2040706485013905646.md"
-      },
-      "hot": false
-    },
-    {
-      "id": "x-MakeAI_CEO-2022154900340408805",
-      "title": "@MakeAI_CEO: 意外と発信してる人いないけど、SEO記事執筆用のKW選定もClaude Skillsで自動化できるからね？\n\nエイチレフ...",
-      "type": "skill",
-      "summary": "意外と発信してる人いないけど、SEO記事執筆用のKW選定もClaude Skillsで自動化できるからね？\n\nエイチレフスとMCP連携させれば、あっという間に調査完了！正直、SkillsにSEOライティング覚えさせれば、執筆も一瞬だし、なんかライティング周りで人間がやることって本当になくなってきた…。",
-      "source": "https://x.com/MakeAI_CEO/status/2022154900340408805",
-      "author": "@MakeAI_CEO",
-      "published_at": "2026-02-13",
-      "collected_at": "2026-04-16",
-      "views": 0,
-      "tags": [
-        "mcp",
-        "skill"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "x_posts/x-MakeAI_CEO-2022154900340408805.md"
-      },
-      "hot": false
-    },
-    {
-      "id": "x-MakeAI_CEO-2027923506533736590",
-      "title": "@MakeAI_CEO: Claude使ってる人はみんな知ってると思うけど、Desktop版使えば、チャットで作ったプロジェクトのコンテキストをそ...",
-      "type": "skill",
-      "summary": "Claude使ってる人はみんな知ってると思うけど、Desktop版使えば、チャットで作ったプロジェクトのコンテキストをそのままCoworkに引き継げるんだよね。\n\nもちろんSkillsも同時並列で使えるし、意外と楽ちんで好き。\n\nClaude Codeでナレッジ管理するの苦手なら、こっちの方が断然楽。",
-      "source": "https://x.com/MakeAI_CEO/status/2027923506533736590",
-      "author": "@MakeAI_CEO",
-      "published_at": "2026-03-01",
-      "collected_at": "2026-04-16",
-      "views": 0,
-      "tags": [
-        "claude-code",
-        "skill"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "x_posts/x-MakeAI_CEO-2027923506533736590.md"
-      },
-      "hot": false
-    },
-    {
-      "id": "x-Naoki_GPT-2042921842533704166",
-      "title": "@Naoki_GPT: うちのClaude Code社員が最強すぎる、、、インスタ10垢を24時間フルで回しながら数百個のバズ垢をひたすらリサー...",
-      "type": "tip",
-      "summary": "うちのClaude Code社員が最強すぎる、、、インスタ10垢を24時間フルで回しながら数百個のバズ垢をひたすらリサーチしまくってるw\n\nぶっちゃけ今のAIはお金製造機。ダルいことは全部AIに任せて、もはや俺はポテト食ってるだけで何もしてないしな、、ヤバい時代がきたもんだ。AI自動化マネタイズ最強。",
-      "source": "https://x.com/Naoki_GPT/status/2042921842533704166",
-      "author": "@Naoki_GPT",
-      "published_at": "2026-04-11",
-      "collected_at": "2026-04-16",
-      "views": 0,
-      "tags": [
-        "claude-code"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "x_posts/x-Naoki_GPT-2042921842533704166.md"
-      },
-      "hot": false
-    },
-    {
-      "id": "x-ai_jitan-2041715815985377699",
-      "title": "@ai_jitan: ちょっと待って。Claude CodeのSkillsについて何記事も読んだけど、圧倒的No.1のボリュームと分かりやすさ...",
-      "type": "skill",
-      "summary": "ちょっと待って。Claude CodeのSkillsについて何記事も読んだけど、圧倒的No.1のボリュームと分かりやすさ。神すぎ。",
-      "source": "https://x.com/ai_jitan/status/2041715815985377699",
-      "author": "@ai_jitan",
-      "published_at": "2026-04-08",
-      "collected_at": "2026-04-16",
-      "views": 0,
-      "tags": [
-        "claude-code",
-        "skill"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "x_posts/x-ai_jitan-2041715815985377699.md"
-      },
-      "hot": false
-    },
-    {
-      "id": "x-aigleeson-2041445823767302454",
-      "title": "@aigleeson: 去年、AIコースに12,000ドル使いました。\n\nそれから、AnthropicがClaude、Claude Code、M...",
-      "type": "skill",
-      "summary": "去年、AIコースに12,000ドル使いました。\n\nそれから、AnthropicがClaude、Claude Code、MCP、API開発、AI倫理をカバーした無料のアカデミーと証明書があることを知りました。\n\nもう二度と。\n\n\nhttp://\nanthropic.skilljar.com",
-      "source": "https://x.com/aigleeson/status/2041445823767302454",
-      "author": "@aigleeson",
-      "published_at": "2026-04-07",
-      "collected_at": "2026-04-16",
-      "views": 0,
-      "tags": [
-        "claude-code",
-        "mcp",
-        "skill",
-        "anthropic"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "x_posts/x-aigleeson-2041445823767302454.md"
-      },
-      "hot": false
-    },
-    {
-      "id": "x-claudeai-2044131493966909862",
-      "title": "@claudeai: デスクトップ版の Claude Code を再設計しました。\n\n新しいサイドバーを使って、1つのウィンドウから複数の C...",
-      "type": "tip",
-      "summary": "デスクトップ版の Claude Code を再設計しました。\n\n新しいサイドバーを使って、1つのウィンドウから複数の Claude セッションを並行して実行し、それらをすべて管理できるようになりました。",
-      "source": "https://x.com/claudeai/status/2044131493966909862",
-      "author": "@claudeai",
-      "published_at": "2026-04-14",
-      "collected_at": "2026-04-16",
-      "views": 0,
-      "tags": [
-        "claude-code"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "x_posts/x-claudeai-2044131493966909862.md"
-      },
-      "hot": false
-    },
-    {
-      "id": "x-claudecode_lab-2044159745561637190",
-      "title": "@claudecode_lab: Claude Codeに「Routines」登場\n\n一度プロンプト・リポジトリ・コネクタを設定するだけで、  \n・スケジ...",
-      "type": "tip",
-      "summary": "Claude Codeに「Routines」登場\n\n一度プロンプト・リポジトリ・コネクタを設定するだけで、  \n・スケジュール実行  \n・API呼び出し  \n・GitHubなどのイベント応答  \n\nで自動で動くようになりました\n\nなんと、Claude側環境上で実行されるからPC開けっぱなし不要。\n\n例：\n- GitHub",
-      "source": "https://x.com/claudecode_lab/status/2044159745561637190",
-      "author": "@claudecode_lab",
-      "published_at": "2026-04-14",
-      "collected_at": "2026-04-16",
-      "views": 0,
-      "tags": [
-        "claude-code"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "x_posts/x-claudecode_lab-2044159745561637190.md"
-      },
-      "hot": false
-    },
-    {
-      "id": "x-exploraX_-2043578742778277962",
-      "title": "@exploraX_: Anthropicのエージェントスキル作成者たちが、エージェントの構築をやめてスキル構築に切り替えた理由を説明しました。...",
-      "type": "tip",
-      "summary": "Anthropicのエージェントスキル作成者たちが、エージェントの構築をやめてスキル構築に切り替えた理由を説明しました。\n\nそして、エージェント的スキルがいかに強力かを示すものでした。\n\n以下の記事では、どのAIモデルとも組み合わせられる20の強力なスキルを共有しています。\n\n楽しんでください！",
-      "source": "https://x.com/exploraX_/status/2043578742778277962",
-      "author": "@exploraX_",
-      "published_at": "2026-04-13",
-      "collected_at": "2026-04-16",
-      "views": 0,
-      "tags": [
-        "anthropic"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "x_posts/x-exploraX_-2043578742778277962.md"
-      },
-      "hot": false
-    },
-    {
-      "id": "x-googlecloud_jp-1939926947150074091",
-      "title": "@googlecloud_jp: MCP ツールボックスの機能拡張\n#データベース 開発のライフサイクルを加速！\n→ \nhttps://\ngoo.gle/...",
-      "type": "tip",
-      "summary": "MCP ツールボックスの機能拡張\n#データベース 開発のライフサイクルを加速！\n→ \nhttps://\ngoo.gle/4kbdd50\n\n#Anthropic が作成した新しいオープン標準 MCP 対応の AI アシスタントを使用して、さまざまな用途に合わせたアプリケーション コードを記述できます。",
-      "source": "https://x.com/googlecloud_jp/status/1939926947150074091",
-      "author": "@googlecloud_jp",
-      "published_at": "2025-07-01",
-      "collected_at": "2026-04-16",
-      "views": 0,
-      "tags": [
-        "mcp",
-        "anthropic",
-        "データベース"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "x_posts/x-googlecloud_jp-1939926947150074091.md"
-      },
-      "hot": false
-    },
-    {
-      "id": "x-kajikent-2042783148564713501",
-      "title": "@kajikent: メルカリのClaude Codeセキュリティ設定の組織展開戦略、めちゃくちゃ実践的で参考になる。\n\n▼ 以下要点メモ\n\n...",
-      "type": "tip",
-      "summary": "メルカリのClaude Codeセキュリティ設定の組織展開戦略、めちゃくちゃ実践的で参考になる。\n\n▼ 以下要点メモ\n\nClaude Codeは便利だけど、コマンド実行・ファイル読み書き・Web取得ができる＝PCの認証情報や重要ファイルへのリスクがある。\n\nそこでメルカリがやった5つの対策： \n①",
-      "source": "https://x.com/kajikent/status/2042783148564713501",
-      "author": "@kajikent",
-      "published_at": "2026-04-11",
-      "collected_at": "2026-04-16",
-      "views": 0,
-      "tags": [
-        "claude-code"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "x_posts/x-kajikent-2042783148564713501.md"
-      },
-      "hot": false
-    },
-    {
-      "id": "x-santtiagom_-2044438851087733059",
-      "title": "@santtiagom_: Claudeを始めるなら、理解しておくべき12の概念があります：\n\n1) CLAUDE.md\n2) Permission...",
-      "type": "skill",
-      "summary": "Claudeを始めるなら、理解しておくべき12の概念があります：\n\n1) CLAUDE.md\n2) Permissions\n3) Plan Mode\n4) Checkpoints\n5) Skills\n6) Hooks\n7) MCP\n8) Plugins\n9) Context\n10) Slash Commands\n11) Compaction\n12) Subagents\n\nビデオでとてもよく説明されています ",
-      "source": "https://x.com/santtiagom_/status/2044438851087733059",
-      "author": "@santtiagom_",
-      "published_at": "2026-04-15",
-      "collected_at": "2026-04-16",
-      "views": 0,
-      "tags": [
-        "mcp",
-        "skill",
-        "hooks",
-        "agents",
-        "context"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "x_posts/x-santtiagom_-2044438851087733059.md"
-      },
-      "hot": false
-    },
-    {
-      "id": "x-sora19ai-2042855965880652026",
-      "title": "@sora19ai: Anthropic、これで終わりか。\n\n100%ローカルで動くAI同僚。音声制御、MCPツール、バックグラウンド自律エー...",
-      "type": "tip",
-      "summary": "Anthropic、これで終わりか。\n\n100%ローカルで動くAI同僚。音声制御、MCPツール、バックグラウンド自律エージェント。完全オープンソース。Claudeに接続してもローカルで動く、これ最強。",
-      "source": "https://x.com/sora19ai/status/2042855965880652026",
-      "author": "@sora19ai",
-      "published_at": "2026-04-11",
-      "collected_at": "2026-04-16",
-      "views": 0,
-      "tags": [
-        "mcp",
-        "anthropic"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "x_posts/x-sora19ai-2042855965880652026.md"
-      },
-      "hot": false
-    },
-    {
-      "id": "x-tetumemo-1998722813956600294",
-      "title": "@tetumemo:  AIエージェント時代の『共通言語』が確立\n\nAnthropicがMCP（Model Context Protocol）...",
-      "type": "tip",
-      "summary": " AIエージェント時代の『共通言語』が確立\n\nAnthropicがMCP（Model Context Protocol）をLinux Foundationに寄贈。しかも共同設立メンバーがすごい。Anthropic、Block、OpenAIが共同創設し、Google、Microsoft、AWS、Cloudflare、Bloombergが支援に回っています。",
-      "source": "https://x.com/tetumemo/status/1998722813956600294",
-      "author": "@tetumemo",
-      "published_at": "2025-12-10",
-      "collected_at": "2026-04-16",
-      "views": 0,
-      "tags": [
-        "mcp",
-        "anthropic",
-        "context"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "x_posts/x-tetumemo-1998722813956600294.md"
-      },
-      "hot": false
-    },
-    {
-      "id": "x-usagi_ai123-2042715494101504461",
-      "title": "@usagi_ai123: さすがにAnthropicやりすぎだろ笑\n\nClaudeを作ってるAnthropicが\n「公式AIアカデミー」を完全無料...",
-      "type": "tip",
-      "summary": "さすがにAnthropicやりすぎだろ笑\n\nClaudeを作ってるAnthropicが\n「公式AIアカデミー」を完全無料で\n公開したんだけど、内容がえぐすぎる。\n\nAIの超基礎からClaude APIでのアプリ開発、\nMCPサーバーの構築まで全部タダで学べる。\n\n何十万もするAIスクールとか、",
-      "source": "https://x.com/usagi_ai123/status/2042715494101504461",
-      "author": "@usagi_ai123",
-      "published_at": "2026-04-10",
-      "collected_at": "2026-04-16",
-      "views": 0,
-      "tags": [
-        "mcp",
-        "anthropic"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "x_posts/x-usagi_ai123-2042715494101504461.md"
-      },
-      "hot": false
-    },
-    {
-      "id": "x-yume_ai123-2039979635232932162",
-      "title": "@yume_ai123: これ、さすがにAnthropicやりすぎじゃない？笑\nClaudeを作ってるAnthropicが「公式AIアカデミー」を...",
-      "type": "tip",
-      "summary": "これ、さすがにAnthropicやりすぎじゃない？笑\nClaudeを作ってるAnthropicが「公式AIアカデミー」を\n完全無料で公開したんだけど、内容が本当にえぐい\n\nAIの超基礎からClaude APIでのアプリ開発\nMCPサーバーの構築まで全部タダで学べるの\n\n何十万もするAIスクールとか",
-      "source": "https://x.com/yume_ai123/status/2039979635232932162",
-      "author": "@yume_ai123",
-      "published_at": "2026-04-03",
-      "collected_at": "2026-04-16",
-      "views": 0,
-      "tags": [
-        "mcp",
-        "anthropic"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "x_posts/x-yume_ai123-2039979635232932162.md"
-      },
-      "hot": false
     }
   ]
 }
