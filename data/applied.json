@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-16T14:28:14+09:00",
+  "updated_at": "2026-04-16T14:28:16+09:00",
   "applied": [
     "gh-NousResearch-hermes-agent",
     "gh-affaan-m-everything-claude-code",
@@ -11,8 +11,12 @@
     "mcp-playwright"
   ],
   "progress": {
-    "index": 7,
-    "total": 8
+    "current_id": "gh-shareAI-lab-learn-claude-code",
+    "current_title": "shareAI-lab/learn-claude-code",
+    "current_kind": "note",
+    "index": 8,
+    "total": 8,
+    "started_at": "2026-04-16T14:28:16+09:00"
   },
   "last_result": {
     "action": "applied",
