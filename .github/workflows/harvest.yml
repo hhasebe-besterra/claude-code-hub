@@ -22,12 +22,17 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python harvester/harvest.py
+      - name: Auto-translate new items
+        if: env.ANTHROPIC_API_KEY != ''
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python harvester/translate.py
       - name: Commit if changed
         run: |
           git config user.name "cchub-bot"
           git config user.email "cchub-bot@users.noreply.github.com"
-          if ! git diff --quiet data/items.json; then
-            git add data/items.json
+          git add data/items.json data/translations.json
+          if ! git diff --cached --quiet; then
             git commit -m "harvest: $(date -u +%Y-%m-%dT%H:%MZ)"
             git push
           else
