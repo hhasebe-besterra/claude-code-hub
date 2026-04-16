@@ -1,6 +1,10 @@
 {
-  "updated_at": "2026-04-16T02:05:55.338Z",
+  "updated_at": "2026-04-16T05:17:16.988Z",
   "selected": [
+    "gh-NousResearch-hermes-agent",
+    "gh-affaan-m-everything-claude-code",
+    "gh-n8n-io-n8n",
+    "gh-nextlevelbuilder-ui-ux-pro-max-skill",
     "mcp-playwright"
   ]
 }
