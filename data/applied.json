@@ -1,22 +1,19 @@
 {
-  "updated_at": "2026-04-16T14:28:00+09:00",
+  "updated_at": "2026-04-16T14:28:01+09:00",
   "applied": [
     "gh-NousResearch-hermes-agent",
     "gh-affaan-m-everything-claude-code",
+    "gh-google-gemini-gemini-cli",
     "mcp-playwright"
   ],
   "progress": {
-    "current_id": "gh-google-gemini-gemini-cli",
-    "current_title": "google-gemini/gemini-cli",
-    "current_kind": "note",
     "index": 3,
-    "total": 8,
-    "started_at": "2026-04-16T14:28:00+09:00"
+    "total": 8
   },
   "last_result": {
     "action": "applied",
-    "id": "gh-affaan-m-everything-claude-code",
-    "at": "2026-04-16T14:27:57+09:00",
+    "id": "gh-google-gemini-gemini-cli",
+    "at": "2026-04-16T14:28:01+09:00",
     "kind": "note"
   }
 }
