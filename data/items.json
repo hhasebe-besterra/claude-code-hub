@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T04:47:49+09:00",
+  "generated_at": "2026-04-20T05:43:50+09:00",
   "generator": "harvest.py",
   "items": [
     {
@@ -11,7 +11,7 @@
       "author": "n8n-io",
       "published_at": "2019-06-22",
       "collected_at": "2026-04-20",
-      "views": 1847210,
+      "views": 1847280,
       "tags": [
         "mcp-server",
         "ai",
@@ -34,7 +34,7 @@
       "author": "affaan-m",
       "published_at": "2026-01-18",
       "collected_at": "2026-04-20",
-      "views": 1610760,
+      "views": 1610940,
       "tags": [
         "anthropic",
         "ai-agents",
@@ -72,29 +72,6 @@
       "hot": true
     },
     {
-      "id": "gh-google-gemini-gemini-cli",
-      "title": "google-gemini/gemini-cli",
-      "type": "tip",
-      "summary": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-      "source": "https://github.com/google-gemini/gemini-cli",
-      "author": "google-gemini",
-      "published_at": "2025-04-17",
-      "collected_at": "2026-04-20",
-      "views": 1017770,
-      "tags": [
-        "mcp-server",
-        "ai",
-        "ai-agents",
-        "cli",
-        "gemini"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "github_trending/google-gemini_gemini-cli.md"
-      },
-      "hot": true
-    },
-    {
       "id": "gh-NousResearch-hermes-agent",
       "title": "NousResearch/hermes-agent",
       "type": "tip",
@@ -103,7 +80,7 @@
       "author": "NousResearch",
       "published_at": "2025-07-22",
       "collected_at": "2026-04-20",
-      "views": 1017620,
+      "views": 1018410,
       "tags": [
         "anthropic",
         "ai",
@@ -118,6 +95,29 @@
       "hot": true
     },
     {
+      "id": "gh-google-gemini-gemini-cli",
+      "title": "google-gemini/gemini-cli",
+      "type": "tip",
+      "summary": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+      "source": "https://github.com/google-gemini/gemini-cli",
+      "author": "google-gemini",
+      "published_at": "2025-04-17",
+      "collected_at": "2026-04-20",
+      "views": 1017830,
+      "tags": [
+        "mcp-server",
+        "ai",
+        "ai-agents",
+        "cli",
+        "gemini"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/google-gemini_gemini-cli.md"
+      },
+      "hot": true
+    },
+    {
       "id": "gh-nextlevelbuilder-ui-ux-pro-max-skill",
       "title": "nextlevelbuilder/ui-ux-pro-max-skill",
       "type": "tip",
@@ -126,7 +126,7 @@
       "author": "nextlevelbuilder",
       "published_at": "2025-11-30",
       "collected_at": "2026-04-20",
-      "views": 677690,
+      "views": 677780,
       "tags": [
         "claude-code",
         "ai-skills",
@@ -149,7 +149,7 @@
       "author": "thedotmack",
       "published_at": "2025-08-31",
       "collected_at": "2026-04-20",
-      "views": 631710,
+      "views": 632020,
       "tags": [
         "anthropic",
         "ai",
@@ -172,7 +172,7 @@
       "author": "ComposioHQ",
       "published_at": "2025-10-17",
       "collected_at": "2026-04-20",
-      "views": 549290,
+      "views": 549400,
       "tags": [
         "claude-code",
         "agent-skills",
@@ -195,7 +195,7 @@
       "author": "gsd-build",
       "published_at": "2025-12-14",
       "collected_at": "2026-04-20",
-      "views": 549220,
+      "views": 549350,
       "tags": [
         "claude-code",
         "claude-code",
@@ -241,7 +241,7 @@
       "author": "upstash",
       "published_at": "2025-03-26",
       "collected_at": "2026-04-20",
-      "views": 531690,
+      "views": 531710,
       "tags": [
         "mcp-server",
         "llm",
@@ -264,7 +264,7 @@
       "author": "code-yeongyu",
       "published_at": "2025-12-03",
       "collected_at": "2026-04-20",
-      "views": 527870,
+      "views": 527890,
       "tags": [
         "anthropic",
         "ai",
@@ -287,7 +287,7 @@
       "author": "sansan0",
       "published_at": "2025-04-28",
       "collected_at": "2026-04-20",
-      "views": 523570,
+      "views": 523610,
       "tags": [
         "mcp-server",
         "ai",
@@ -333,7 +333,7 @@
       "author": "shanraisshan",
       "published_at": "2025-10-31",
       "collected_at": "2026-04-20",
-      "views": 465360,
+      "views": 465410,
       "tags": [
         "anthropic",
         "agentic-ai",
@@ -356,7 +356,7 @@
       "author": "BerriAI",
       "published_at": "2023-07-27",
       "collected_at": "2026-04-20",
-      "views": 438920,
+      "views": 438940,
       "tags": [
         "anthropic",
         "ai-gateway",
@@ -402,7 +402,7 @@
       "author": "HKUDS",
       "published_at": "2026-02-01",
       "collected_at": "2026-04-20",
-      "views": 400890,
+      "views": 400940,
       "tags": [
         "anthropic",
         "ai",
@@ -425,7 +425,7 @@
       "author": "hesreallyhim",
       "published_at": "2025-04-19",
       "collected_at": "2026-04-20",
-      "views": 397290,
+      "views": 397360,
       "tags": [
         "anthropic",
         "agent-skills",
@@ -448,7 +448,7 @@
       "author": "D4Vinci",
       "published_at": "2024-10-13",
       "collected_at": "2026-04-20",
-      "views": 379180,
+      "views": 379210,
       "tags": [
         "mcp-server",
         "ai",
@@ -471,7 +471,7 @@
       "author": "ChromeDevTools",
       "published_at": "2025-09-11",
       "collected_at": "2026-04-20",
-      "views": 361830,
+      "views": 361870,
       "tags": [
         "mcp-server",
         "browser",
@@ -494,7 +494,7 @@
       "author": "ruvnet",
       "published_at": "2025-06-02",
       "collected_at": "2026-04-20",
-      "views": 324200,
+      "views": 324290,
       "tags": [
         "mcp-server",
         "agentic-ai",
@@ -540,7 +540,7 @@
       "author": "github",
       "published_at": "2025-03-04",
       "collected_at": "2026-04-20",
-      "views": 290740,
+      "views": 290760,
       "tags": [
         "mcp-server",
         "github",
