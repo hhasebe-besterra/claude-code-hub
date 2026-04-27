@@ -1,30 +1,7 @@
 {
-  "generated_at": "2026-04-27T23:06:04+09:00",
+  "generated_at": "2026-04-28T01:44:20+09:00",
   "generator": "harvest.py",
   "items": [
-    {
-      "id": "gh-n8n-io-n8n",
-      "title": "n8n-io/n8n",
-      "type": "tip",
-      "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "source": "https://github.com/n8n-io/n8n",
-      "author": "n8n-io",
-      "published_at": "2019-06-22",
-      "collected_at": "2026-04-27",
-      "views": 1857930,
-      "tags": [
-        "mcp-server",
-        "ai",
-        "apis",
-        "automation",
-        "cli"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "github_trending/n8n-io_n8n.md"
-      },
-      "hot": true
-    },
     {
       "id": "gh-affaan-m-everything-claude-code",
       "title": "affaan-m/everything-claude-code",
@@ -33,10 +10,10 @@
       "source": "https://github.com/affaan-m/everything-claude-code",
       "author": "affaan-m",
       "published_at": "2026-01-18",
-      "collected_at": "2026-04-27",
-      "views": 1681430,
+      "collected_at": "2026-04-28",
+      "views": 1682230,
       "tags": [
-        "anthropic",
+        "claude-code",
         "ai-agents",
         "anthropic",
         "claude",
@@ -49,29 +26,6 @@
       "hot": true
     },
     {
-      "id": "gh-langchain-ai-langchain",
-      "title": "langchain-ai/langchain",
-      "type": "tip",
-      "summary": "The agent engineering platform",
-      "source": "https://github.com/langchain-ai/langchain",
-      "author": "langchain-ai",
-      "published_at": "2022-10-17",
-      "collected_at": "2026-04-27",
-      "views": 1350990,
-      "tags": [
-        "anthropic",
-        "agents",
-        "ai",
-        "ai-agents",
-        "anthropic"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "github_trending/langchain-ai_langchain.md"
-      },
-      "hot": true
-    },
-    {
       "id": "gh-NousResearch-hermes-agent",
       "title": "NousResearch/hermes-agent",
       "type": "tip",
@@ -79,10 +33,10 @@
       "source": "https://github.com/NousResearch/hermes-agent",
       "author": "NousResearch",
       "published_at": "2025-07-22",
-      "collected_at": "2026-04-27",
-      "views": 1198820,
+      "collected_at": "2026-04-28",
+      "views": 1201640,
       "tags": [
-        "anthropic",
+        "claude-code",
         "ai",
         "ai-agent",
         "ai-agents",
@@ -95,29 +49,6 @@
       "hot": true
     },
     {
-      "id": "gh-google-gemini-gemini-cli",
-      "title": "google-gemini/gemini-cli",
-      "type": "tip",
-      "summary": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-      "source": "https://github.com/google-gemini/gemini-cli",
-      "author": "google-gemini",
-      "published_at": "2025-04-17",
-      "collected_at": "2026-04-27",
-      "views": 1025350,
-      "tags": [
-        "mcp-server",
-        "ai",
-        "ai-agents",
-        "cli",
-        "gemini"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "github_trending/google-gemini_gemini-cli.md"
-      },
-      "hot": true
-    },
-    {
       "id": "gh-nextlevelbuilder-ui-ux-pro-max-skill",
       "title": "nextlevelbuilder/ui-ux-pro-max-skill",
       "type": "tip",
@@ -125,8 +56,8 @@
       "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
       "author": "nextlevelbuilder",
       "published_at": "2025-11-30",
-      "collected_at": "2026-04-27",
-      "views": 711940,
+      "collected_at": "2026-04-28",
+      "views": 712530,
       "tags": [
         "claude-code",
         "ai-skills",
@@ -148,10 +79,10 @@
       "source": "https://github.com/thedotmack/claude-mem",
       "author": "thedotmack",
       "published_at": "2025-08-31",
-      "collected_at": "2026-04-27",
-      "views": 683020,
+      "collected_at": "2026-04-28",
+      "views": 684000,
       "tags": [
-        "anthropic",
+        "claude-code",
         "ai",
         "ai-agents",
         "ai-memory",
@@ -171,8 +102,8 @@
       "source": "https://github.com/gsd-build/get-shit-done",
       "author": "gsd-build",
       "published_at": "2025-12-14",
-      "collected_at": "2026-04-27",
-      "views": 577760,
+      "collected_at": "2026-04-28",
+      "views": 578630,
       "tags": [
         "claude-code",
         "claude-code",
@@ -194,8 +125,8 @@
       "source": "https://github.com/shareAI-lab/learn-claude-code",
       "author": "shareAI-lab",
       "published_at": "2025-06-29",
-      "collected_at": "2026-04-27",
-      "views": 569220,
+      "collected_at": "2026-04-28",
+      "views": 569430,
       "tags": [
         "claude-code",
         "agent",
@@ -217,8 +148,8 @@
       "source": "https://github.com/ComposioHQ/awesome-claude-skills",
       "author": "ComposioHQ",
       "published_at": "2025-10-17",
-      "collected_at": "2026-04-27",
-      "views": 566210,
+      "collected_at": "2026-04-28",
+      "views": 566450,
       "tags": [
         "claude-code",
         "agent-skills",
@@ -233,29 +164,6 @@
       "hot": true
     },
     {
-      "id": "gh-sansan0-TrendRadar",
-      "title": "sansan0/TrendRadar",
-      "type": "mcp",
-      "summary": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。",
-      "source": "https://github.com/sansan0/TrendRadar",
-      "author": "sansan0",
-      "published_at": "2025-04-28",
-      "collected_at": "2026-04-27",
-      "views": 555020,
-      "tags": [
-        "mcp-server",
-        "ai",
-        "bark",
-        "data-analysis",
-        "docker"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "github_trending/sansan0_TrendRadar.md"
-      },
-      "hot": true
-    },
-    {
       "id": "gh-code-yeongyu-oh-my-openagent",
       "title": "code-yeongyu/oh-my-openagent",
       "type": "tip",
@@ -263,10 +171,10 @@
       "source": "https://github.com/code-yeongyu/oh-my-openagent",
       "author": "code-yeongyu",
       "published_at": "2025-12-03",
-      "collected_at": "2026-04-27",
-      "views": 544710,
+      "collected_at": "2026-04-28",
+      "views": 544990,
       "tags": [
-        "anthropic",
+        "claude-code",
         "ai",
         "ai-agents",
         "amp",
@@ -279,29 +187,6 @@
       "hot": true
     },
     {
-      "id": "gh-upstash-context7",
-      "title": "upstash/context7",
-      "type": "tip",
-      "summary": "Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors",
-      "source": "https://github.com/upstash/context7",
-      "author": "upstash",
-      "published_at": "2025-03-26",
-      "collected_at": "2026-04-27",
-      "views": 538610,
-      "tags": [
-        "mcp-server",
-        "llm",
-        "mcp",
-        "mcp-server",
-        "vibe-coding"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "github_trending/upstash_context7.md"
-      },
-      "hot": true
-    },
-    {
       "id": "gh-farion1231-cc-switch",
       "title": "farion1231/cc-switch",
       "type": "tip",
@@ -309,8 +194,8 @@
       "source": "https://github.com/farion1231/cc-switch",
       "author": "farion1231",
       "published_at": "2025-08-04",
-      "collected_at": "2026-04-27",
-      "views": 526450,
+      "collected_at": "2026-04-28",
+      "views": 527350,
       "tags": [
         "claude-code",
         "ai-tools",
@@ -332,10 +217,10 @@
       "source": "https://github.com/shanraisshan/claude-code-best-practice",
       "author": "shanraisshan",
       "published_at": "2025-10-31",
-      "collected_at": "2026-04-27",
-      "views": 485460,
+      "collected_at": "2026-04-28",
+      "views": 485700,
       "tags": [
-        "anthropic",
+        "claude-code",
         "agentic-ai",
         "agentic-coding",
         "agentic-engineering",
@@ -344,235 +229,6 @@
       "install": {
         "kind": "note",
         "dest_note": "github_trending/shanraisshan_claude-code-best-practice.md"
-      },
-      "hot": true
-    },
-    {
-      "id": "gh-JuliusBrussee-caveman",
-      "title": "JuliusBrussee/caveman",
-      "type": "tip",
-      "summary": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
-      "source": "https://github.com/JuliusBrussee/caveman",
-      "author": "JuliusBrussee",
-      "published_at": "2026-04-04",
-      "collected_at": "2026-04-27",
-      "views": 477250,
-      "tags": [
-        "anthropic",
-        "ai",
-        "anthropic",
-        "caveman",
-        "claude"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "github_trending/JuliusBrussee_caveman.md"
-      },
-      "hot": true
-    },
-    {
-      "id": "gh-BerriAI-litellm",
-      "title": "BerriAI/litellm",
-      "type": "tip",
-      "summary": "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, VLLM, NVIDIA NIM]",
-      "source": "https://github.com/BerriAI/litellm",
-      "author": "BerriAI",
-      "published_at": "2023-07-27",
-      "collected_at": "2026-04-27",
-      "views": 448920,
-      "tags": [
-        "anthropic",
-        "ai-gateway",
-        "anthropic",
-        "azure-openai",
-        "bedrock"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "github_trending/BerriAI_litellm.md"
-      },
-      "hot": true
-    },
-    {
-      "id": "gh-Aider-AI-aider",
-      "title": "Aider-AI/aider",
-      "type": "tip",
-      "summary": "aider is AI pair programming in your terminal",
-      "source": "https://github.com/Aider-AI/aider",
-      "author": "Aider-AI",
-      "published_at": "2023-05-09",
-      "collected_at": "2026-04-27",
-      "views": 440120,
-      "tags": [
-        "anthropic",
-        "anthropic",
-        "chatgpt",
-        "claude-3",
-        "cli"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "github_trending/Aider-AI_aider.md"
-      },
-      "hot": true
-    },
-    {
-      "id": "gh-hesreallyhim-awesome-claude-code",
-      "title": "hesreallyhim/awesome-claude-code",
-      "type": "tip",
-      "summary": "A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic",
-      "source": "https://github.com/hesreallyhim/awesome-claude-code",
-      "author": "hesreallyhim",
-      "published_at": "2025-04-19",
-      "collected_at": "2026-04-27",
-      "views": 414510,
-      "tags": [
-        "anthropic",
-        "agent-skills",
-        "agentic-code",
-        "agentic-coding",
-        "ai-workflow-optimization"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "github_trending/hesreallyhim_awesome-claude-code.md"
-      },
-      "hot": true
-    },
-    {
-      "id": "gh-D4Vinci-Scrapling",
-      "title": "D4Vinci/Scrapling",
-      "type": "tip",
-      "summary": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
-      "source": "https://github.com/D4Vinci/Scrapling",
-      "author": "D4Vinci",
-      "published_at": "2024-10-13",
-      "collected_at": "2026-04-27",
-      "views": 390650,
-      "tags": [
-        "mcp-server",
-        "ai",
-        "ai-scraping",
-        "automation",
-        "crawler"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "github_trending/D4Vinci_Scrapling.md"
-      },
-      "hot": true
-    },
-    {
-      "id": "gh-ChromeDevTools-chrome-devtools-mcp",
-      "title": "ChromeDevTools/chrome-devtools-mcp",
-      "type": "mcp",
-      "summary": "Chrome DevTools for coding agents",
-      "source": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "author": "ChromeDevTools",
-      "published_at": "2025-09-11",
-      "collected_at": "2026-04-27",
-      "views": 373790,
-      "tags": [
-        "mcp-server",
-        "browser",
-        "chrome",
-        "chrome-devtools",
-        "debugging"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "github_trending/ChromeDevTools_chrome-devtools-mcp.md"
-      },
-      "hot": true
-    },
-    {
-      "id": "gh-ruvnet-ruflo",
-      "title": "ruvnet/ruflo",
-      "type": "tip",
-      "summary": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
-      "source": "https://github.com/ruvnet/ruflo",
-      "author": "ruvnet",
-      "published_at": "2025-06-02",
-      "collected_at": "2026-04-27",
-      "views": 336580,
-      "tags": [
-        "mcp-server",
-        "agentic-ai",
-        "agentic-engineering",
-        "agentic-framework",
-        "agentic-rag"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "github_trending/ruvnet_ruflo.md"
-      },
-      "hot": true
-    },
-    {
-      "id": "gh-bytedance-UI-TARS-desktop",
-      "title": "bytedance/UI-TARS-desktop",
-      "type": "tip",
-      "summary": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
-      "source": "https://github.com/bytedance/UI-TARS-desktop",
-      "author": "bytedance",
-      "published_at": "2025-01-19",
-      "collected_at": "2026-04-27",
-      "views": 295410,
-      "tags": [
-        "mcp-server",
-        "agent",
-        "agent-tars",
-        "browser-use",
-        "computer-use"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "github_trending/bytedance_UI-TARS-desktop.md"
-      },
-      "hot": true
-    },
-    {
-      "id": "gh-github-github-mcp-server",
-      "title": "github/github-mcp-server",
-      "type": "mcp",
-      "summary": "GitHub's official MCP Server",
-      "source": "https://github.com/github/github-mcp-server",
-      "author": "github",
-      "published_at": "2025-03-04",
-      "collected_at": "2026-04-27",
-      "views": 292900,
-      "tags": [
-        "mcp-server",
-        "github",
-        "mcp",
-        "mcp-server"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "github_trending/github_github-mcp-server.md"
-      },
-      "hot": true
-    },
-    {
-      "id": "gh-assafelovic-gpt-researcher",
-      "title": "assafelovic/gpt-researcher",
-      "type": "tip",
-      "summary": "An autonomous agent that conducts deep research on any data using any LLM providers",
-      "source": "https://github.com/assafelovic/gpt-researcher",
-      "author": "assafelovic",
-      "published_at": "2023-05-12",
-      "collected_at": "2026-04-27",
-      "views": 267390,
-      "tags": [
-        "mcp-server",
-        "agent",
-        "ai",
-        "automation",
-        "deepresearch"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "github_trending/assafelovic_gpt-researcher.md"
       },
       "hot": true
     },
@@ -602,7 +258,7 @@
         }
       },
       "hot": true,
-      "collected_at": "2026-04-27"
+      "collected_at": "2026-04-28"
     },
     {
       "id": "mcp-ms365",
@@ -634,7 +290,7 @@
         }
       },
       "hot": true,
-      "collected_at": "2026-04-27"
+      "collected_at": "2026-04-28"
     }
   ]
 }
