@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T08:58:33+09:00",
+  "generated_at": "2026-05-05T12:41:09+09:00",
   "generator": "harvest.py",
   "items": [
     {
@@ -11,7 +11,7 @@
       "author": "n8n-io",
       "published_at": "2019-06-22",
       "collected_at": "2026-05-05",
-      "views": 1866970,
+      "views": 1867050,
       "tags": [
         "mcp-server",
         "ai",
@@ -34,7 +34,7 @@
       "author": "affaan-m",
       "published_at": "2026-01-18",
       "collected_at": "2026-05-05",
-      "views": 1732860,
+      "views": 1733670,
       "tags": [
         "anthropic",
         "ai-agents",
@@ -57,7 +57,7 @@
       "author": "langchain-ai",
       "published_at": "2022-10-17",
       "collected_at": "2026-05-05",
-      "views": 1357720,
+      "views": 1357800,
       "tags": [
         "anthropic",
         "agents",
@@ -80,7 +80,7 @@
       "author": "NousResearch",
       "published_at": "2025-07-22",
       "collected_at": "2026-05-05",
-      "views": 1326760,
+      "views": 1328700,
       "tags": [
         "anthropic",
         "ai",
@@ -103,7 +103,7 @@
       "author": "google-gemini",
       "published_at": "2025-04-17",
       "collected_at": "2026-05-05",
-      "views": 1031340,
+      "views": 1031380,
       "tags": [
         "mcp-server",
         "ai",
@@ -126,7 +126,7 @@
       "author": "nextlevelbuilder",
       "published_at": "2025-11-30",
       "collected_at": "2026-05-05",
-      "views": 738840,
+      "views": 739280,
       "tags": [
         "claude-code",
         "ai-skills",
@@ -149,7 +149,7 @@
       "author": "thedotmack",
       "published_at": "2025-08-31",
       "collected_at": "2026-05-05",
-      "views": 720030,
+      "views": 720640,
       "tags": [
         "anthropic",
         "ai",
@@ -172,7 +172,7 @@
       "author": "gsd-build",
       "published_at": "2025-12-14",
       "collected_at": "2026-05-05",
-      "views": 599340,
+      "views": 599710,
       "tags": [
         "claude-code",
         "claude-code",
@@ -195,7 +195,7 @@
       "author": "farion1231",
       "published_at": "2025-08-04",
       "collected_at": "2026-05-05",
-      "views": 590300,
+      "views": 591420,
       "tags": [
         "claude-code",
         "ai-tools",
@@ -218,7 +218,7 @@
       "author": "shareAI-lab",
       "published_at": "2025-06-29",
       "collected_at": "2026-05-05",
-      "views": 580610,
+      "views": 580820,
       "tags": [
         "claude-code",
         "agent",
@@ -241,7 +241,7 @@
       "author": "ComposioHQ",
       "published_at": "2025-10-17",
       "collected_at": "2026-05-05",
-      "views": 579310,
+      "views": 579620,
       "tags": [
         "claude-code",
         "agent-skills",
@@ -264,7 +264,7 @@
       "author": "sansan0",
       "published_at": "2025-04-28",
       "collected_at": "2026-05-05",
-      "views": 565350,
+      "views": 565560,
       "tags": [
         "mcp-server",
         "ai",
@@ -287,7 +287,7 @@
       "author": "code-yeongyu",
       "published_at": "2025-12-03",
       "collected_at": "2026-05-05",
-      "views": 557780,
+      "views": 557980,
       "tags": [
         "anthropic",
         "ai",
@@ -310,7 +310,7 @@
       "author": "upstash",
       "published_at": "2025-03-26",
       "collected_at": "2026-05-05",
-      "views": 544470,
+      "views": 544530,
       "tags": [
         "mcp-server",
         "llm",
@@ -333,7 +333,7 @@
       "author": "JuliusBrussee",
       "published_at": "2026-04-04",
       "collected_at": "2026-05-05",
-      "views": 537900,
+      "views": 538710,
       "tags": [
         "anthropic",
         "ai",
@@ -356,7 +356,7 @@
       "author": "shanraisshan",
       "published_at": "2025-10-31",
       "collected_at": "2026-05-05",
-      "views": 509530,
+      "views": 509750,
       "tags": [
         "anthropic",
         "agentic-ai",
@@ -379,7 +379,7 @@
       "author": "BerriAI",
       "published_at": "2023-07-27",
       "collected_at": "2026-05-05",
-      "views": 456800,
+      "views": 456880,
       "tags": [
         "anthropic",
         "ai-gateway",
@@ -394,29 +394,6 @@
       "hot": true
     },
     {
-      "id": "gh-Aider-AI-aider",
-      "title": "Aider-AI/aider",
-      "type": "tip",
-      "summary": "aider is AI pair programming in your terminal",
-      "source": "https://github.com/Aider-AI/aider",
-      "author": "Aider-AI",
-      "published_at": "2023-05-09",
-      "collected_at": "2026-05-05",
-      "views": 443230,
-      "tags": [
-        "anthropic",
-        "anthropic",
-        "chatgpt",
-        "claude-3",
-        "cli"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "github_trending/Aider-AI_aider.md"
-      },
-      "hot": true
-    },
-    {
       "id": "gh-D4Vinci-Scrapling",
       "title": "D4Vinci/Scrapling",
       "type": "tip",
@@ -425,7 +402,7 @@
       "author": "D4Vinci",
       "published_at": "2024-10-13",
       "collected_at": "2026-05-05",
-      "views": 442020,
+      "views": 443360,
       "tags": [
         "mcp-server",
         "ai",
@@ -440,25 +417,48 @@
       "hot": true
     },
     {
-      "id": "gh-hesreallyhim-awesome-claude-code",
-      "title": "hesreallyhim/awesome-claude-code",
+      "id": "gh-Aider-AI-aider",
+      "title": "Aider-AI/aider",
       "type": "tip",
-      "summary": "A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic",
-      "source": "https://github.com/hesreallyhim/awesome-claude-code",
-      "author": "hesreallyhim",
-      "published_at": "2025-04-19",
+      "summary": "aider is AI pair programming in your terminal",
+      "source": "https://github.com/Aider-AI/aider",
+      "author": "Aider-AI",
+      "published_at": "2023-05-09",
       "collected_at": "2026-05-05",
-      "views": 424930,
+      "views": 443270,
       "tags": [
         "anthropic",
-        "agent-skills",
-        "agentic-code",
-        "agentic-coding",
-        "ai-workflow-optimization"
+        "anthropic",
+        "chatgpt",
+        "claude-3",
+        "cli"
       ],
       "install": {
         "kind": "note",
-        "dest_note": "github_trending/hesreallyhim_awesome-claude-code.md"
+        "dest_note": "github_trending/Aider-AI_aider.md"
+      },
+      "hot": true
+    },
+    {
+      "id": "gh-santifer-career-ops",
+      "title": "santifer/career-ops",
+      "type": "tip",
+      "summary": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
+      "source": "https://github.com/santifer/career-ops",
+      "author": "santifer",
+      "published_at": "2026-04-04",
+      "collected_at": "2026-05-05",
+      "views": 425130,
+      "tags": [
+        "anthropic",
+        "ai-agent",
+        "anthropic",
+        "automation",
+        "career"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/santifer_career-ops.md"
       },
       "hot": true
     },
@@ -471,7 +471,7 @@
       "author": "ruvnet",
       "published_at": "2025-06-02",
       "collected_at": "2026-05-05",
-      "views": 413410,
+      "views": 416530,
       "tags": [
         "mcp-server",
         "agentic-ai",
@@ -494,7 +494,7 @@
       "author": "ChromeDevTools",
       "published_at": "2025-09-11",
       "collected_at": "2026-05-05",
-      "views": 380900,
+      "views": 380980,
       "tags": [
         "mcp-server",
         "browser",
@@ -517,7 +517,7 @@
       "author": "bytedance",
       "published_at": "2025-01-19",
       "collected_at": "2026-05-05",
-      "views": 296050,
+      "views": 296060,
       "tags": [
         "mcp-server",
         "agent",
