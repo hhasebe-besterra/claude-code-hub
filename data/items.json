@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T05:18:07+09:00",
+  "generated_at": "2026-05-08T07:04:31+09:00",
   "generator": "harvest.py",
   "items": [
     {
@@ -11,7 +11,7 @@
       "author": "n8n-io",
       "published_at": "2019-06-22",
       "collected_at": "2026-05-08",
-      "views": 1869850,
+      "views": 1869920,
       "tags": [
         "mcp-server",
         "ai",
@@ -34,7 +34,7 @@
       "author": "affaan-m",
       "published_at": "2026-01-18",
       "collected_at": "2026-05-08",
-      "views": 1752730,
+      "views": 1752930,
       "tags": [
         "anthropic",
         "ai-agents",
@@ -57,7 +57,7 @@
       "author": "NousResearch",
       "published_at": "2025-07-22",
       "collected_at": "2026-05-08",
-      "views": 1373800,
+      "views": 1374550,
       "tags": [
         "anthropic",
         "ai",
@@ -80,7 +80,7 @@
       "author": "langchain-ai",
       "published_at": "2022-10-17",
       "collected_at": "2026-05-08",
-      "views": 1360490,
+      "views": 1360540,
       "tags": [
         "anthropic",
         "agents",
@@ -126,7 +126,7 @@
       "author": "nextlevelbuilder",
       "published_at": "2025-11-30",
       "collected_at": "2026-05-08",
-      "views": 750160,
+      "views": 750390,
       "tags": [
         "claude-code",
         "ai-skills",
@@ -149,7 +149,7 @@
       "author": "thedotmack",
       "published_at": "2025-08-31",
       "collected_at": "2026-05-08",
-      "views": 733210,
+      "views": 733400,
       "tags": [
         "anthropic",
         "ai",
@@ -172,7 +172,7 @@
       "author": "farion1231",
       "published_at": "2025-08-04",
       "collected_at": "2026-05-08",
-      "views": 623860,
+      "views": 623940,
       "tags": [
         "claude-code",
         "ai-tools",
@@ -195,7 +195,7 @@
       "author": "gsd-build",
       "published_at": "2025-12-14",
       "collected_at": "2026-05-08",
-      "views": 607160,
+      "views": 607260,
       "tags": [
         "claude-code",
         "claude-code",
@@ -218,7 +218,7 @@
       "author": "shareAI-lab",
       "published_at": "2025-06-29",
       "collected_at": "2026-05-08",
-      "views": 588090,
+      "views": 588100,
       "tags": [
         "claude-code",
         "agent",
@@ -241,7 +241,7 @@
       "author": "ComposioHQ",
       "published_at": "2025-10-17",
       "collected_at": "2026-05-08",
-      "views": 585400,
+      "views": 585480,
       "tags": [
         "claude-code",
         "agent-skills",
@@ -264,7 +264,7 @@
       "author": "sansan0",
       "published_at": "2025-04-28",
       "collected_at": "2026-05-08",
-      "views": 569430,
+      "views": 569440,
       "tags": [
         "mcp-server",
         "ai",
@@ -287,7 +287,7 @@
       "author": "code-yeongyu",
       "published_at": "2025-12-03",
       "collected_at": "2026-05-08",
-      "views": 564250,
+      "views": 564320,
       "tags": [
         "anthropic",
         "ai",
@@ -310,7 +310,7 @@
       "author": "JuliusBrussee",
       "published_at": "2026-04-04",
       "collected_at": "2026-05-08",
-      "views": 560090,
+      "views": 560590,
       "tags": [
         "anthropic",
         "ai",
@@ -333,7 +333,7 @@
       "author": "upstash",
       "published_at": "2025-03-26",
       "collected_at": "2026-05-08",
-      "views": 546940,
+      "views": 546990,
       "tags": [
         "mcp-server",
         "llm",
@@ -356,7 +356,7 @@
       "author": "shanraisshan",
       "published_at": "2025-10-31",
       "collected_at": "2026-05-08",
-      "views": 515920,
+      "views": 516010,
       "tags": [
         "anthropic",
         "agentic-ai",
@@ -379,7 +379,7 @@
       "author": "D4Vinci",
       "published_at": "2024-10-13",
       "collected_at": "2026-05-08",
-      "views": 471520,
+      "views": 471930,
       "tags": [
         "mcp-server",
         "ai",
@@ -394,29 +394,6 @@
       "hot": true
     },
     {
-      "id": "gh-BerriAI-litellm",
-      "title": "BerriAI/litellm",
-      "type": "tip",
-      "summary": "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, VLLM, NVIDIA NIM]",
-      "source": "https://github.com/BerriAI/litellm",
-      "author": "BerriAI",
-      "published_at": "2023-07-27",
-      "collected_at": "2026-05-08",
-      "views": 460610,
-      "tags": [
-        "anthropic",
-        "ai-gateway",
-        "anthropic",
-        "azure-openai",
-        "bedrock"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "github_trending/BerriAI_litellm.md"
-      },
-      "hot": true
-    },
-    {
       "id": "gh-ruvnet-ruflo",
       "title": "ruvnet/ruflo",
       "type": "tip",
@@ -425,7 +402,7 @@
       "author": "ruvnet",
       "published_at": "2025-06-02",
       "collected_at": "2026-05-08",
-      "views": 460380,
+      "views": 460800,
       "tags": [
         "mcp-server",
         "agentic-ai",
@@ -440,6 +417,29 @@
       "hot": true
     },
     {
+      "id": "gh-BerriAI-litellm",
+      "title": "BerriAI/litellm",
+      "type": "tip",
+      "summary": "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, VLLM, NVIDIA NIM]",
+      "source": "https://github.com/BerriAI/litellm",
+      "author": "BerriAI",
+      "published_at": "2023-07-27",
+      "collected_at": "2026-05-08",
+      "views": 460650,
+      "tags": [
+        "anthropic",
+        "ai-gateway",
+        "anthropic",
+        "azure-openai",
+        "bedrock"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/BerriAI_litellm.md"
+      },
+      "hot": true
+    },
+    {
       "id": "gh-Aider-AI-aider",
       "title": "Aider-AI/aider",
       "type": "tip",
@@ -448,7 +448,7 @@
       "author": "Aider-AI",
       "published_at": "2023-05-09",
       "collected_at": "2026-05-08",
-      "views": 444770,
+      "views": 444810,
       "tags": [
         "anthropic",
         "anthropic",
@@ -471,7 +471,7 @@
       "author": "rtk-ai",
       "published_at": "2026-01-22",
       "collected_at": "2026-05-08",
-      "views": 438120,
+      "views": 438850,
       "tags": [
         "anthropic",
         "agentic-coding",
@@ -494,7 +494,7 @@
       "author": "ChromeDevTools",
       "published_at": "2025-09-11",
       "collected_at": "2026-05-08",
-      "views": 384010,
+      "views": 384030,
       "tags": [
         "mcp-server",
         "browser",
@@ -517,7 +517,7 @@
       "author": "bytedance",
       "published_at": "2025-01-19",
       "collected_at": "2026-05-08",
-      "views": 300380,
+      "views": 301000,
       "tags": [
         "mcp-server",
         "agent",
@@ -540,7 +540,7 @@
       "author": "github",
       "published_at": "2025-03-04",
       "collected_at": "2026-05-08",
-      "views": 295750,
+      "views": 295780,
       "tags": [
         "mcp-server",
         "github",
