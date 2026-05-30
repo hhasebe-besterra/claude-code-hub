@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30T12:51:53+09:00",
+  "generated_at": "2026-05-30T15:50:21+09:00",
   "generator": "harvest.py",
   "items": [
     {
@@ -11,7 +11,7 @@
       "author": "affaan-m",
       "published_at": "2026-01-18",
       "collected_at": "2026-05-30",
-      "views": 1986480,
+      "views": 1987480,
       "tags": [
         "anthropic",
         "ai-agents",
@@ -34,7 +34,7 @@
       "author": "n8n-io",
       "published_at": "2019-06-22",
       "collected_at": "2026-05-30",
-      "views": 1902790,
+      "views": 1902890,
       "tags": [
         "mcp-server",
         "ai",
@@ -57,7 +57,7 @@
       "author": "NousResearch",
       "published_at": "2025-07-22",
       "collected_at": "2026-05-30",
-      "views": 1729570,
+      "views": 1730710,
       "tags": [
         "anthropic",
         "ai",
@@ -80,7 +80,7 @@
       "author": "langchain-ai",
       "published_at": "2022-10-17",
       "collected_at": "2026-05-30",
-      "views": 1379990,
+      "views": 1380110,
       "tags": [
         "anthropic",
         "agents",
@@ -103,7 +103,7 @@
       "author": "google-gemini",
       "published_at": "2025-04-17",
       "collected_at": "2026-05-30",
-      "views": 1047260,
+      "views": 1047290,
       "tags": [
         "mcp-server",
         "ai",
@@ -118,29 +118,6 @@
       "hot": true
     },
     {
-      "id": "gh-nextlevelbuilder-ui-ux-pro-max-skill",
-      "title": "nextlevelbuilder/ui-ux-pro-max-skill",
-      "type": "tip",
-      "summary": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms",
-      "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
-      "author": "nextlevelbuilder",
-      "published_at": "2025-11-30",
-      "collected_at": "2026-05-30",
-      "views": 848270,
-      "tags": [
-        "claude-code",
-        "ai-skills",
-        "antigravity",
-        "claude",
-        "claude-code"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "github_trending/nextlevelbuilder_ui-ux-pro-max-skill.md"
-      },
-      "hot": true
-    },
-    {
       "id": "gh-farion1231-cc-switch",
       "title": "farion1231/cc-switch",
       "type": "tip",
@@ -149,7 +126,7 @@
       "author": "farion1231",
       "published_at": "2025-08-04",
       "collected_at": "2026-05-30",
-      "views": 847800,
+      "views": 849230,
       "tags": [
         "claude-code",
         "ai-tools",
@@ -164,6 +141,29 @@
       "hot": true
     },
     {
+      "id": "gh-nextlevelbuilder-ui-ux-pro-max-skill",
+      "title": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "type": "tip",
+      "summary": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms",
+      "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "author": "nextlevelbuilder",
+      "published_at": "2025-11-30",
+      "collected_at": "2026-05-30",
+      "views": 848670,
+      "tags": [
+        "claude-code",
+        "ai-skills",
+        "antigravity",
+        "claude",
+        "claude-code"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/nextlevelbuilder_ui-ux-pro-max-skill.md"
+      },
+      "hot": true
+    },
+    {
       "id": "gh-thedotmack-claude-mem",
       "title": "thedotmack/claude-mem",
       "type": "tip",
@@ -172,7 +172,7 @@
       "author": "thedotmack",
       "published_at": "2025-08-31",
       "collected_at": "2026-05-30",
-      "views": 796340,
+      "views": 796420,
       "tags": [
         "anthropic",
         "ai",
@@ -195,7 +195,7 @@
       "author": "JuliusBrussee",
       "published_at": "2026-04-04",
       "collected_at": "2026-05-30",
-      "views": 664500,
+      "views": 664770,
       "tags": [
         "anthropic",
         "ai",
@@ -218,7 +218,7 @@
       "author": "gsd-build",
       "published_at": "2025-12-14",
       "collected_at": "2026-05-30",
-      "views": 637800,
+      "views": 637790,
       "tags": [
         "claude-code",
         "claude-code",
@@ -241,7 +241,7 @@
       "author": "shareAI-lab",
       "published_at": "2025-06-29",
       "collected_at": "2026-05-30",
-      "views": 635910,
+      "views": 636140,
       "tags": [
         "claude-code",
         "agent",
@@ -264,7 +264,7 @@
       "author": "ComposioHQ",
       "published_at": "2025-10-17",
       "collected_at": "2026-05-30",
-      "views": 624480,
+      "views": 624670,
       "tags": [
         "claude-code",
         "agent-skills",
@@ -287,7 +287,7 @@
       "author": "code-yeongyu",
       "published_at": "2025-12-03",
       "collected_at": "2026-05-30",
-      "views": 601840,
+      "views": 602080,
       "tags": [
         "anthropic",
         "ai",
@@ -310,7 +310,7 @@
       "author": "sansan0",
       "published_at": "2025-04-28",
       "collected_at": "2026-05-30",
-      "views": 585700,
+      "views": 585770,
       "tags": [
         "mcp-server",
         "ai",
@@ -333,7 +333,7 @@
       "author": "ruvnet",
       "published_at": "2025-06-02",
       "collected_at": "2026-05-30",
-      "views": 564370,
+      "views": 564610,
       "tags": [
         "mcp-server",
         "agentic-ai",
@@ -356,7 +356,7 @@
       "author": "upstash",
       "published_at": "2025-03-26",
       "collected_at": "2026-05-30",
-      "views": 563900,
+      "views": 563970,
       "tags": [
         "mcp-server",
         "llm",
@@ -379,7 +379,7 @@
       "author": "rtk-ai",
       "published_at": "2026-01-22",
       "collected_at": "2026-05-30",
-      "views": 562970,
+      "views": 563360,
       "tags": [
         "anthropic",
         "agentic-coding",
@@ -402,7 +402,7 @@
       "author": "shanraisshan",
       "published_at": "2025-10-31",
       "collected_at": "2026-05-30",
-      "views": 555030,
+      "views": 555140,
       "tags": [
         "anthropic",
         "agentic-ai",
@@ -425,7 +425,7 @@
       "author": "D4Vinci",
       "published_at": "2024-10-13",
       "collected_at": "2026-05-30",
-      "views": 551700,
+      "views": 552740,
       "tags": [
         "mcp-server",
         "ai",
@@ -448,7 +448,7 @@
       "author": "BerriAI",
       "published_at": "2023-07-27",
       "collected_at": "2026-05-30",
-      "views": 487220,
+      "views": 487340,
       "tags": [
         "anthropic",
         "ai-gateway",
@@ -471,7 +471,7 @@
       "author": "santifer",
       "published_at": "2026-04-04",
       "collected_at": "2026-05-30",
-      "views": 478460,
+      "views": 478620,
       "tags": [
         "anthropic",
         "ai-agent",
@@ -494,7 +494,7 @@
       "author": "ChromeDevTools",
       "published_at": "2025-09-11",
       "collected_at": "2026-05-30",
-      "views": 422760,
+      "views": 422840,
       "tags": [
         "mcp-server",
         "browser",
@@ -517,7 +517,7 @@
       "author": "bytedance",
       "published_at": "2025-01-19",
       "collected_at": "2026-05-30",
-      "views": 357060,
+      "views": 357120,
       "tags": [
         "mcp-server",
         "agent",
@@ -540,7 +540,7 @@
       "author": "github",
       "published_at": "2025-03-04",
       "collected_at": "2026-05-30",
-      "views": 302740,
+      "views": 302800,
       "tags": [
         "mcp-server",
         "github",
@@ -562,7 +562,7 @@
       "author": "assafelovic",
       "published_at": "2023-05-12",
       "collected_at": "2026-05-30",
-      "views": 273870,
+      "views": 273880,
       "tags": [
         "mcp-server",
         "agent",
