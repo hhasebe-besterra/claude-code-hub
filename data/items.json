@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T08:04:33+09:00",
+  "generated_at": "2026-06-01T19:24:26+09:00",
   "generator": "harvest.py",
   "items": [
     {
@@ -11,7 +11,7 @@
       "author": "affaan-m",
       "published_at": "2026-01-18",
       "collected_at": "2026-06-01",
-      "views": 2005040,
+      "views": 2013000,
       "tags": [
         "anthropic",
         "ai-agents",
@@ -34,7 +34,7 @@
       "author": "n8n-io",
       "published_at": "2019-06-22",
       "collected_at": "2026-06-01",
-      "views": 1904910,
+      "views": 1905570,
       "tags": [
         "mcp-server",
         "ai",
@@ -57,7 +57,7 @@
       "author": "NousResearch",
       "published_at": "2025-07-22",
       "collected_at": "2026-06-01",
-      "views": 1746410,
+      "views": 1753370,
       "tags": [
         "anthropic",
         "ai",
@@ -80,7 +80,7 @@
       "author": "langchain-ai",
       "published_at": "2022-10-17",
       "collected_at": "2026-06-01",
-      "views": 1381280,
+      "views": 1381880,
       "tags": [
         "anthropic",
         "agents",
@@ -103,7 +103,7 @@
       "author": "google-gemini",
       "published_at": "2025-04-17",
       "collected_at": "2026-06-01",
-      "views": 1047960,
+      "views": 1048180,
       "tags": [
         "mcp-server",
         "ai",
@@ -126,7 +126,7 @@
       "author": "farion1231",
       "published_at": "2025-08-04",
       "collected_at": "2026-06-01",
-      "views": 864590,
+      "views": 874010,
       "tags": [
         "claude-code",
         "ai-tools",
@@ -149,7 +149,7 @@
       "author": "nextlevelbuilder",
       "published_at": "2025-11-30",
       "collected_at": "2026-06-01",
-      "views": 855590,
+      "views": 858220,
       "tags": [
         "claude-code",
         "ai-skills",
@@ -172,7 +172,7 @@
       "author": "thedotmack",
       "published_at": "2025-08-31",
       "collected_at": "2026-06-01",
-      "views": 798990,
+      "views": 800080,
       "tags": [
         "anthropic",
         "ai",
@@ -195,7 +195,7 @@
       "author": "JuliusBrussee",
       "published_at": "2026-04-04",
       "collected_at": "2026-06-01",
-      "views": 669220,
+      "views": 671320,
       "tags": [
         "anthropic",
         "ai",
@@ -218,7 +218,7 @@
       "author": "shareAI-lab",
       "published_at": "2025-06-29",
       "collected_at": "2026-06-01",
-      "views": 638590,
+      "views": 640080,
       "tags": [
         "claude-code",
         "agent",
@@ -241,7 +241,7 @@
       "author": "gsd-build",
       "published_at": "2025-12-14",
       "collected_at": "2026-06-01",
-      "views": 638010,
+      "views": 638100,
       "tags": [
         "claude-code",
         "claude-code",
@@ -264,7 +264,7 @@
       "author": "ComposioHQ",
       "published_at": "2025-10-17",
       "collected_at": "2026-06-01",
-      "views": 626860,
+      "views": 627480,
       "tags": [
         "claude-code",
         "agent-skills",
@@ -282,18 +282,18 @@
       "id": "gh-code-yeongyu-oh-my-openagent",
       "title": "code-yeongyu/oh-my-openagent",
       "type": "tip",
-      "summary": "omo; the best agent harness - previously oh-my-opencode",
+      "summary": "omo; the one and only agent harness for complex codebases; the pickaxe for complex software engineering",
       "source": "https://github.com/code-yeongyu/oh-my-openagent",
       "author": "code-yeongyu",
       "published_at": "2025-12-03",
       "collected_at": "2026-06-01",
-      "views": 604400,
+      "views": 605430,
       "tags": [
         "anthropic",
         "ai",
         "ai-agents",
-        "amp",
-        "anthropic"
+        "anthropic",
+        "chatgpt"
       ],
       "install": {
         "kind": "note",
@@ -310,7 +310,7 @@
       "author": "sansan0",
       "published_at": "2025-04-28",
       "collected_at": "2026-06-01",
-      "views": 586360,
+      "views": 586670,
       "tags": [
         "mcp-server",
         "ai",
@@ -325,15 +325,61 @@
       "hot": true
     },
     {
+      "id": "gh-safishamsi-graphify",
+      "title": "safishamsi/graphify",
+      "type": "tip",
+      "summary": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
+      "source": "https://github.com/safishamsi/graphify",
+      "author": "safishamsi",
+      "published_at": "2026-04-03",
+      "collected_at": "2026-06-01",
+      "views": 576550,
+      "tags": [
+        "claude-code",
+        "antigravity",
+        "claude-code",
+        "codex",
+        "gemini"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/safishamsi_graphify.md"
+      },
+      "hot": true
+    },
+    {
+      "id": "gh-D4Vinci-Scrapling",
+      "title": "D4Vinci/Scrapling",
+      "type": "tip",
+      "summary": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+      "source": "https://github.com/D4Vinci/Scrapling",
+      "author": "D4Vinci",
+      "published_at": "2024-10-13",
+      "collected_at": "2026-06-01",
+      "views": 574050,
+      "tags": [
+        "mcp-server",
+        "ai",
+        "ai-scraping",
+        "automation",
+        "crawler"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/D4Vinci_Scrapling.md"
+      },
+      "hot": true
+    },
+    {
       "id": "gh-ruvnet-ruflo",
       "title": "ruvnet/ruflo",
       "type": "tip",
-      "summary": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+      "summary": "🌊 The leading agent meta-harness platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
       "source": "https://github.com/ruvnet/ruflo",
       "author": "ruvnet",
       "published_at": "2025-06-02",
       "collected_at": "2026-06-01",
-      "views": 569350,
+      "views": 571110,
       "tags": [
         "mcp-server",
         "agentic-ai",
@@ -356,7 +402,7 @@
       "author": "rtk-ai",
       "published_at": "2026-01-22",
       "collected_at": "2026-06-01",
-      "views": 568190,
+      "views": 570930,
       "tags": [
         "anthropic",
         "agentic-coding",
@@ -371,29 +417,6 @@
       "hot": true
     },
     {
-      "id": "gh-D4Vinci-Scrapling",
-      "title": "D4Vinci/Scrapling",
-      "type": "tip",
-      "summary": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
-      "source": "https://github.com/D4Vinci/Scrapling",
-      "author": "D4Vinci",
-      "published_at": "2024-10-13",
-      "collected_at": "2026-06-01",
-      "views": 565570,
-      "tags": [
-        "mcp-server",
-        "ai",
-        "ai-scraping",
-        "automation",
-        "crawler"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "github_trending/D4Vinci_Scrapling.md"
-      },
-      "hot": true
-    },
-    {
       "id": "gh-upstash-context7",
       "title": "upstash/context7",
       "type": "tip",
@@ -402,7 +425,7 @@
       "author": "upstash",
       "published_at": "2025-03-26",
       "collected_at": "2026-06-01",
-      "views": 564910,
+      "views": 565250,
       "tags": [
         "mcp-server",
         "llm",
@@ -425,7 +448,7 @@
       "author": "shanraisshan",
       "published_at": "2025-10-31",
       "collected_at": "2026-06-01",
-      "views": 557110,
+      "views": 558110,
       "tags": [
         "anthropic",
         "agentic-ai",
@@ -448,7 +471,7 @@
       "author": "BerriAI",
       "published_at": "2023-07-27",
       "collected_at": "2026-06-01",
-      "views": 488530,
+      "views": 489170,
       "tags": [
         "anthropic",
         "ai-gateway",
@@ -471,7 +494,7 @@
       "author": "santifer",
       "published_at": "2026-04-04",
       "collected_at": "2026-06-01",
-      "views": 480480,
+      "views": 481200,
       "tags": [
         "anthropic",
         "ai-agent",
@@ -494,7 +517,7 @@
       "author": "ChromeDevTools",
       "published_at": "2025-09-11",
       "collected_at": "2026-06-01",
-      "views": 424270,
+      "views": 424840,
       "tags": [
         "mcp-server",
         "browser",
@@ -517,7 +540,7 @@
       "author": "bytedance",
       "published_at": "2025-01-19",
       "collected_at": "2026-06-01",
-      "views": 358080,
+      "views": 358390,
       "tags": [
         "mcp-server",
         "agent",
@@ -540,7 +563,7 @@
       "author": "github",
       "published_at": "2025-03-04",
       "collected_at": "2026-06-01",
-      "views": 303200,
+      "views": 303330,
       "tags": [
         "mcp-server",
         "github",
@@ -562,7 +585,7 @@
       "author": "assafelovic",
       "published_at": "2023-05-12",
       "collected_at": "2026-06-01",
-      "views": 274200,
+      "views": 274280,
       "tags": [
         "mcp-server",
         "agent",
