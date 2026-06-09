@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T08:14:31+09:00",
+  "generated_at": "2026-06-09T12:57:31+09:00",
   "generator": "harvest.py",
   "items": [
     {
@@ -11,7 +11,7 @@
       "author": "affaan-m",
       "published_at": "2026-01-18",
       "collected_at": "2026-06-09",
-      "views": 2107880,
+      "views": 2110160,
       "tags": [
         "anthropic",
         "ai-agents",
@@ -34,7 +34,7 @@
       "author": "n8n-io",
       "published_at": "2019-06-22",
       "collected_at": "2026-06-09",
-      "views": 1916290,
+      "views": 1916540,
       "tags": [
         "mcp-server",
         "ai",
@@ -57,7 +57,7 @@
       "author": "NousResearch",
       "published_at": "2025-07-22",
       "collected_at": "2026-06-09",
-      "views": 1873440,
+      "views": 1876510,
       "tags": [
         "anthropic",
         "ai",
@@ -80,7 +80,7 @@
       "author": "langchain-ai",
       "published_at": "2022-10-17",
       "collected_at": "2026-06-09",
-      "views": 1388300,
+      "views": 1388390,
       "tags": [
         "anthropic",
         "agents",
@@ -103,7 +103,7 @@
       "author": "google-gemini",
       "published_at": "2025-04-17",
       "collected_at": "2026-06-09",
-      "views": 1050670,
+      "views": 1050660,
       "tags": [
         "mcp-server",
         "ai",
@@ -126,7 +126,7 @@
       "author": "farion1231",
       "published_at": "2025-08-04",
       "collected_at": "2026-06-09",
-      "views": 951470,
+      "views": 953960,
       "tags": [
         "claude-code",
         "ai-tools",
@@ -149,7 +149,7 @@
       "author": "nextlevelbuilder",
       "published_at": "2025-11-30",
       "collected_at": "2026-06-09",
-      "views": 889510,
+      "views": 890370,
       "tags": [
         "claude-code",
         "ai-skills",
@@ -172,7 +172,7 @@
       "author": "thedotmack",
       "published_at": "2025-08-31",
       "collected_at": "2026-06-09",
-      "views": 812870,
+      "views": 813330,
       "tags": [
         "anthropic",
         "ai",
@@ -195,7 +195,7 @@
       "author": "JuliusBrussee",
       "published_at": "2026-04-04",
       "collected_at": "2026-06-09",
-      "views": 701780,
+      "views": 702410,
       "tags": [
         "anthropic",
         "ai",
@@ -218,7 +218,7 @@
       "author": "shareAI-lab",
       "published_at": "2025-06-29",
       "collected_at": "2026-06-09",
-      "views": 654520,
+      "views": 655040,
       "tags": [
         "claude-code",
         "agent",
@@ -241,7 +241,7 @@
       "author": "gsd-build",
       "published_at": "2025-12-14",
       "collected_at": "2026-06-09",
-      "views": 640200,
+      "views": 640240,
       "tags": [
         "claude-code",
         "claude-code",
@@ -264,7 +264,7 @@
       "author": "ComposioHQ",
       "published_at": "2025-10-17",
       "collected_at": "2026-06-09",
-      "views": 637580,
+      "views": 637940,
       "tags": [
         "claude-code",
         "agent-skills",
@@ -287,7 +287,7 @@
       "author": "safishamsi",
       "published_at": "2026-04-03",
       "collected_at": "2026-06-09",
-      "views": 633470,
+      "views": 635410,
       "tags": [
         "claude-code",
         "antigravity",
@@ -310,7 +310,7 @@
       "author": "D4Vinci",
       "published_at": "2024-10-13",
       "collected_at": "2026-06-09",
-      "views": 621830,
+      "views": 622450,
       "tags": [
         "mcp-server",
         "ai",
@@ -333,7 +333,7 @@
       "author": "code-yeongyu",
       "published_at": "2025-12-03",
       "collected_at": "2026-06-09",
-      "views": 615360,
+      "views": 615670,
       "tags": [
         "anthropic",
         "ai",
@@ -356,7 +356,7 @@
       "author": "rtk-ai",
       "published_at": "2026-01-22",
       "collected_at": "2026-06-09",
-      "views": 601480,
+      "views": 602220,
       "tags": [
         "anthropic",
         "agentic-coding",
@@ -379,7 +379,7 @@
       "author": "sansan0",
       "published_at": "2025-04-28",
       "collected_at": "2026-06-09",
-      "views": 591720,
+      "views": 591860,
       "tags": [
         "mcp-server",
         "ai",
@@ -402,7 +402,7 @@
       "author": "ruvnet",
       "published_at": "2025-06-02",
       "collected_at": "2026-06-09",
-      "views": 585460,
+      "views": 585660,
       "tags": [
         "mcp-server",
         "agentic-ai",
@@ -425,7 +425,7 @@
       "author": "upstash",
       "published_at": "2025-03-26",
       "collected_at": "2026-06-09",
-      "views": 570180,
+      "views": 570290,
       "tags": [
         "mcp-server",
         "llm",
@@ -448,7 +448,7 @@
       "author": "shanraisshan",
       "published_at": "2025-10-31",
       "collected_at": "2026-06-09",
-      "views": 569300,
+      "views": 569740,
       "tags": [
         "anthropic",
         "agentic-ai",
@@ -471,7 +471,7 @@
       "author": "santifer",
       "published_at": "2026-04-04",
       "collected_at": "2026-06-09",
-      "views": 504680,
+      "views": 506880,
       "tags": [
         "anthropic",
         "ai-agent",
@@ -494,7 +494,7 @@
       "author": "BerriAI",
       "published_at": "2023-07-27",
       "collected_at": "2026-06-09",
-      "views": 496790,
+      "views": 497110,
       "tags": [
         "anthropic",
         "ai-gateway",
@@ -517,7 +517,7 @@
       "author": "ChromeDevTools",
       "published_at": "2025-09-11",
       "collected_at": "2026-06-09",
-      "views": 431260,
+      "views": 431430,
       "tags": [
         "mcp-server",
         "browser",
@@ -540,7 +540,7 @@
       "author": "bytedance",
       "published_at": "2025-01-19",
       "collected_at": "2026-06-09",
-      "views": 362180,
+      "views": 362240,
       "tags": [
         "mcp-server",
         "agent",
@@ -563,7 +563,7 @@
       "author": "github",
       "published_at": "2025-03-04",
       "collected_at": "2026-06-09",
-      "views": 305210,
+      "views": 305250,
       "tags": [
         "mcp-server",
         "github",
@@ -585,7 +585,7 @@
       "author": "assafelovic",
       "published_at": "2023-05-12",
       "collected_at": "2026-06-09",
-      "views": 275700,
+      "views": 275720,
       "tags": [
         "mcp-server",
         "agent",
