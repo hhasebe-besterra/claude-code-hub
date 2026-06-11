@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T19:44:44+09:00",
+  "generated_at": "2026-06-11T23:42:12+09:00",
   "generator": "harvest.py",
   "items": [
     {
@@ -11,7 +11,7 @@
       "author": "affaan-m",
       "published_at": "2026-01-18",
       "collected_at": "2026-06-11",
-      "views": 2130830,
+      "views": 2132290,
       "tags": [
         "anthropic",
         "ai-agents",
@@ -34,7 +34,7 @@
       "author": "n8n-io",
       "published_at": "2019-06-22",
       "collected_at": "2026-06-11",
-      "views": 1920310,
+      "views": 1920550,
       "tags": [
         "mcp-server",
         "ai",
@@ -57,7 +57,7 @@
       "author": "NousResearch",
       "published_at": "2025-07-22",
       "collected_at": "2026-06-11",
-      "views": 1904890,
+      "views": 1906780,
       "tags": [
         "anthropic",
         "ai",
@@ -80,7 +80,7 @@
       "author": "langchain-ai",
       "published_at": "2022-10-17",
       "collected_at": "2026-06-11",
-      "views": 1390240,
+      "views": 1390420,
       "tags": [
         "anthropic",
         "agents",
@@ -103,7 +103,7 @@
       "author": "google-gemini",
       "published_at": "2025-04-17",
       "collected_at": "2026-06-11",
-      "views": 1051570,
+      "views": 1051610,
       "tags": [
         "mcp-server",
         "ai",
@@ -126,7 +126,7 @@
       "author": "farion1231",
       "published_at": "2025-08-04",
       "collected_at": "2026-06-11",
-      "views": 981680,
+      "views": 983560,
       "tags": [
         "claude-code",
         "ai-tools",
@@ -149,7 +149,7 @@
       "author": "nextlevelbuilder",
       "published_at": "2025-11-30",
       "collected_at": "2026-06-11",
-      "views": 901950,
+      "views": 902940,
       "tags": [
         "claude-code",
         "ai-skills",
@@ -172,7 +172,7 @@
       "author": "thedotmack",
       "published_at": "2025-08-31",
       "collected_at": "2026-06-11",
-      "views": 817370,
+      "views": 817640,
       "tags": [
         "anthropic",
         "ai",
@@ -195,7 +195,7 @@
       "author": "JuliusBrussee",
       "published_at": "2026-04-04",
       "collected_at": "2026-06-11",
-      "views": 712810,
+      "views": 713850,
       "tags": [
         "anthropic",
         "ai",
@@ -218,7 +218,7 @@
       "author": "shareAI-lab",
       "published_at": "2025-06-29",
       "collected_at": "2026-06-11",
-      "views": 660310,
+      "views": 660670,
       "tags": [
         "claude-code",
         "agent",
@@ -241,7 +241,7 @@
       "author": "safishamsi",
       "published_at": "2026-04-03",
       "collected_at": "2026-06-11",
-      "views": 652560,
+      "views": 653930,
       "tags": [
         "claude-code",
         "antigravity",
@@ -256,29 +256,6 @@
       "hot": true
     },
     {
-      "id": "gh-gsd-build-get-shit-done",
-      "title": "gsd-build/get-shit-done",
-      "type": "tip",
-      "summary": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES.",
-      "source": "https://github.com/gsd-build/get-shit-done",
-      "author": "gsd-build",
-      "published_at": "2025-12-14",
-      "collected_at": "2026-06-11",
-      "views": 641190,
-      "tags": [
-        "claude-code",
-        "claude-code",
-        "context-engineering",
-        "meta-prompting",
-        "spec-driven-development"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "github_trending/gsd-build_get-shit-done.md"
-      },
-      "hot": true
-    },
-    {
       "id": "gh-ComposioHQ-awesome-claude-skills",
       "title": "ComposioHQ/awesome-claude-skills",
       "type": "tip",
@@ -287,7 +264,7 @@
       "author": "ComposioHQ",
       "published_at": "2025-10-17",
       "collected_at": "2026-06-11",
-      "views": 641090,
+      "views": 641570,
       "tags": [
         "claude-code",
         "agent-skills",
@@ -302,6 +279,29 @@
       "hot": true
     },
     {
+      "id": "gh-gsd-build-get-shit-done",
+      "title": "gsd-build/get-shit-done",
+      "type": "tip",
+      "summary": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES.",
+      "source": "https://github.com/gsd-build/get-shit-done",
+      "author": "gsd-build",
+      "published_at": "2025-12-14",
+      "collected_at": "2026-06-11",
+      "views": 641280,
+      "tags": [
+        "claude-code",
+        "claude-code",
+        "context-engineering",
+        "meta-prompting",
+        "spec-driven-development"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/gsd-build_get-shit-done.md"
+      },
+      "hot": true
+    },
+    {
       "id": "gh-D4Vinci-Scrapling",
       "title": "D4Vinci/Scrapling",
       "type": "tip",
@@ -310,7 +310,7 @@
       "author": "D4Vinci",
       "published_at": "2024-10-13",
       "collected_at": "2026-06-11",
-      "views": 628980,
+      "views": 629680,
       "tags": [
         "mcp-server",
         "ai",
@@ -333,7 +333,7 @@
       "author": "code-yeongyu",
       "published_at": "2025-12-03",
       "collected_at": "2026-06-11",
-      "views": 618950,
+      "views": 619120,
       "tags": [
         "anthropic",
         "ai",
@@ -356,7 +356,7 @@
       "author": "rtk-ai",
       "published_at": "2026-01-22",
       "collected_at": "2026-06-11",
-      "views": 612630,
+      "views": 613440,
       "tags": [
         "anthropic",
         "agentic-coding",
@@ -379,7 +379,7 @@
       "author": "sansan0",
       "published_at": "2025-04-28",
       "collected_at": "2026-06-11",
-      "views": 593060,
+      "views": 593120,
       "tags": [
         "mcp-server",
         "ai",
@@ -402,7 +402,7 @@
       "author": "ruvnet",
       "published_at": "2025-06-02",
       "collected_at": "2026-06-11",
-      "views": 589240,
+      "views": 589510,
       "tags": [
         "mcp-server",
         "agentic-ai",
@@ -425,7 +425,7 @@
       "author": "shanraisshan",
       "published_at": "2025-10-31",
       "collected_at": "2026-06-11",
-      "views": 573930,
+      "views": 574170,
       "tags": [
         "anthropic",
         "agentic-ai",
@@ -448,7 +448,7 @@
       "author": "upstash",
       "published_at": "2025-03-26",
       "collected_at": "2026-06-11",
-      "views": 571660,
+      "views": 571780,
       "tags": [
         "mcp-server",
         "llm",
@@ -471,7 +471,7 @@
       "author": "santifer",
       "published_at": "2026-04-04",
       "collected_at": "2026-06-11",
-      "views": 525950,
+      "views": 526530,
       "tags": [
         "anthropic",
         "ai-agent",
@@ -494,7 +494,7 @@
       "author": "BerriAI",
       "published_at": "2023-07-27",
       "collected_at": "2026-06-11",
-      "views": 500320,
+      "views": 500570,
       "tags": [
         "anthropic",
         "ai-gateway",
@@ -517,7 +517,7 @@
       "author": "ChromeDevTools",
       "published_at": "2025-09-11",
       "collected_at": "2026-06-11",
-      "views": 433470,
+      "views": 433570,
       "tags": [
         "mcp-server",
         "browser",
@@ -540,7 +540,7 @@
       "author": "bytedance",
       "published_at": "2025-01-19",
       "collected_at": "2026-06-11",
-      "views": 362930,
+      "views": 362980,
       "tags": [
         "mcp-server",
         "agent",
@@ -563,7 +563,7 @@
       "author": "github",
       "published_at": "2025-03-04",
       "collected_at": "2026-06-11",
-      "views": 305710,
+      "views": 305760,
       "tags": [
         "mcp-server",
         "github",
@@ -585,7 +585,7 @@
       "author": "assafelovic",
       "published_at": "2023-05-12",
       "collected_at": "2026-06-11",
-      "views": 276360,
+      "views": 276390,
       "tags": [
         "mcp-server",
         "agent",
