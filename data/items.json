@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T00:08:48+09:00",
+  "generated_at": "2026-06-15T02:23:30+09:00",
   "generator": "harvest.py",
   "items": [
     {
@@ -11,7 +11,7 @@
       "author": "affaan-m",
       "published_at": "2026-01-18",
       "collected_at": "2026-06-15",
-      "views": 2152840,
+      "views": 2153520,
       "tags": [
         "anthropic",
         "ai-agents",
@@ -34,7 +34,7 @@
       "author": "NousResearch",
       "published_at": "2025-07-22",
       "collected_at": "2026-06-15",
-      "views": 1932610,
+      "views": 1933560,
       "tags": [
         "anthropic",
         "ai",
@@ -57,7 +57,7 @@
       "author": "n8n-io",
       "published_at": "2019-06-22",
       "collected_at": "2026-06-15",
-      "views": 1924720,
+      "views": 1924820,
       "tags": [
         "mcp-server",
         "ai",
@@ -80,7 +80,7 @@
       "author": "langchain-ai",
       "published_at": "2022-10-17",
       "collected_at": "2026-06-15",
-      "views": 1392510,
+      "views": 1392670,
       "tags": [
         "anthropic",
         "agents",
@@ -103,7 +103,7 @@
       "author": "google-gemini",
       "published_at": "2025-04-17",
       "collected_at": "2026-06-15",
-      "views": 1052700,
+      "views": 1052750,
       "tags": [
         "mcp-server",
         "ai",
@@ -126,7 +126,7 @@
       "author": "farion1231",
       "published_at": "2025-08-04",
       "collected_at": "2026-06-15",
-      "views": 1005260,
+      "views": 1005830,
       "tags": [
         "claude-code",
         "ai-tools",
@@ -149,7 +149,7 @@
       "author": "nextlevelbuilder",
       "published_at": "2025-11-30",
       "collected_at": "2026-06-15",
-      "views": 915240,
+      "views": 915560,
       "tags": [
         "claude-code",
         "ai-skills",
@@ -172,7 +172,7 @@
       "author": "thedotmack",
       "published_at": "2025-08-31",
       "collected_at": "2026-06-15",
-      "views": 822150,
+      "views": 822330,
       "tags": [
         "anthropic",
         "ai",
@@ -195,7 +195,7 @@
       "author": "JuliusBrussee",
       "published_at": "2026-04-04",
       "collected_at": "2026-06-15",
-      "views": 723470,
+      "views": 724070,
       "tags": [
         "anthropic",
         "ai",
@@ -218,7 +218,7 @@
       "author": "safishamsi",
       "published_at": "2026-04-03",
       "collected_at": "2026-06-15",
-      "views": 669770,
+      "views": 670340,
       "tags": [
         "claude-code",
         "antigravity",
@@ -241,7 +241,7 @@
       "author": "shareAI-lab",
       "published_at": "2025-06-29",
       "collected_at": "2026-06-15",
-      "views": 664760,
+      "views": 664870,
       "tags": [
         "claude-code",
         "agent",
@@ -264,7 +264,7 @@
       "author": "ComposioHQ",
       "published_at": "2025-10-17",
       "collected_at": "2026-06-15",
-      "views": 645430,
+      "views": 645560,
       "tags": [
         "claude-code",
         "agent-skills",
@@ -287,7 +287,7 @@
       "author": "gsd-build",
       "published_at": "2025-12-14",
       "collected_at": "2026-06-15",
-      "views": 642160,
+      "views": 642230,
       "tags": [
         "claude-code",
         "claude-code",
@@ -310,7 +310,7 @@
       "author": "D4Vinci",
       "published_at": "2024-10-13",
       "collected_at": "2026-06-15",
-      "views": 636000,
+      "views": 636220,
       "tags": [
         "mcp-server",
         "ai",
@@ -333,7 +333,7 @@
       "author": "rtk-ai",
       "published_at": "2026-01-22",
       "collected_at": "2026-06-15",
-      "views": 622290,
+      "views": 622460,
       "tags": [
         "anthropic",
         "agentic-coding",
@@ -356,7 +356,7 @@
       "author": "code-yeongyu",
       "published_at": "2025-12-03",
       "collected_at": "2026-06-15",
-      "views": 621860,
+      "views": 621950,
       "tags": [
         "anthropic",
         "ai",
@@ -371,29 +371,6 @@
       "hot": true
     },
     {
-      "id": "gh-sansan0-TrendRadar",
-      "title": "sansan0/TrendRadar",
-      "type": "mcp",
-      "summary": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。",
-      "source": "https://github.com/sansan0/TrendRadar",
-      "author": "sansan0",
-      "published_at": "2025-04-28",
-      "collected_at": "2026-06-15",
-      "views": 594190,
-      "tags": [
-        "mcp-server",
-        "ai",
-        "bark",
-        "data-analysis",
-        "docker"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "github_trending/sansan0_TrendRadar.md"
-      },
-      "hot": true
-    },
-    {
       "id": "gh-ruvnet-ruflo",
       "title": "ruvnet/ruflo",
       "type": "tip",
@@ -402,7 +379,7 @@
       "author": "ruvnet",
       "published_at": "2025-06-02",
       "collected_at": "2026-06-15",
-      "views": 594100,
+      "views": 594310,
       "tags": [
         "mcp-server",
         "agentic-ai",
@@ -417,6 +394,29 @@
       "hot": true
     },
     {
+      "id": "gh-sansan0-TrendRadar",
+      "title": "sansan0/TrendRadar",
+      "type": "mcp",
+      "summary": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。",
+      "source": "https://github.com/sansan0/TrendRadar",
+      "author": "sansan0",
+      "published_at": "2025-04-28",
+      "collected_at": "2026-06-15",
+      "views": 594270,
+      "tags": [
+        "mcp-server",
+        "ai",
+        "bark",
+        "data-analysis",
+        "docker"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/sansan0_TrendRadar.md"
+      },
+      "hot": true
+    },
+    {
       "id": "gh-shanraisshan-claude-code-best-practice",
       "title": "shanraisshan/claude-code-best-practice",
       "type": "tip",
@@ -425,7 +425,7 @@
       "author": "shanraisshan",
       "published_at": "2025-10-31",
       "collected_at": "2026-06-15",
-      "views": 576760,
+      "views": 576850,
       "tags": [
         "anthropic",
         "agentic-ai",
@@ -448,7 +448,7 @@
       "author": "upstash",
       "published_at": "2025-03-26",
       "collected_at": "2026-06-15",
-      "views": 573390,
+      "views": 573440,
       "tags": [
         "mcp-server",
         "llm",
@@ -471,7 +471,7 @@
       "author": "santifer",
       "published_at": "2026-04-04",
       "collected_at": "2026-06-15",
-      "views": 536630,
+      "views": 536840,
       "tags": [
         "anthropic",
         "ai-agent",
@@ -494,7 +494,7 @@
       "author": "BerriAI",
       "published_at": "2023-07-27",
       "collected_at": "2026-06-15",
-      "views": 503290,
+      "views": 503450,
       "tags": [
         "anthropic",
         "ai-gateway",
@@ -517,7 +517,7 @@
       "author": "ChromeDevTools",
       "published_at": "2025-09-11",
       "collected_at": "2026-06-15",
-      "views": 435720,
+      "views": 435810,
       "tags": [
         "mcp-server",
         "browser",
@@ -540,7 +540,7 @@
       "author": "bytedance",
       "published_at": "2025-01-19",
       "collected_at": "2026-06-15",
-      "views": 364080,
+      "views": 364100,
       "tags": [
         "mcp-server",
         "agent",
@@ -563,7 +563,7 @@
       "author": "github",
       "published_at": "2025-03-04",
       "collected_at": "2026-06-15",
-      "views": 306580,
+      "views": 306610,
       "tags": [
         "mcp-server",
         "github",
