@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T17:31:52+09:00",
+  "generated_at": "2026-06-26T20:46:46+09:00",
   "generator": "harvest.py",
   "items": [
     {
@@ -11,7 +11,7 @@
       "author": "affaan-m",
       "published_at": "2026-01-18",
       "collected_at": "2026-06-26",
-      "views": 2219080,
+      "views": 2219700,
       "tags": [
         "anthropic",
         "ai-agents",
@@ -34,7 +34,7 @@
       "author": "NousResearch",
       "published_at": "2025-07-22",
       "collected_at": "2026-06-26",
-      "views": 2033390,
+      "views": 2034760,
       "tags": [
         "anthropic",
         "ai",
@@ -57,7 +57,7 @@
       "author": "n8n-io",
       "published_at": "2019-06-22",
       "collected_at": "2026-06-26",
-      "views": 1941100,
+      "views": 1941320,
       "tags": [
         "mcp-server",
         "ai",
@@ -80,7 +80,7 @@
       "author": "langchain-ai",
       "published_at": "2022-10-17",
       "collected_at": "2026-06-26",
-      "views": 1402470,
+      "views": 1402630,
       "tags": [
         "anthropic",
         "agents",
@@ -103,7 +103,7 @@
       "author": "farion1231",
       "published_at": "2025-08-04",
       "collected_at": "2026-06-26",
-      "views": 1087460,
+      "views": 1088580,
       "tags": [
         "claude-code",
         "ai-tools",
@@ -126,7 +126,7 @@
       "author": "google-gemini",
       "published_at": "2025-04-17",
       "collected_at": "2026-06-26",
-      "views": 1055660,
+      "views": 1055650,
       "tags": [
         "mcp-server",
         "ai",
@@ -149,7 +149,7 @@
       "author": "nextlevelbuilder",
       "published_at": "2025-11-30",
       "collected_at": "2026-06-26",
-      "views": 966400,
+      "views": 967100,
       "tags": [
         "claude-code",
         "ai-skills",
@@ -172,7 +172,7 @@
       "author": "thedotmack",
       "published_at": "2025-08-31",
       "collected_at": "2026-06-26",
-      "views": 843580,
+      "views": 843890,
       "tags": [
         "anthropic",
         "ai",
@@ -195,7 +195,7 @@
       "author": "JuliusBrussee",
       "published_at": "2026-04-04",
       "collected_at": "2026-06-26",
-      "views": 770260,
+      "views": 770920,
       "tags": [
         "anthropic",
         "ai",
@@ -218,7 +218,7 @@
       "author": "safishamsi",
       "published_at": "2026-04-03",
       "collected_at": "2026-06-26",
-      "views": 722640,
+      "views": 723440,
       "tags": [
         "claude-code",
         "antigravity",
@@ -241,7 +241,7 @@
       "author": "shareAI-lab",
       "published_at": "2025-06-29",
       "collected_at": "2026-06-26",
-      "views": 685000,
+      "views": 685320,
       "tags": [
         "claude-code",
         "agent",
@@ -264,7 +264,7 @@
       "author": "Egonex-AI",
       "published_at": "2026-03-15",
       "collected_at": "2026-06-26",
-      "views": 681250,
+      "views": 681960,
       "tags": [
         "claude-code",
         "antigravity-skills",
@@ -287,7 +287,7 @@
       "author": "addyosmani",
       "published_at": "2026-02-15",
       "collected_at": "2026-06-26",
-      "views": 669000,
+      "views": 669460,
       "tags": [
         "claude-code",
         "agent-skills",
@@ -302,29 +302,6 @@
       "hot": true
     },
     {
-      "id": "gh-D4Vinci-Scrapling",
-      "title": "D4Vinci/Scrapling",
-      "type": "tip",
-      "summary": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
-      "source": "https://github.com/D4Vinci/Scrapling",
-      "author": "D4Vinci",
-      "published_at": "2024-10-13",
-      "collected_at": "2026-06-26",
-      "views": 662150,
-      "tags": [
-        "mcp-server",
-        "ai",
-        "ai-scraping",
-        "automation",
-        "crawler"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "github_trending/D4Vinci_Scrapling.md"
-      },
-      "hot": true
-    },
-    {
       "id": "gh-rtk-ai-rtk",
       "title": "rtk-ai/rtk",
       "type": "tip",
@@ -333,7 +310,7 @@
       "author": "rtk-ai",
       "published_at": "2026-01-22",
       "collected_at": "2026-06-26",
-      "views": 662140,
+      "views": 662580,
       "tags": [
         "anthropic",
         "agentic-coding",
@@ -348,6 +325,29 @@
       "hot": true
     },
     {
+      "id": "gh-D4Vinci-Scrapling",
+      "title": "D4Vinci/Scrapling",
+      "type": "tip",
+      "summary": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+      "source": "https://github.com/D4Vinci/Scrapling",
+      "author": "D4Vinci",
+      "published_at": "2024-10-13",
+      "collected_at": "2026-06-26",
+      "views": 662340,
+      "tags": [
+        "mcp-server",
+        "ai",
+        "ai-scraping",
+        "automation",
+        "crawler"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/D4Vinci_Scrapling.md"
+      },
+      "hot": true
+    },
+    {
       "id": "gh-code-yeongyu-oh-my-openagent",
       "title": "code-yeongyu/oh-my-openagent",
       "type": "tip",
@@ -356,7 +356,7 @@
       "author": "code-yeongyu",
       "published_at": "2025-12-03",
       "collected_at": "2026-06-26",
-      "views": 636590,
+      "views": 636740,
       "tags": [
         "anthropic",
         "ai",
@@ -379,7 +379,7 @@
       "author": "ruvnet",
       "published_at": "2025-06-02",
       "collected_at": "2026-06-26",
-      "views": 615120,
+      "views": 615240,
       "tags": [
         "mcp-server",
         "agentic-ai",
@@ -402,7 +402,7 @@
       "author": "shanraisshan",
       "published_at": "2025-10-31",
       "collected_at": "2026-06-26",
-      "views": 609280,
+      "views": 610320,
       "tags": [
         "anthropic",
         "agentic-ai",
@@ -425,7 +425,7 @@
       "author": "sansan0",
       "published_at": "2025-04-28",
       "collected_at": "2026-06-26",
-      "views": 599370,
+      "views": 599380,
       "tags": [
         "mcp-server",
         "ai",
@@ -448,7 +448,7 @@
       "author": "upstash",
       "published_at": "2025-03-26",
       "collected_at": "2026-06-26",
-      "views": 581010,
+      "views": 581170,
       "tags": [
         "mcp-server",
         "llm",
@@ -471,7 +471,7 @@
       "author": "santifer",
       "published_at": "2026-04-04",
       "collected_at": "2026-06-26",
-      "views": 558090,
+      "views": 558320,
       "tags": [
         "anthropic",
         "ai-agent",
@@ -494,7 +494,7 @@
       "author": "BerriAI",
       "published_at": "2023-07-27",
       "collected_at": "2026-06-26",
-      "views": 516170,
+      "views": 516310,
       "tags": [
         "anthropic",
         "ai-gateway",
@@ -517,7 +517,7 @@
       "author": "ChromeDevTools",
       "published_at": "2025-09-11",
       "collected_at": "2026-06-26",
-      "views": 444650,
+      "views": 444820,
       "tags": [
         "mcp-server",
         "browser",
@@ -540,7 +540,7 @@
       "author": "bytedance",
       "published_at": "2025-01-19",
       "collected_at": "2026-06-26",
-      "views": 372250,
+      "views": 372330,
       "tags": [
         "mcp-server",
         "agent",
@@ -563,7 +563,7 @@
       "author": "github",
       "published_at": "2025-03-04",
       "collected_at": "2026-06-26",
-      "views": 309790,
+      "views": 309830,
       "tags": [
         "mcp-server",
         "github",
@@ -585,7 +585,7 @@
       "author": "assafelovic",
       "published_at": "2023-05-12",
       "collected_at": "2026-06-26",
-      "views": 279260,
+      "views": 279280,
       "tags": [
         "mcp-server",
         "agent",
