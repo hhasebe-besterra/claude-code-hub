@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T05:58:25+09:00",
+  "generated_at": "2026-07-01T07:20:06+09:00",
   "generator": "harvest.py",
   "items": [
     {
@@ -11,7 +11,7 @@
       "author": "affaan-m",
       "published_at": "2026-01-18",
       "collected_at": "2026-07-01",
-      "views": 2239920,
+      "views": 2240340,
       "tags": [
         "anthropic",
         "ai-agents",
@@ -34,7 +34,7 @@
       "author": "NousResearch",
       "published_at": "2025-07-22",
       "collected_at": "2026-07-01",
-      "views": 2064150,
+      "views": 2064430,
       "tags": [
         "anthropic",
         "ai",
@@ -57,7 +57,7 @@
       "author": "n8n-io",
       "published_at": "2019-06-22",
       "collected_at": "2026-07-01",
-      "views": 1946830,
+      "views": 1946890,
       "tags": [
         "mcp-server",
         "ai",
@@ -103,7 +103,7 @@
       "author": "farion1231",
       "published_at": "2025-08-04",
       "collected_at": "2026-07-01",
-      "views": 1112450,
+      "views": 1112500,
       "tags": [
         "claude-code",
         "ai-tools",
@@ -126,7 +126,7 @@
       "author": "google-gemini",
       "published_at": "2025-04-17",
       "collected_at": "2026-07-01",
-      "views": 1056750,
+      "views": 1056760,
       "tags": [
         "mcp-server",
         "ai",
@@ -149,7 +149,7 @@
       "author": "nextlevelbuilder",
       "published_at": "2025-11-30",
       "collected_at": "2026-07-01",
-      "views": 986910,
+      "views": 987270,
       "tags": [
         "claude-code",
         "ai-skills",
@@ -172,7 +172,7 @@
       "author": "thedotmack",
       "published_at": "2025-08-31",
       "collected_at": "2026-07-01",
-      "views": 852120,
+      "views": 852210,
       "tags": [
         "anthropic",
         "ai",
@@ -195,7 +195,7 @@
       "author": "JuliusBrussee",
       "published_at": "2026-04-04",
       "collected_at": "2026-07-01",
-      "views": 782770,
+      "views": 782970,
       "tags": [
         "anthropic",
         "ai",
@@ -218,7 +218,7 @@
       "author": "safishamsi",
       "published_at": "2026-04-03",
       "collected_at": "2026-07-01",
-      "views": 748190,
+      "views": 748420,
       "tags": [
         "claude-code",
         "antigravity",
@@ -241,7 +241,7 @@
       "author": "Egonex-AI",
       "published_at": "2026-03-15",
       "collected_at": "2026-07-01",
-      "views": 696910,
+      "views": 696960,
       "tags": [
         "claude-code",
         "antigravity-skills",
@@ -264,7 +264,7 @@
       "author": "shareAI-lab",
       "published_at": "2025-06-29",
       "collected_at": "2026-07-01",
-      "views": 692410,
+      "views": 692420,
       "tags": [
         "claude-code",
         "agent",
@@ -287,7 +287,7 @@
       "author": "DietrichGebert",
       "published_at": "2026-06-12",
       "collected_at": "2026-07-01",
-      "views": 689530,
+      "views": 689980,
       "tags": [
         "claude-code",
         "agent-skills",
@@ -310,7 +310,7 @@
       "author": "D4Vinci",
       "published_at": "2024-10-13",
       "collected_at": "2026-07-01",
-      "views": 673870,
+      "views": 673910,
       "tags": [
         "mcp-server",
         "ai",
@@ -333,7 +333,7 @@
       "author": "rtk-ai",
       "published_at": "2026-01-22",
       "collected_at": "2026-07-01",
-      "views": 673130,
+      "views": 673240,
       "tags": [
         "anthropic",
         "agentic-coding",
@@ -356,7 +356,7 @@
       "author": "code-yeongyu",
       "published_at": "2025-12-03",
       "collected_at": "2026-07-01",
-      "views": 643690,
+      "views": 643730,
       "tags": [
         "anthropic",
         "ai",
@@ -374,12 +374,12 @@
       "id": "gh-ruvnet-ruflo",
       "title": "ruvnet/ruflo",
       "type": "tip",
-      "summary": "🌊 The leading agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+      "summary": "🌊 The leading agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
       "source": "https://github.com/ruvnet/ruflo",
       "author": "ruvnet",
       "published_at": "2025-06-02",
       "collected_at": "2026-07-01",
-      "views": 622220,
+      "views": 622300,
       "tags": [
         "mcp-server",
         "agentic-ai",
@@ -402,7 +402,7 @@
       "author": "shanraisshan",
       "published_at": "2025-10-31",
       "collected_at": "2026-07-01",
-      "views": 616570,
+      "views": 616600,
       "tags": [
         "anthropic",
         "agentic-ai",
@@ -425,7 +425,7 @@
       "author": "sansan0",
       "published_at": "2025-04-28",
       "collected_at": "2026-07-01",
-      "views": 600830,
+      "views": 600840,
       "tags": [
         "mcp-server",
         "ai",
@@ -448,7 +448,7 @@
       "author": "upstash",
       "published_at": "2025-03-26",
       "collected_at": "2026-07-01",
-      "views": 583710,
+      "views": 583750,
       "tags": [
         "mcp-server",
         "llm",
@@ -471,7 +471,7 @@
       "author": "santifer",
       "published_at": "2026-04-04",
       "collected_at": "2026-07-01",
-      "views": 568210,
+      "views": 568310,
       "tags": [
         "anthropic",
         "ai-agent",
@@ -494,7 +494,7 @@
       "author": "headroomlabs-ai",
       "published_at": "2026-01-07",
       "collected_at": "2026-07-01",
-      "views": 545830,
+      "views": 546120,
       "tags": [
         "anthropic",
         "agent",
@@ -517,7 +517,7 @@
       "author": "ChromeDevTools",
       "published_at": "2025-09-11",
       "collected_at": "2026-07-01",
-      "views": 447800,
+      "views": 447850,
       "tags": [
         "mcp-server",
         "browser",
