@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T09:11:16+09:00",
+  "generated_at": "2026-07-01T14:25:31+09:00",
   "generator": "harvest.py",
   "items": [
     {
@@ -11,7 +11,7 @@
       "author": "affaan-m",
       "published_at": "2026-01-18",
       "collected_at": "2026-07-01",
-      "views": 2240800,
+      "views": 2242320,
       "tags": [
         "anthropic",
         "ai-agents",
@@ -34,7 +34,7 @@
       "author": "NousResearch",
       "published_at": "2025-07-22",
       "collected_at": "2026-07-01",
-      "views": 2064660,
+      "views": 2066340,
       "tags": [
         "anthropic",
         "ai",
@@ -57,7 +57,7 @@
       "author": "n8n-io",
       "published_at": "2019-06-22",
       "collected_at": "2026-07-01",
-      "views": 1946960,
+      "views": 1947180,
       "tags": [
         "mcp-server",
         "ai",
@@ -80,7 +80,7 @@
       "author": "langchain-ai",
       "published_at": "2022-10-17",
       "collected_at": "2026-07-01",
-      "views": 1405850,
+      "views": 1406000,
       "tags": [
         "anthropic",
         "agents",
@@ -103,7 +103,7 @@
       "author": "farion1231",
       "published_at": "2025-08-04",
       "collected_at": "2026-07-01",
-      "views": 1112570,
+      "views": 1114100,
       "tags": [
         "claude-code",
         "ai-tools",
@@ -126,7 +126,7 @@
       "author": "google-gemini",
       "published_at": "2025-04-17",
       "collected_at": "2026-07-01",
-      "views": 1056800,
+      "views": 1056850,
       "tags": [
         "mcp-server",
         "ai",
@@ -149,7 +149,7 @@
       "author": "nextlevelbuilder",
       "published_at": "2025-11-30",
       "collected_at": "2026-07-01",
-      "views": 987500,
+      "views": 988590,
       "tags": [
         "claude-code",
         "ai-skills",
@@ -172,7 +172,7 @@
       "author": "thedotmack",
       "published_at": "2025-08-31",
       "collected_at": "2026-07-01",
-      "views": 852350,
+      "views": 852730,
       "tags": [
         "anthropic",
         "ai",
@@ -195,7 +195,7 @@
       "author": "JuliusBrussee",
       "published_at": "2026-04-04",
       "collected_at": "2026-07-01",
-      "views": 783180,
+      "views": 783850,
       "tags": [
         "anthropic",
         "ai",
@@ -218,7 +218,7 @@
       "author": "safishamsi",
       "published_at": "2026-04-03",
       "collected_at": "2026-07-01",
-      "views": 748700,
+      "views": 749600,
       "tags": [
         "claude-code",
         "antigravity",
@@ -241,7 +241,7 @@
       "author": "Egonex-AI",
       "published_at": "2026-03-15",
       "collected_at": "2026-07-01",
-      "views": 697090,
+      "views": 698390,
       "tags": [
         "claude-code",
         "antigravity-skills",
@@ -256,29 +256,6 @@
       "hot": true
     },
     {
-      "id": "gh-shareAI-lab-learn-claude-code",
-      "title": "shareAI-lab/learn-claude-code",
-      "type": "tip",
-      "summary": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
-      "source": "https://github.com/shareAI-lab/learn-claude-code",
-      "author": "shareAI-lab",
-      "published_at": "2025-06-29",
-      "collected_at": "2026-07-01",
-      "views": 692470,
-      "tags": [
-        "claude-code",
-        "agent",
-        "agent-development",
-        "ai-agent",
-        "claude"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "github_trending/shareAI-lab_learn-claude-code.md"
-      },
-      "hot": true
-    },
-    {
       "id": "gh-DietrichGebert-ponytail",
       "title": "DietrichGebert/ponytail",
       "type": "tip",
@@ -287,7 +264,7 @@
       "author": "DietrichGebert",
       "published_at": "2026-06-12",
       "collected_at": "2026-07-01",
-      "views": 690510,
+      "views": 693810,
       "tags": [
         "claude-code",
         "agent-skills",
@@ -302,6 +279,29 @@
       "hot": true
     },
     {
+      "id": "gh-shareAI-lab-learn-claude-code",
+      "title": "shareAI-lab/learn-claude-code",
+      "type": "tip",
+      "summary": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
+      "source": "https://github.com/shareAI-lab/learn-claude-code",
+      "author": "shareAI-lab",
+      "published_at": "2025-06-29",
+      "collected_at": "2026-07-01",
+      "views": 693130,
+      "tags": [
+        "claude-code",
+        "agent",
+        "agent-development",
+        "ai-agent",
+        "claude"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/shareAI-lab_learn-claude-code.md"
+      },
+      "hot": true
+    },
+    {
       "id": "gh-D4Vinci-Scrapling",
       "title": "D4Vinci/Scrapling",
       "type": "tip",
@@ -310,7 +310,7 @@
       "author": "D4Vinci",
       "published_at": "2024-10-13",
       "collected_at": "2026-07-01",
-      "views": 673980,
+      "views": 674500,
       "tags": [
         "mcp-server",
         "ai",
@@ -333,7 +333,7 @@
       "author": "rtk-ai",
       "published_at": "2026-01-22",
       "collected_at": "2026-07-01",
-      "views": 673370,
+      "views": 674100,
       "tags": [
         "anthropic",
         "agentic-coding",
@@ -356,7 +356,7 @@
       "author": "code-yeongyu",
       "published_at": "2025-12-03",
       "collected_at": "2026-07-01",
-      "views": 643820,
+      "views": 644140,
       "tags": [
         "anthropic",
         "ai",
@@ -379,7 +379,7 @@
       "author": "ruvnet",
       "published_at": "2025-06-02",
       "collected_at": "2026-07-01",
-      "views": 622420,
+      "views": 622790,
       "tags": [
         "mcp-server",
         "agentic-ai",
@@ -402,7 +402,7 @@
       "author": "shanraisshan",
       "published_at": "2025-10-31",
       "collected_at": "2026-07-01",
-      "views": 616630,
+      "views": 616870,
       "tags": [
         "anthropic",
         "agentic-ai",
@@ -425,7 +425,7 @@
       "author": "sansan0",
       "published_at": "2025-04-28",
       "collected_at": "2026-07-01",
-      "views": 600850,
+      "views": 600960,
       "tags": [
         "mcp-server",
         "ai",
@@ -448,7 +448,7 @@
       "author": "upstash",
       "published_at": "2025-03-26",
       "collected_at": "2026-07-01",
-      "views": 583820,
+      "views": 583890,
       "tags": [
         "mcp-server",
         "llm",
@@ -471,7 +471,7 @@
       "author": "santifer",
       "published_at": "2026-04-04",
       "collected_at": "2026-07-01",
-      "views": 568370,
+      "views": 568710,
       "tags": [
         "anthropic",
         "ai-agent",
@@ -494,7 +494,7 @@
       "author": "headroomlabs-ai",
       "published_at": "2026-01-07",
       "collected_at": "2026-07-01",
-      "views": 546510,
+      "views": 547790,
       "tags": [
         "anthropic",
         "agent",
@@ -517,7 +517,7 @@
       "author": "ChromeDevTools",
       "published_at": "2025-09-11",
       "collected_at": "2026-07-01",
-      "views": 447880,
+      "views": 448040,
       "tags": [
         "mcp-server",
         "browser",
@@ -540,7 +540,7 @@
       "author": "bytedance",
       "published_at": "2025-01-19",
       "collected_at": "2026-07-01",
-      "views": 374030,
+      "views": 374090,
       "tags": [
         "mcp-server",
         "agent",
@@ -563,7 +563,7 @@
       "author": "github",
       "published_at": "2025-03-04",
       "collected_at": "2026-07-01",
-      "views": 310910,
+      "views": 310930,
       "tags": [
         "mcp-server",
         "github",
@@ -585,7 +585,7 @@
       "author": "assafelovic",
       "published_at": "2023-05-12",
       "collected_at": "2026-07-01",
-      "views": 279840,
+      "views": 279870,
       "tags": [
         "mcp-server",
         "agent",
