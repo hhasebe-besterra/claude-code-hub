@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T21:19:14+09:00",
+  "generated_at": "2026-07-05T23:46:51+09:00",
   "generator": "harvest.py",
   "items": [
     {
@@ -11,7 +11,7 @@
       "author": "affaan-m",
       "published_at": "2026-01-18",
       "collected_at": "2026-07-05",
-      "views": 2261870,
+      "views": 2262230,
       "tags": [
         "anthropic",
         "ai-agents",
@@ -34,7 +34,7 @@
       "author": "NousResearch",
       "published_at": "2025-07-22",
       "collected_at": "2026-07-05",
-      "views": 2094380,
+      "views": 2094980,
       "tags": [
         "anthropic",
         "ai",
@@ -57,7 +57,7 @@
       "author": "n8n-io",
       "published_at": "2019-06-22",
       "collected_at": "2026-07-05",
-      "views": 1952560,
+      "views": 1952680,
       "tags": [
         "mcp-server",
         "ai",
@@ -80,7 +80,7 @@
       "author": "langchain-ai",
       "published_at": "2022-10-17",
       "collected_at": "2026-07-05",
-      "views": 1409660,
+      "views": 1409770,
       "tags": [
         "anthropic",
         "agents",
@@ -103,7 +103,7 @@
       "author": "farion1231",
       "published_at": "2025-08-04",
       "collected_at": "2026-07-05",
-      "views": 1133830,
+      "views": 1134230,
       "tags": [
         "claude-code",
         "ai-tools",
@@ -126,7 +126,7 @@
       "author": "google-gemini",
       "published_at": "2025-04-17",
       "collected_at": "2026-07-05",
-      "views": 1057550,
+      "views": 1057590,
       "tags": [
         "mcp-server",
         "ai",
@@ -149,7 +149,7 @@
       "author": "nextlevelbuilder",
       "published_at": "2025-11-30",
       "collected_at": "2026-07-05",
-      "views": 1010110,
+      "views": 1010700,
       "tags": [
         "claude-code",
         "ai-skills",
@@ -172,7 +172,7 @@
       "author": "thedotmack",
       "published_at": "2025-08-31",
       "collected_at": "2026-07-05",
-      "views": 859130,
+      "views": 859300,
       "tags": [
         "anthropic",
         "ai",
@@ -195,7 +195,7 @@
       "author": "JuliusBrussee",
       "published_at": "2026-04-04",
       "collected_at": "2026-07-05",
-      "views": 844560,
+      "views": 845510,
       "tags": [
         "anthropic",
         "ai",
@@ -218,7 +218,7 @@
       "author": "Graphify-Labs",
       "published_at": "2026-04-03",
       "collected_at": "2026-07-05",
-      "views": 778930,
+      "views": 779600,
       "tags": [
         "claude-code",
         "antigravity",
@@ -241,7 +241,7 @@
       "author": "DietrichGebert",
       "published_at": "2026-06-12",
       "collected_at": "2026-07-05",
-      "views": 743200,
+      "views": 744250,
       "tags": [
         "claude-code",
         "agent-skills",
@@ -264,7 +264,7 @@
       "author": "Egonex-AI",
       "published_at": "2026-03-15",
       "collected_at": "2026-07-05",
-      "views": 709720,
+      "views": 709950,
       "tags": [
         "claude-code",
         "antigravity-skills",
@@ -287,7 +287,7 @@
       "author": "shareAI-lab",
       "published_at": "2025-06-29",
       "collected_at": "2026-07-05",
-      "views": 698650,
+      "views": 698810,
       "tags": [
         "claude-code",
         "agent",
@@ -310,7 +310,7 @@
       "author": "rtk-ai",
       "published_at": "2026-01-22",
       "collected_at": "2026-07-05",
-      "views": 685960,
+      "views": 686220,
       "tags": [
         "anthropic",
         "agentic-coding",
@@ -333,7 +333,7 @@
       "author": "D4Vinci",
       "published_at": "2024-10-13",
       "collected_at": "2026-07-05",
-      "views": 681410,
+      "views": 681620,
       "tags": [
         "mcp-server",
         "ai",
@@ -356,7 +356,7 @@
       "author": "code-yeongyu",
       "published_at": "2025-12-03",
       "collected_at": "2026-07-05",
-      "views": 648700,
+      "views": 648830,
       "tags": [
         "anthropic",
         "ai",
@@ -379,7 +379,7 @@
       "author": "ruvnet",
       "published_at": "2025-06-02",
       "collected_at": "2026-07-05",
-      "views": 630730,
+      "views": 630940,
       "tags": [
         "mcp-server",
         "agentic-ai",
@@ -402,7 +402,7 @@
       "author": "shanraisshan",
       "published_at": "2025-10-31",
       "collected_at": "2026-07-05",
-      "views": 620060,
+      "views": 620170,
       "tags": [
         "anthropic",
         "agentic-ai",
@@ -417,6 +417,29 @@
       "hot": true
     },
     {
+      "id": "gh-koala73-worldmonitor",
+      "title": "koala73/worldmonitor",
+      "type": "tip",
+      "summary": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "source": "https://github.com/koala73/worldmonitor",
+      "author": "koala73",
+      "published_at": "2026-01-08",
+      "collected_at": "2026-07-05",
+      "views": 613660,
+      "tags": [
+        "mcp-server",
+        "agent",
+        "ai",
+        "dashboard",
+        "geopolitics"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/koala73_worldmonitor.md"
+      },
+      "hot": true
+    },
+    {
       "id": "gh-sansan0-TrendRadar",
       "title": "sansan0/TrendRadar",
       "type": "mcp",
@@ -425,7 +448,7 @@
       "author": "sansan0",
       "published_at": "2025-04-28",
       "collected_at": "2026-07-05",
-      "views": 602620,
+      "views": 602690,
       "tags": [
         "mcp-server",
         "ai",
@@ -448,7 +471,7 @@
       "author": "santifer",
       "published_at": "2026-04-04",
       "collected_at": "2026-07-05",
-      "views": 586180,
+      "views": 586330,
       "tags": [
         "anthropic",
         "ai-agent",
@@ -471,7 +494,7 @@
       "author": "upstash",
       "published_at": "2025-03-26",
       "collected_at": "2026-07-05",
-      "views": 586000,
+      "views": 586020,
       "tags": [
         "mcp-server",
         "llm",
@@ -494,7 +517,7 @@
       "author": "headroomlabs-ai",
       "published_at": "2026-01-07",
       "collected_at": "2026-07-05",
-      "views": 566700,
+      "views": 567060,
       "tags": [
         "anthropic",
         "agent",
@@ -517,7 +540,7 @@
       "author": "ChromeDevTools",
       "published_at": "2025-09-11",
       "collected_at": "2026-07-05",
-      "views": 459120,
+      "views": 459240,
       "tags": [
         "mcp-server",
         "browser",
@@ -540,7 +563,7 @@
       "author": "bytedance",
       "published_at": "2025-01-19",
       "collected_at": "2026-07-05",
-      "views": 376840,
+      "views": 376910,
       "tags": [
         "mcp-server",
         "agent",
@@ -573,29 +596,6 @@
       "install": {
         "kind": "note",
         "dest_note": "github_trending/github_github-mcp-server.md"
-      },
-      "hot": true
-    },
-    {
-      "id": "gh-assafelovic-gpt-researcher",
-      "title": "assafelovic/gpt-researcher",
-      "type": "tip",
-      "summary": "An autonomous agent that conducts deep research on any data using any LLM providers",
-      "source": "https://github.com/assafelovic/gpt-researcher",
-      "author": "assafelovic",
-      "published_at": "2023-05-12",
-      "collected_at": "2026-07-05",
-      "views": 280790,
-      "tags": [
-        "mcp-server",
-        "agent",
-        "ai",
-        "automation",
-        "deepresearch"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "github_trending/assafelovic_gpt-researcher.md"
       },
       "hot": true
     },
