@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T20:55:02+09:00",
+  "generated_at": "2026-07-07T23:46:39+09:00",
   "generator": "harvest.py",
   "items": [
     {
@@ -11,7 +11,7 @@
       "author": "affaan-m",
       "published_at": "2026-01-18",
       "collected_at": "2026-07-07",
-      "views": 2268330,
+      "views": 2268740,
       "tags": [
         "anthropic",
         "ai-agents",
@@ -34,7 +34,7 @@
       "author": "NousResearch",
       "published_at": "2025-07-22",
       "collected_at": "2026-07-07",
-      "views": 2106920,
+      "views": 2107970,
       "tags": [
         "anthropic",
         "ai",
@@ -57,7 +57,7 @@
       "author": "n8n-io",
       "published_at": "2019-06-22",
       "collected_at": "2026-07-07",
-      "views": 1955030,
+      "views": 1955220,
       "tags": [
         "mcp-server",
         "ai",
@@ -80,7 +80,7 @@
       "author": "langchain-ai",
       "published_at": "2022-10-17",
       "collected_at": "2026-07-07",
-      "views": 1411820,
+      "views": 1411960,
       "tags": [
         "anthropic",
         "agents",
@@ -103,7 +103,7 @@
       "author": "farion1231",
       "published_at": "2025-08-04",
       "collected_at": "2026-07-07",
-      "views": 1142520,
+      "views": 1143120,
       "tags": [
         "claude-code",
         "ai-tools",
@@ -149,7 +149,7 @@
       "author": "nextlevelbuilder",
       "published_at": "2025-11-30",
       "collected_at": "2026-07-07",
-      "views": 1020220,
+      "views": 1021110,
       "tags": [
         "claude-code",
         "ai-skills",
@@ -172,7 +172,7 @@
       "author": "thedotmack",
       "published_at": "2025-08-31",
       "collected_at": "2026-07-07",
-      "views": 862570,
+      "views": 862880,
       "tags": [
         "anthropic",
         "ai",
@@ -195,7 +195,7 @@
       "author": "JuliusBrussee",
       "published_at": "2026-04-04",
       "collected_at": "2026-07-07",
-      "views": 860180,
+      "views": 860810,
       "tags": [
         "anthropic",
         "ai",
@@ -218,7 +218,7 @@
       "author": "Graphify-Labs",
       "published_at": "2026-04-03",
       "collected_at": "2026-07-07",
-      "views": 791230,
+      "views": 792630,
       "tags": [
         "claude-code",
         "antigravity",
@@ -241,7 +241,7 @@
       "author": "DietrichGebert",
       "published_at": "2026-06-12",
       "collected_at": "2026-07-07",
-      "views": 764360,
+      "views": 765630,
       "tags": [
         "claude-code",
         "agent-skills",
@@ -256,29 +256,6 @@
       "hot": true
     },
     {
-      "id": "gh-Egonex-AI-Understand-Anything",
-      "title": "Egonex-AI/Understand-Anything",
-      "type": "tip",
-      "summary": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
-      "source": "https://github.com/Egonex-AI/Understand-Anything",
-      "author": "Egonex-AI",
-      "published_at": "2026-03-15",
-      "collected_at": "2026-07-07",
-      "views": 716070,
-      "tags": [
-        "claude-code",
-        "antigravity-skills",
-        "business-knowledge",
-        "claude-code",
-        "claude-skills"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "github_trending/Egonex-AI_Understand-Anything.md"
-      },
-      "hot": true
-    },
-    {
       "id": "gh-addyosmani-agent-skills",
       "title": "addyosmani/agent-skills",
       "type": "tip",
@@ -287,7 +264,7 @@
       "author": "addyosmani",
       "published_at": "2026-02-15",
       "collected_at": "2026-07-07",
-      "views": 715390,
+      "views": 717210,
       "tags": [
         "claude-code",
         "agent-skills",
@@ -302,6 +279,29 @@
       "hot": true
     },
     {
+      "id": "gh-Egonex-AI-Understand-Anything",
+      "title": "Egonex-AI/Understand-Anything",
+      "type": "tip",
+      "summary": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "source": "https://github.com/Egonex-AI/Understand-Anything",
+      "author": "Egonex-AI",
+      "published_at": "2026-03-15",
+      "collected_at": "2026-07-07",
+      "views": 716470,
+      "tags": [
+        "claude-code",
+        "antigravity-skills",
+        "business-knowledge",
+        "claude-code",
+        "claude-skills"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/Egonex-AI_Understand-Anything.md"
+      },
+      "hot": true
+    },
+    {
       "id": "gh-rtk-ai-rtk",
       "title": "rtk-ai/rtk",
       "type": "tip",
@@ -310,7 +310,7 @@
       "author": "rtk-ai",
       "published_at": "2026-01-22",
       "collected_at": "2026-07-07",
-      "views": 691750,
+      "views": 692280,
       "tags": [
         "anthropic",
         "agentic-coding",
@@ -333,7 +333,7 @@
       "author": "D4Vinci",
       "published_at": "2024-10-13",
       "collected_at": "2026-07-07",
-      "views": 684920,
+      "views": 685160,
       "tags": [
         "mcp-server",
         "ai",
@@ -356,7 +356,7 @@
       "author": "code-yeongyu",
       "published_at": "2025-12-03",
       "collected_at": "2026-07-07",
-      "views": 651370,
+      "views": 651480,
       "tags": [
         "anthropic",
         "ai",
@@ -379,7 +379,7 @@
       "author": "ruvnet",
       "published_at": "2025-06-02",
       "collected_at": "2026-07-07",
-      "views": 633800,
+      "views": 633950,
       "tags": [
         "mcp-server",
         "agentic-ai",
@@ -402,7 +402,7 @@
       "author": "shanraisshan",
       "published_at": "2025-10-31",
       "collected_at": "2026-07-07",
-      "views": 621440,
+      "views": 621540,
       "tags": [
         "anthropic",
         "agentic-ai",
@@ -425,7 +425,7 @@
       "author": "koala73",
       "published_at": "2026-01-08",
       "collected_at": "2026-07-07",
-      "views": 615000,
+      "views": 615090,
       "tags": [
         "mcp-server",
         "agent",
@@ -448,7 +448,7 @@
       "author": "sansan0",
       "published_at": "2025-04-28",
       "collected_at": "2026-07-07",
-      "views": 603270,
+      "views": 603280,
       "tags": [
         "mcp-server",
         "ai",
@@ -471,7 +471,7 @@
       "author": "santifer",
       "published_at": "2026-04-04",
       "collected_at": "2026-07-07",
-      "views": 589390,
+      "views": 589620,
       "tags": [
         "anthropic",
         "ai",
@@ -494,7 +494,7 @@
       "author": "upstash",
       "published_at": "2025-03-26",
       "collected_at": "2026-07-07",
-      "views": 587020,
+      "views": 587100,
       "tags": [
         "mcp-server",
         "llm",
@@ -517,7 +517,7 @@
       "author": "headroomlabs-ai",
       "published_at": "2026-01-07",
       "collected_at": "2026-07-07",
-      "views": 573300,
+      "views": 573910,
       "tags": [
         "anthropic",
         "agent",
@@ -540,7 +540,7 @@
       "author": "ChromeDevTools",
       "published_at": "2025-09-11",
       "collected_at": "2026-07-07",
-      "views": 461670,
+      "views": 461950,
       "tags": [
         "mcp-server",
         "browser",
@@ -563,7 +563,7 @@
       "author": "bytedance",
       "published_at": "2025-01-19",
       "collected_at": "2026-07-07",
-      "views": 377600,
+      "views": 377650,
       "tags": [
         "mcp-server",
         "agent",
@@ -586,7 +586,7 @@
       "author": "github",
       "published_at": "2025-03-04",
       "collected_at": "2026-07-07",
-      "views": 312600,
+      "views": 312650,
       "tags": [
         "mcp-server",
         "github",
