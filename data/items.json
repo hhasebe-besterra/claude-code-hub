@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T13:16:54+09:00",
+  "generated_at": "2026-07-08T16:31:22+09:00",
   "generator": "harvest.py",
   "items": [
     {
@@ -11,7 +11,7 @@
       "author": "affaan-m",
       "published_at": "2026-01-18",
       "collected_at": "2026-07-08",
-      "views": 2271280,
+      "views": 2271710,
       "tags": [
         "anthropic",
         "ai-agents",
@@ -34,7 +34,7 @@
       "author": "NousResearch",
       "published_at": "2025-07-22",
       "collected_at": "2026-07-08",
-      "views": 2111060,
+      "views": 2111860,
       "tags": [
         "anthropic",
         "ai",
@@ -57,7 +57,7 @@
       "author": "n8n-io",
       "published_at": "2019-06-22",
       "collected_at": "2026-07-08",
-      "views": 1955880,
+      "views": 1956120,
       "tags": [
         "mcp-server",
         "ai",
@@ -80,7 +80,7 @@
       "author": "langchain-ai",
       "published_at": "2022-10-17",
       "collected_at": "2026-07-08",
-      "views": 1412490,
+      "views": 1412740,
       "tags": [
         "anthropic",
         "agents",
@@ -103,7 +103,7 @@
       "author": "farion1231",
       "published_at": "2025-08-04",
       "collected_at": "2026-07-08",
-      "views": 1144720,
+      "views": 1145660,
       "tags": [
         "claude-code",
         "ai-tools",
@@ -126,7 +126,7 @@
       "author": "google-gemini",
       "published_at": "2025-04-17",
       "collected_at": "2026-07-08",
-      "views": 1058330,
+      "views": 1058370,
       "tags": [
         "mcp-server",
         "ai",
@@ -149,7 +149,7 @@
       "author": "nextlevelbuilder",
       "published_at": "2025-11-30",
       "collected_at": "2026-07-08",
-      "views": 1024200,
+      "views": 1025210,
       "tags": [
         "claude-code",
         "ai-skills",
@@ -164,29 +164,6 @@
       "hot": true
     },
     {
-      "id": "gh-thedotmack-claude-mem",
-      "title": "thedotmack/claude-mem",
-      "type": "tip",
-      "summary": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-      "source": "https://github.com/thedotmack/claude-mem",
-      "author": "thedotmack",
-      "published_at": "2025-08-31",
-      "collected_at": "2026-07-08",
-      "views": 863560,
-      "tags": [
-        "anthropic",
-        "ai",
-        "ai-agents",
-        "ai-memory",
-        "anthropic"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "github_trending/thedotmack_claude-mem.md"
-      },
-      "hot": true
-    },
-    {
       "id": "gh-JuliusBrussee-caveman",
       "title": "JuliusBrussee/caveman",
       "type": "tip",
@@ -195,7 +172,7 @@
       "author": "JuliusBrussee",
       "published_at": "2026-04-04",
       "collected_at": "2026-07-08",
-      "views": 863480,
+      "views": 864330,
       "tags": [
         "anthropic",
         "ai",
@@ -210,6 +187,29 @@
       "hot": true
     },
     {
+      "id": "gh-thedotmack-claude-mem",
+      "title": "thedotmack/claude-mem",
+      "type": "tip",
+      "summary": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "source": "https://github.com/thedotmack/claude-mem",
+      "author": "thedotmack",
+      "published_at": "2025-08-31",
+      "collected_at": "2026-07-08",
+      "views": 863750,
+      "tags": [
+        "anthropic",
+        "ai",
+        "ai-agents",
+        "ai-memory",
+        "anthropic"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/thedotmack_claude-mem.md"
+      },
+      "hot": true
+    },
+    {
       "id": "gh-Graphify-Labs-graphify",
       "title": "Graphify-Labs/graphify",
       "type": "tip",
@@ -218,7 +218,7 @@
       "author": "Graphify-Labs",
       "published_at": "2026-04-03",
       "collected_at": "2026-07-08",
-      "views": 796810,
+      "views": 797970,
       "tags": [
         "claude-code",
         "antigravity",
@@ -241,7 +241,7 @@
       "author": "DietrichGebert",
       "published_at": "2026-06-12",
       "collected_at": "2026-07-08",
-      "views": 770800,
+      "views": 772360,
       "tags": [
         "claude-code",
         "agent-skills",
@@ -264,7 +264,7 @@
       "author": "addyosmani",
       "published_at": "2026-02-15",
       "collected_at": "2026-07-08",
-      "views": 723370,
+      "views": 725170,
       "tags": [
         "claude-code",
         "agent-skills",
@@ -287,7 +287,7 @@
       "author": "Egonex-AI",
       "published_at": "2026-03-15",
       "collected_at": "2026-07-08",
-      "views": 717840,
+      "views": 718310,
       "tags": [
         "claude-code",
         "antigravity-skills",
@@ -310,7 +310,7 @@
       "author": "rtk-ai",
       "published_at": "2026-01-22",
       "collected_at": "2026-07-08",
-      "views": 693430,
+      "views": 693800,
       "tags": [
         "anthropic",
         "agentic-coding",
@@ -333,7 +333,7 @@
       "author": "D4Vinci",
       "published_at": "2024-10-13",
       "collected_at": "2026-07-08",
-      "views": 685870,
+      "views": 686200,
       "tags": [
         "mcp-server",
         "ai",
@@ -356,7 +356,7 @@
       "author": "code-yeongyu",
       "published_at": "2025-12-03",
       "collected_at": "2026-07-08",
-      "views": 652000,
+      "views": 652260,
       "tags": [
         "anthropic",
         "ai",
@@ -379,7 +379,7 @@
       "author": "ruvnet",
       "published_at": "2025-06-02",
       "collected_at": "2026-07-08",
-      "views": 634780,
+      "views": 634960,
       "tags": [
         "mcp-server",
         "agentic-ai",
@@ -402,7 +402,7 @@
       "author": "shanraisshan",
       "published_at": "2025-10-31",
       "collected_at": "2026-07-08",
-      "views": 622070,
+      "views": 622320,
       "tags": [
         "anthropic",
         "agentic-ai",
@@ -425,7 +425,7 @@
       "author": "koala73",
       "published_at": "2026-01-08",
       "collected_at": "2026-07-08",
-      "views": 615420,
+      "views": 615510,
       "tags": [
         "mcp-server",
         "agent",
@@ -448,7 +448,7 @@
       "author": "sansan0",
       "published_at": "2025-04-28",
       "collected_at": "2026-07-08",
-      "views": 603450,
+      "views": 603560,
       "tags": [
         "mcp-server",
         "ai",
@@ -471,7 +471,7 @@
       "author": "santifer",
       "published_at": "2026-04-04",
       "collected_at": "2026-07-08",
-      "views": 590680,
+      "views": 590910,
       "tags": [
         "anthropic",
         "ai",
@@ -494,7 +494,7 @@
       "author": "upstash",
       "published_at": "2025-03-26",
       "collected_at": "2026-07-08",
-      "views": 587380,
+      "views": 587470,
       "tags": [
         "mcp-server",
         "llm",
@@ -517,7 +517,7 @@
       "author": "headroomlabs-ai",
       "published_at": "2026-01-07",
       "collected_at": "2026-07-08",
-      "views": 576050,
+      "views": 576570,
       "tags": [
         "anthropic",
         "agent",
@@ -540,7 +540,7 @@
       "author": "ChromeDevTools",
       "published_at": "2025-09-11",
       "collected_at": "2026-07-08",
-      "views": 462830,
+      "views": 462990,
       "tags": [
         "mcp-server",
         "browser",
@@ -563,7 +563,7 @@
       "author": "bytedance",
       "published_at": "2025-01-19",
       "collected_at": "2026-07-08",
-      "views": 377790,
+      "views": 377940,
       "tags": [
         "mcp-server",
         "agent",
@@ -586,7 +586,7 @@
       "author": "github",
       "published_at": "2025-03-04",
       "collected_at": "2026-07-08",
-      "views": 312780,
+      "views": 312820,
       "tags": [
         "mcp-server",
         "github",
