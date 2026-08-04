@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T03:40:43+09:00",
+  "generated_at": "2026-08-05T05:27:23+09:00",
   "generator": "harvest.py",
   "items": [
     {
@@ -11,7 +11,7 @@
       "author": "affaan-m",
       "published_at": "2026-01-18",
       "collected_at": "2026-08-05",
-      "views": 2376460,
+      "views": 2376590,
       "tags": [
         "anthropic",
         "ai-agents",
@@ -34,7 +34,7 @@
       "author": "NousResearch",
       "published_at": "2025-07-22",
       "collected_at": "2026-08-05",
-      "views": 2254130,
+      "views": 2254400,
       "tags": [
         "anthropic",
         "ai",
@@ -57,7 +57,7 @@
       "author": "n8n-io",
       "published_at": "2019-06-22",
       "collected_at": "2026-08-05",
-      "views": 1993250,
+      "views": 1993320,
       "tags": [
         "mcp-server",
         "ai",
@@ -80,7 +80,7 @@
       "author": "langchain-ai",
       "published_at": "2022-10-17",
       "collected_at": "2026-08-05",
-      "views": 1434170,
+      "views": 1434200,
       "tags": [
         "anthropic",
         "agents",
@@ -103,7 +103,7 @@
       "author": "farion1231",
       "published_at": "2025-08-04",
       "collected_at": "2026-08-05",
-      "views": 1243250,
+      "views": 1243320,
       "tags": [
         "claude-code",
         "ai-tools",
@@ -126,7 +126,7 @@
       "author": "nextlevelbuilder",
       "published_at": "2025-11-30",
       "collected_at": "2026-08-05",
-      "views": 1134140,
+      "views": 1134300,
       "tags": [
         "claude-code",
         "ai-skills",
@@ -172,7 +172,7 @@
       "author": "Graphify-Labs",
       "published_at": "2026-04-03",
       "collected_at": "2026-08-05",
-      "views": 1023700,
+      "views": 1024310,
       "tags": [
         "claude-code",
         "ai-agents",
@@ -187,29 +187,6 @@
       "hot": true
     },
     {
-      "id": "gh-JuliusBrussee-caveman",
-      "title": "JuliusBrussee/caveman",
-      "type": "tip",
-      "summary": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
-      "source": "https://github.com/JuliusBrussee/caveman",
-      "author": "JuliusBrussee",
-      "published_at": "2026-04-04",
-      "collected_at": "2026-08-05",
-      "views": 957580,
-      "tags": [
-        "anthropic",
-        "ai",
-        "anthropic",
-        "caveman",
-        "claude"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "github_trending/JuliusBrussee_caveman.md"
-      },
-      "hot": true
-    },
-    {
       "id": "gh-DietrichGebert-ponytail",
       "title": "DietrichGebert/ponytail",
       "type": "tip",
@@ -218,7 +195,7 @@
       "author": "DietrichGebert",
       "published_at": "2026-06-12",
       "collected_at": "2026-08-05",
-      "views": 957500,
+      "views": 957880,
       "tags": [
         "claude-code",
         "agent-skills",
@@ -233,6 +210,29 @@
       "hot": true
     },
     {
+      "id": "gh-JuliusBrussee-caveman",
+      "title": "JuliusBrussee/caveman",
+      "type": "tip",
+      "summary": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "source": "https://github.com/JuliusBrussee/caveman",
+      "author": "JuliusBrussee",
+      "published_at": "2026-04-04",
+      "collected_at": "2026-08-05",
+      "views": 957760,
+      "tags": [
+        "anthropic",
+        "ai",
+        "anthropic",
+        "caveman",
+        "claude"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/JuliusBrussee_caveman.md"
+      },
+      "hot": true
+    },
+    {
       "id": "gh-thedotmack-claude-mem",
       "title": "thedotmack/claude-mem",
       "type": "tip",
@@ -241,7 +241,7 @@
       "author": "thedotmack",
       "published_at": "2025-08-31",
       "collected_at": "2026-08-05",
-      "views": 895370,
+      "views": 895440,
       "tags": [
         "anthropic",
         "ai",
@@ -264,7 +264,7 @@
       "author": "addyosmani",
       "published_at": "2026-02-15",
       "collected_at": "2026-08-05",
-      "views": 816160,
+      "views": 816290,
       "tags": [
         "claude-code",
         "agent-skills",
@@ -287,7 +287,7 @@
       "author": "koala73",
       "published_at": "2026-01-08",
       "collected_at": "2026-08-05",
-      "views": 787610,
+      "views": 787770,
       "tags": [
         "mcp-server",
         "agent",
@@ -310,7 +310,7 @@
       "author": "Egonex-AI",
       "published_at": "2026-03-15",
       "collected_at": "2026-08-05",
-      "views": 774600,
+      "views": 774630,
       "tags": [
         "claude-code",
         "antigravity-skills",
@@ -333,7 +333,7 @@
       "author": "rtk-ai",
       "published_at": "2026-01-22",
       "collected_at": "2026-08-05",
-      "views": 746890,
+      "views": 747120,
       "tags": [
         "anthropic",
         "agentic-coding",
@@ -356,7 +356,7 @@
       "author": "D4Vinci",
       "published_at": "2024-10-13",
       "collected_at": "2026-08-05",
-      "views": 725390,
+      "views": 725480,
       "tags": [
         "mcp-server",
         "ai",
@@ -379,7 +379,7 @@
       "author": "code-yeongyu",
       "published_at": "2025-12-03",
       "collected_at": "2026-08-05",
-      "views": 672190,
+      "views": 672180,
       "tags": [
         "anthropic",
         "ai",
@@ -402,7 +402,7 @@
       "author": "ruvnet",
       "published_at": "2025-06-02",
       "collected_at": "2026-08-05",
-      "views": 670260,
+      "views": 670330,
       "tags": [
         "mcp-server",
         "agentic-ai",
@@ -425,7 +425,7 @@
       "author": "headroomlabs-ai",
       "published_at": "2026-01-07",
       "collected_at": "2026-08-05",
-      "views": 646970,
+      "views": 647280,
       "tags": [
         "anthropic",
         "agent",
@@ -448,7 +448,7 @@
       "author": "shanraisshan",
       "published_at": "2025-10-31",
       "collected_at": "2026-08-05",
-      "views": 639970,
+      "views": 640010,
       "tags": [
         "anthropic",
         "agentic-ai",
@@ -471,7 +471,7 @@
       "author": "santifer",
       "published_at": "2026-04-04",
       "collected_at": "2026-08-05",
-      "views": 627670,
+      "views": 627800,
       "tags": [
         "anthropic",
         "ai",
@@ -494,7 +494,7 @@
       "author": "sansan0",
       "published_at": "2025-04-28",
       "collected_at": "2026-08-05",
-      "views": 611630,
+      "views": 611650,
       "tags": [
         "mcp-server",
         "ai",
@@ -517,7 +517,7 @@
       "author": "upstash",
       "published_at": "2025-03-26",
       "collected_at": "2026-08-05",
-      "views": 602490,
+      "views": 602500,
       "tags": [
         "mcp-server",
         "llm",
@@ -540,7 +540,7 @@
       "author": "ChromeDevTools",
       "published_at": "2025-09-11",
       "collected_at": "2026-08-05",
-      "views": 485210,
+      "views": 485230,
       "tags": [
         "mcp-server",
         "browser",
@@ -563,7 +563,7 @@
       "author": "bytedance",
       "published_at": "2025-01-19",
       "collected_at": "2026-08-05",
-      "views": 384300,
+      "views": 384290,
       "tags": [
         "mcp-server",
         "agent",
@@ -586,7 +586,7 @@
       "author": "DeusData",
       "published_at": "2026-02-24",
       "collected_at": "2026-08-05",
-      "views": 374320,
+      "views": 374500,
       "tags": [
         "mcp-server",
         "aider",
