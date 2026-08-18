@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T08:26:02+09:00",
+  "generated_at": "2026-08-18T10:25:02+09:00",
   "generator": "harvest.py",
   "items": [
     {
@@ -11,7 +11,7 @@
       "author": "affaan-m",
       "published_at": "2026-01-18",
       "collected_at": "2026-08-18",
-      "views": 2406960,
+      "views": 2407140,
       "tags": [
         "anthropic",
         "ai-agents",
@@ -34,7 +34,7 @@
       "author": "NousResearch",
       "published_at": "2025-07-22",
       "collected_at": "2026-08-18",
-      "views": 2320040,
+      "views": 2320460,
       "tags": [
         "anthropic",
         "ai",
@@ -57,7 +57,7 @@
       "author": "n8n-io",
       "published_at": "2019-06-22",
       "collected_at": "2026-08-18",
-      "views": 2009980,
+      "views": 2010040,
       "tags": [
         "mcp-server",
         "ai",
@@ -80,7 +80,7 @@
       "author": "langchain-ai",
       "published_at": "2022-10-17",
       "collected_at": "2026-08-18",
-      "views": 1444140,
+      "views": 1444150,
       "tags": [
         "anthropic",
         "agents",
@@ -103,7 +103,7 @@
       "author": "farion1231",
       "published_at": "2025-08-04",
       "collected_at": "2026-08-18",
-      "views": 1278440,
+      "views": 1278560,
       "tags": [
         "claude-code",
         "ai-tools",
@@ -126,7 +126,7 @@
       "author": "nextlevelbuilder",
       "published_at": "2025-11-30",
       "collected_at": "2026-08-18",
-      "views": 1176180,
+      "views": 1176400,
       "tags": [
         "claude-code",
         "ai-skills",
@@ -149,7 +149,7 @@
       "author": "Graphify-Labs",
       "published_at": "2026-04-03",
       "collected_at": "2026-08-18",
-      "views": 1074950,
+      "views": 1075260,
       "tags": [
         "claude-code",
         "ai-agents",
@@ -172,7 +172,7 @@
       "author": "google-gemini",
       "published_at": "2025-04-17",
       "collected_at": "2026-08-18",
-      "views": 1065420,
+      "views": 1065430,
       "tags": [
         "mcp-server",
         "ai",
@@ -195,7 +195,7 @@
       "author": "DietrichGebert",
       "published_at": "2026-06-12",
       "collected_at": "2026-08-18",
-      "views": 1047270,
+      "views": 1047600,
       "tags": [
         "claude-code",
         "agent-skills",
@@ -218,7 +218,7 @@
       "author": "JuliusBrussee",
       "published_at": "2026-04-04",
       "collected_at": "2026-08-18",
-      "views": 987420,
+      "views": 987610,
       "tags": [
         "anthropic",
         "ai",
@@ -241,7 +241,7 @@
       "author": "thedotmack",
       "published_at": "2025-08-31",
       "collected_at": "2026-08-18",
-      "views": 910120,
+      "views": 910220,
       "tags": [
         "anthropic",
         "ai",
@@ -264,7 +264,7 @@
       "author": "addyosmani",
       "published_at": "2026-02-15",
       "collected_at": "2026-08-18",
-      "views": 880410,
+      "views": 880600,
       "tags": [
         "claude-code",
         "agent-skills",
@@ -287,7 +287,7 @@
       "author": "koala73",
       "published_at": "2026-01-08",
       "collected_at": "2026-08-18",
-      "views": 826710,
+      "views": 826850,
       "tags": [
         "mcp-server",
         "agent",
@@ -310,7 +310,7 @@
       "author": "Egonex-AI",
       "published_at": "2026-03-15",
       "collected_at": "2026-08-18",
-      "views": 796210,
+      "views": 796280,
       "tags": [
         "claude-code",
         "antigravity-skills",
@@ -333,7 +333,7 @@
       "author": "rtk-ai",
       "published_at": "2026-01-22",
       "collected_at": "2026-08-18",
-      "views": 764050,
+      "views": 764110,
       "tags": [
         "anthropic",
         "agentic-coding",
@@ -356,7 +356,7 @@
       "author": "D4Vinci",
       "published_at": "2024-10-13",
       "collected_at": "2026-08-18",
-      "views": 748060,
+      "views": 748170,
       "tags": [
         "mcp-server",
         "ai",
@@ -379,7 +379,7 @@
       "author": "ruvnet",
       "published_at": "2025-06-02",
       "collected_at": "2026-08-18",
-      "views": 680850,
+      "views": 680910,
       "tags": [
         "mcp-server",
         "agentic-ai",
@@ -402,7 +402,7 @@
       "author": "code-yeongyu",
       "published_at": "2025-12-03",
       "collected_at": "2026-08-18",
-      "views": 680030,
+      "views": 680060,
       "tags": [
         "anthropic",
         "ai",
@@ -425,7 +425,7 @@
       "author": "headroomlabs-ai",
       "published_at": "2026-01-07",
       "collected_at": "2026-08-18",
-      "views": 666690,
+      "views": 666810,
       "tags": [
         "anthropic",
         "agent",
@@ -440,29 +440,6 @@
       "hot": true
     },
     {
-      "id": "gh-shanraisshan-claude-code-best-practice",
-      "title": "shanraisshan/claude-code-best-practice",
-      "type": "tip",
-      "summary": "from vibe coding to agentic engineering - practice makes claude perfect",
-      "source": "https://github.com/shanraisshan/claude-code-best-practice",
-      "author": "shanraisshan",
-      "published_at": "2025-10-31",
-      "collected_at": "2026-08-18",
-      "views": 646240,
-      "tags": [
-        "anthropic",
-        "agentic-ai",
-        "agentic-coding",
-        "agentic-engineering",
-        "agentic-workflow"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "github_trending/shanraisshan_claude-code-best-practice.md"
-      },
-      "hot": true
-    },
-    {
       "id": "gh-santifer-career-ops",
       "title": "santifer/career-ops",
       "type": "tip",
@@ -471,7 +448,7 @@
       "author": "santifer",
       "published_at": "2026-04-04",
       "collected_at": "2026-08-18",
-      "views": 645940,
+      "views": 646780,
       "tags": [
         "anthropic",
         "ai",
@@ -486,6 +463,29 @@
       "hot": true
     },
     {
+      "id": "gh-shanraisshan-claude-code-best-practice",
+      "title": "shanraisshan/claude-code-best-practice",
+      "type": "tip",
+      "summary": "from vibe coding to agentic engineering - practice makes claude perfect",
+      "source": "https://github.com/shanraisshan/claude-code-best-practice",
+      "author": "shanraisshan",
+      "published_at": "2025-10-31",
+      "collected_at": "2026-08-18",
+      "views": 646260,
+      "tags": [
+        "anthropic",
+        "agentic-ai",
+        "agentic-coding",
+        "agentic-engineering",
+        "agentic-workflow"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/shanraisshan_claude-code-best-practice.md"
+      },
+      "hot": true
+    },
+    {
       "id": "gh-sansan0-TrendRadar",
       "title": "sansan0/TrendRadar",
       "type": "mcp",
@@ -494,7 +494,7 @@
       "author": "sansan0",
       "published_at": "2025-04-28",
       "collected_at": "2026-08-18",
-      "views": 615300,
+      "views": 615290,
       "tags": [
         "mcp-server",
         "ai",
@@ -517,7 +517,7 @@
       "author": "upstash",
       "published_at": "2025-03-26",
       "collected_at": "2026-08-18",
-      "views": 608870,
+      "views": 608900,
       "tags": [
         "mcp-server",
         "llm",
@@ -540,7 +540,7 @@
       "author": "ChromeDevTools",
       "published_at": "2025-09-11",
       "collected_at": "2026-08-18",
-      "views": 493110,
+      "views": 493130,
       "tags": [
         "mcp-server",
         "browser",
@@ -563,7 +563,7 @@
       "author": "DeusData",
       "published_at": "2026-02-24",
       "collected_at": "2026-08-18",
-      "views": 392710,
+      "views": 392760,
       "tags": [
         "mcp-server",
         "aider",
@@ -586,7 +586,7 @@
       "author": "bytedance",
       "published_at": "2025-01-19",
       "collected_at": "2026-08-18",
-      "views": 386100,
+      "views": 386120,
       "tags": [
         "mcp-server",
         "agent",
