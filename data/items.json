@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T03:43:44+09:00",
+  "generated_at": "2026-08-26T04:34:48+09:00",
   "generator": "harvest.py",
   "items": [
     {
@@ -11,7 +11,7 @@
       "author": "affaan-m",
       "published_at": "2026-01-18",
       "collected_at": "2026-08-26",
-      "views": 2431320,
+      "views": 2431470,
       "tags": [
         "anthropic",
         "ai-agents",
@@ -34,7 +34,7 @@
       "author": "NousResearch",
       "published_at": "2025-07-22",
       "collected_at": "2026-08-26",
-      "views": 2363330,
+      "views": 2363440,
       "tags": [
         "anthropic",
         "ai",
@@ -57,7 +57,7 @@
       "author": "n8n-io",
       "published_at": "2019-06-22",
       "collected_at": "2026-08-26",
-      "views": 2023920,
+      "views": 2023970,
       "tags": [
         "mcp-server",
         "ai",
@@ -80,7 +80,7 @@
       "author": "langchain-ai",
       "published_at": "2022-10-17",
       "collected_at": "2026-08-26",
-      "views": 1449730,
+      "views": 1449720,
       "tags": [
         "anthropic",
         "agents",
@@ -126,7 +126,7 @@
       "author": "nextlevelbuilder",
       "published_at": "2025-11-30",
       "collected_at": "2026-08-26",
-      "views": 1208650,
+      "views": 1208730,
       "tags": [
         "claude-code",
         "ai-skills",
@@ -149,7 +149,7 @@
       "author": "DietrichGebert",
       "published_at": "2026-06-12",
       "collected_at": "2026-08-26",
-      "views": 1107280,
+      "views": 1107590,
       "tags": [
         "claude-code",
         "agent-skills",
@@ -172,7 +172,7 @@
       "author": "Graphify-Labs",
       "published_at": "2026-04-03",
       "collected_at": "2026-08-26",
-      "views": 1104160,
+      "views": 1104300,
       "tags": [
         "claude-code",
         "ai-agents",
@@ -218,7 +218,7 @@
       "author": "JuliusBrussee",
       "published_at": "2026-04-04",
       "collected_at": "2026-08-26",
-      "views": 1008960,
+      "views": 1009070,
       "tags": [
         "anthropic",
         "ai",
@@ -241,7 +241,7 @@
       "author": "thedotmack",
       "published_at": "2025-08-31",
       "collected_at": "2026-08-26",
-      "views": 918140,
+      "views": 918160,
       "tags": [
         "anthropic",
         "ai",
@@ -264,7 +264,7 @@
       "author": "addyosmani",
       "published_at": "2026-02-15",
       "collected_at": "2026-08-26",
-      "views": 897060,
+      "views": 897140,
       "tags": [
         "claude-code",
         "agent-skills",
@@ -287,7 +287,7 @@
       "author": "koala73",
       "published_at": "2026-01-08",
       "collected_at": "2026-08-26",
-      "views": 841260,
+      "views": 841280,
       "tags": [
         "mcp-server",
         "agent",
@@ -302,25 +302,25 @@
       "hot": true
     },
     {
-      "id": "gh-Egonex-AI-Understand-Anything",
-      "title": "Egonex-AI/Understand-Anything",
+      "id": "gh-Leonxlnx-taste-skill",
+      "title": "Leonxlnx/taste-skill",
       "type": "tip",
-      "summary": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
-      "source": "https://github.com/Egonex-AI/Understand-Anything",
-      "author": "Egonex-AI",
-      "published_at": "2026-03-15",
+      "summary": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop ",
+      "source": "https://github.com/Leonxlnx/taste-skill",
+      "author": "Leonxlnx",
+      "published_at": "2026-02-19",
       "collected_at": "2026-08-26",
-      "views": 804660,
+      "views": 804730,
       "tags": [
         "claude-code",
-        "antigravity-skills",
-        "business-knowledge",
-        "claude-code",
-        "claude-skills"
+        "agent",
+        "ai",
+        "claude",
+        "claude-code"
       ],
       "install": {
         "kind": "note",
-        "dest_note": "github_trending/Egonex-AI_Understand-Anything.md"
+        "dest_note": "github_trending/Leonxlnx_taste-skill.md"
       },
       "hot": true
     },
@@ -333,7 +333,7 @@
       "author": "rtk-ai",
       "published_at": "2026-01-22",
       "collected_at": "2026-08-26",
-      "views": 773860,
+      "views": 773870,
       "tags": [
         "anthropic",
         "agentic-coding",
@@ -356,7 +356,7 @@
       "author": "D4Vinci",
       "published_at": "2024-10-13",
       "collected_at": "2026-08-26",
-      "views": 764550,
+      "views": 764650,
       "tags": [
         "mcp-server",
         "ai",
@@ -379,7 +379,7 @@
       "author": "ruvnet",
       "published_at": "2025-06-02",
       "collected_at": "2026-08-26",
-      "views": 693830,
+      "views": 693870,
       "tags": [
         "mcp-server",
         "agentic-ai",
@@ -402,7 +402,7 @@
       "author": "santifer",
       "published_at": "2026-04-04",
       "collected_at": "2026-08-26",
-      "views": 683640,
+      "views": 683660,
       "tags": [
         "anthropic",
         "ai",
@@ -425,7 +425,7 @@
       "author": "code-yeongyu",
       "published_at": "2025-12-03",
       "collected_at": "2026-08-26",
-      "views": 683540,
+      "views": 683560,
       "tags": [
         "anthropic",
         "ai",
@@ -448,7 +448,7 @@
       "author": "headroomlabs-ai",
       "published_at": "2026-01-07",
       "collected_at": "2026-08-26",
-      "views": 675560,
+      "views": 675590,
       "tags": [
         "anthropic",
         "agent",
@@ -471,7 +471,7 @@
       "author": "shanraisshan",
       "published_at": "2025-10-31",
       "collected_at": "2026-08-26",
-      "views": 650130,
+      "views": 650150,
       "tags": [
         "anthropic",
         "agentic-ai",
@@ -494,7 +494,7 @@
       "author": "sansan0",
       "published_at": "2025-04-28",
       "collected_at": "2026-08-26",
-      "views": 618280,
+      "views": 618270,
       "tags": [
         "mcp-server",
         "ai",
@@ -517,7 +517,7 @@
       "author": "upstash",
       "published_at": "2025-03-26",
       "collected_at": "2026-08-26",
-      "views": 612070,
+      "views": 612090,
       "tags": [
         "mcp-server",
         "llm",
@@ -540,7 +540,7 @@
       "author": "ChromeDevTools",
       "published_at": "2025-09-11",
       "collected_at": "2026-08-26",
-      "views": 497000,
+      "views": 497020,
       "tags": [
         "mcp-server",
         "browser",
@@ -563,7 +563,7 @@
       "author": "amruthpillai",
       "published_at": "2020-03-25",
       "collected_at": "2026-08-26",
-      "views": 417220,
+      "views": 417230,
       "tags": [
         "mcp-server",
         "agent-skills",
@@ -586,7 +586,7 @@
       "author": "DeusData",
       "published_at": "2026-02-24",
       "collected_at": "2026-08-26",
-      "views": 405830,
+      "views": 405900,
       "tags": [
         "mcp-server",
         "aider",
