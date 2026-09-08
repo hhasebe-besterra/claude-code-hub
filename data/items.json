@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T16:04:26+09:00",
+  "generated_at": "2026-09-08T21:43:39+09:00",
   "generator": "harvest.py",
   "items": [
     {
@@ -11,7 +11,7 @@
       "author": "affaan-m",
       "published_at": "2026-01-18",
       "collected_at": "2026-09-08",
-      "views": 2532410,
+      "views": 2536860,
       "tags": [
         "anthropic",
         "ai-agents",
@@ -34,7 +34,7 @@
       "author": "NousResearch",
       "published_at": "2025-07-22",
       "collected_at": "2026-09-08",
-      "views": 2431640,
+      "views": 2432540,
       "tags": [
         "anthropic",
         "ai",
@@ -57,7 +57,7 @@
       "author": "n8n-io",
       "published_at": "2019-06-22",
       "collected_at": "2026-09-08",
-      "views": 2036930,
+      "views": 2037140,
       "tags": [
         "mcp-server",
         "ai",
@@ -80,7 +80,7 @@
       "author": "langchain-ai",
       "published_at": "2022-10-17",
       "collected_at": "2026-09-08",
-      "views": 1459150,
+      "views": 1459270,
       "tags": [
         "anthropic",
         "agents",
@@ -95,29 +95,6 @@
       "hot": true
     },
     {
-      "id": "gh-farion1231-cc-switch",
-      "title": "farion1231/cc-switch",
-      "type": "tip",
-      "summary": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
-      "source": "https://github.com/farion1231/cc-switch",
-      "author": "farion1231",
-      "published_at": "2025-08-04",
-      "collected_at": "2026-09-08",
-      "views": 1316260,
-      "tags": [
-        "claude-code",
-        "ai-tools",
-        "claude-code",
-        "codex",
-        "desktop-app"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "github_trending/farion1231_cc-switch.md"
-      },
-      "hot": true
-    },
-    {
       "id": "gh-DietrichGebert-ponytail",
       "title": "DietrichGebert/ponytail",
       "type": "tip",
@@ -126,7 +103,7 @@
       "author": "DietrichGebert",
       "published_at": "2026-06-12",
       "collected_at": "2026-09-08",
-      "views": 1313500,
+      "views": 1317170,
       "tags": [
         "claude-code",
         "agent-skills",
@@ -141,6 +118,29 @@
       "hot": true
     },
     {
+      "id": "gh-farion1231-cc-switch",
+      "title": "farion1231/cc-switch",
+      "type": "tip",
+      "summary": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
+      "source": "https://github.com/farion1231/cc-switch",
+      "author": "farion1231",
+      "published_at": "2025-08-04",
+      "collected_at": "2026-09-08",
+      "views": 1316900,
+      "tags": [
+        "claude-code",
+        "ai-tools",
+        "claude-code",
+        "codex",
+        "desktop-app"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/farion1231_cc-switch.md"
+      },
+      "hot": true
+    },
+    {
       "id": "gh-nextlevelbuilder-ui-ux-pro-max-skill",
       "title": "nextlevelbuilder/ui-ux-pro-max-skill",
       "type": "tip",
@@ -149,7 +149,7 @@
       "author": "nextlevelbuilder",
       "published_at": "2025-11-30",
       "collected_at": "2026-09-08",
-      "views": 1259040,
+      "views": 1259910,
       "tags": [
         "claude-code",
         "ai-skills",
@@ -172,7 +172,7 @@
       "author": "Graphify-Labs",
       "published_at": "2026-04-03",
       "collected_at": "2026-09-08",
-      "views": 1157980,
+      "views": 1158880,
       "tags": [
         "claude-code",
         "ai-agents",
@@ -195,7 +195,7 @@
       "author": "google-gemini",
       "published_at": "2025-04-17",
       "collected_at": "2026-09-08",
-      "views": 1068590,
+      "views": 1068680,
       "tags": [
         "mcp-server",
         "ai",
@@ -218,7 +218,7 @@
       "author": "JuliusBrussee",
       "published_at": "2026-04-04",
       "collected_at": "2026-09-08",
-      "views": 1042060,
+      "views": 1042610,
       "tags": [
         "anthropic",
         "ai",
@@ -241,7 +241,7 @@
       "author": "thedotmack",
       "published_at": "2025-08-31",
       "collected_at": "2026-09-08",
-      "views": 934370,
+      "views": 934560,
       "tags": [
         "anthropic",
         "ai",
@@ -264,7 +264,7 @@
       "author": "addyosmani",
       "published_at": "2026-02-15",
       "collected_at": "2026-09-08",
-      "views": 928830,
+      "views": 929380,
       "tags": [
         "claude-code",
         "agent-skills",
@@ -287,7 +287,7 @@
       "author": "koala73",
       "published_at": "2026-01-08",
       "collected_at": "2026-09-08",
-      "views": 858020,
+      "views": 858200,
       "tags": [
         "mcp-server",
         "agent",
@@ -310,7 +310,7 @@
       "author": "Leonxlnx",
       "published_at": "2026-02-19",
       "collected_at": "2026-09-08",
-      "views": 852430,
+      "views": 853390,
       "tags": [
         "claude-code",
         "agent",
@@ -333,7 +333,7 @@
       "author": "rtk-ai",
       "published_at": "2026-01-22",
       "collected_at": "2026-09-08",
-      "views": 793490,
+      "views": 794190,
       "tags": [
         "anthropic",
         "agentic-coding",
@@ -356,7 +356,7 @@
       "author": "D4Vinci",
       "published_at": "2024-10-13",
       "collected_at": "2026-09-08",
-      "views": 792350,
+      "views": 793120,
       "tags": [
         "mcp-server",
         "ai",
@@ -379,7 +379,7 @@
       "author": "ruvnet",
       "published_at": "2025-06-02",
       "collected_at": "2026-09-08",
-      "views": 715140,
+      "views": 715910,
       "tags": [
         "mcp-server",
         "agentic-ai",
@@ -394,29 +394,6 @@
       "hot": true
     },
     {
-      "id": "gh-career-ops-hq-career-ops",
-      "title": "career-ops-hq/career-ops",
-      "type": "tip",
-      "summary": "Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
-      "source": "https://github.com/career-ops-hq/career-ops",
-      "author": "career-ops-hq",
-      "published_at": "2026-04-04",
-      "collected_at": "2026-09-08",
-      "views": 704840,
-      "tags": [
-        "anthropic",
-        "ai",
-        "ai-agent",
-        "anthropic",
-        "ats"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "github_trending/career-ops-hq_career-ops.md"
-      },
-      "hot": true
-    },
-    {
       "id": "gh-headroomlabs-ai-headroom",
       "title": "headroomlabs-ai/headroom",
       "type": "mcp",
@@ -425,7 +402,7 @@
       "author": "headroomlabs-ai",
       "published_at": "2026-01-07",
       "collected_at": "2026-09-08",
-      "views": 703460,
+      "views": 705250,
       "tags": [
         "anthropic",
         "agent",
@@ -440,6 +417,29 @@
       "hot": true
     },
     {
+      "id": "gh-career-ops-hq-career-ops",
+      "title": "career-ops-hq/career-ops",
+      "type": "tip",
+      "summary": "Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
+      "source": "https://github.com/career-ops-hq/career-ops",
+      "author": "career-ops-hq",
+      "published_at": "2026-04-04",
+      "collected_at": "2026-09-08",
+      "views": 705160,
+      "tags": [
+        "anthropic",
+        "ai",
+        "ai-agent",
+        "anthropic",
+        "ats"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/career-ops-hq_career-ops.md"
+      },
+      "hot": true
+    },
+    {
       "id": "gh-code-yeongyu-oh-my-openagent",
       "title": "code-yeongyu/oh-my-openagent",
       "type": "tip",
@@ -448,7 +448,7 @@
       "author": "code-yeongyu",
       "published_at": "2025-12-03",
       "collected_at": "2026-09-08",
-      "views": 688040,
+      "views": 688120,
       "tags": [
         "anthropic",
         "ai",
@@ -471,7 +471,7 @@
       "author": "shanraisshan",
       "published_at": "2025-10-31",
       "collected_at": "2026-09-08",
-      "views": 657440,
+      "views": 657600,
       "tags": [
         "anthropic",
         "agentic-ai",
@@ -494,7 +494,7 @@
       "author": "sansan0",
       "published_at": "2025-04-28",
       "collected_at": "2026-09-08",
-      "views": 621130,
+      "views": 621230,
       "tags": [
         "mcp-server",
         "ai",
@@ -517,7 +517,7 @@
       "author": "upstash",
       "published_at": "2025-03-26",
       "collected_at": "2026-09-08",
-      "views": 617620,
+      "views": 617760,
       "tags": [
         "mcp-server",
         "llm",
@@ -540,7 +540,7 @@
       "author": "ChromeDevTools",
       "published_at": "2025-09-11",
       "collected_at": "2026-09-08",
-      "views": 513160,
+      "views": 513360,
       "tags": [
         "mcp-server",
         "browser",
@@ -563,7 +563,7 @@
       "author": "DeusData",
       "published_at": "2026-02-24",
       "collected_at": "2026-09-08",
-      "views": 426140,
+      "views": 426460,
       "tags": [
         "mcp-server",
         "aider",
@@ -586,7 +586,7 @@
       "author": "amruthpillai",
       "published_at": "2020-03-25",
       "collected_at": "2026-09-08",
-      "views": 423050,
+      "views": 423210,
       "tags": [
         "mcp-server",
         "agent-skills",
