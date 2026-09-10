@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T08:04:29+09:00",
+  "generated_at": "2026-09-10T12:56:38+09:00",
   "generator": "harvest.py",
   "items": [
     {
@@ -11,7 +11,7 @@
       "author": "affaan-m",
       "published_at": "2026-01-18",
       "collected_at": "2026-09-10",
-      "views": 2551280,
+      "views": 2552810,
       "tags": [
         "anthropic",
         "ai-agents",
@@ -34,7 +34,7 @@
       "author": "NousResearch",
       "published_at": "2025-07-22",
       "collected_at": "2026-09-10",
-      "views": 2438430,
+      "views": 2439090,
       "tags": [
         "anthropic",
         "ai",
@@ -57,7 +57,7 @@
       "author": "n8n-io",
       "published_at": "2019-06-22",
       "collected_at": "2026-09-10",
-      "views": 2038760,
+      "views": 2038870,
       "tags": [
         "mcp-server",
         "ai",
@@ -80,7 +80,7 @@
       "author": "langchain-ai",
       "published_at": "2022-10-17",
       "collected_at": "2026-09-10",
-      "views": 1460230,
+      "views": 1460360,
       "tags": [
         "anthropic",
         "agents",
@@ -103,7 +103,7 @@
       "author": "DietrichGebert",
       "published_at": "2026-06-12",
       "collected_at": "2026-09-10",
-      "views": 1333440,
+      "views": 1336220,
       "tags": [
         "claude-code",
         "agent-skills",
@@ -126,7 +126,7 @@
       "author": "farion1231",
       "published_at": "2025-08-04",
       "collected_at": "2026-09-10",
-      "views": 1319610,
+      "views": 1320110,
       "tags": [
         "claude-code",
         "ai-tools",
@@ -149,7 +149,7 @@
       "author": "nextlevelbuilder",
       "published_at": "2025-11-30",
       "collected_at": "2026-09-10",
-      "views": 1264080,
+      "views": 1264420,
       "tags": [
         "claude-code",
         "ai-skills",
@@ -172,7 +172,7 @@
       "author": "Graphify-Labs",
       "published_at": "2026-04-03",
       "collected_at": "2026-09-10",
-      "views": 1163870,
+      "views": 1164350,
       "tags": [
         "claude-code",
         "ai-agents",
@@ -195,7 +195,7 @@
       "author": "google-gemini",
       "published_at": "2025-04-17",
       "collected_at": "2026-09-10",
-      "views": 1068780,
+      "views": 1068840,
       "tags": [
         "mcp-server",
         "ai",
@@ -218,7 +218,7 @@
       "author": "JuliusBrussee",
       "published_at": "2026-04-04",
       "collected_at": "2026-09-10",
-      "views": 1045500,
+      "views": 1045850,
       "tags": [
         "anthropic",
         "ai",
@@ -241,7 +241,7 @@
       "author": "thedotmack",
       "published_at": "2025-08-31",
       "collected_at": "2026-09-10",
-      "views": 935780,
+      "views": 935840,
       "tags": [
         "anthropic",
         "ai",
@@ -264,7 +264,7 @@
       "author": "addyosmani",
       "published_at": "2026-02-15",
       "collected_at": "2026-09-10",
-      "views": 932090,
+      "views": 932570,
       "tags": [
         "claude-code",
         "agent-skills",
@@ -287,7 +287,7 @@
       "author": "koala73",
       "published_at": "2026-01-08",
       "collected_at": "2026-09-10",
-      "views": 859110,
+      "views": 859270,
       "tags": [
         "mcp-server",
         "agent",
@@ -310,7 +310,7 @@
       "author": "Leonxlnx",
       "published_at": "2026-02-19",
       "collected_at": "2026-09-10",
-      "views": 857510,
+      "views": 857960,
       "tags": [
         "claude-code",
         "agent",
@@ -325,29 +325,6 @@
       "hot": true
     },
     {
-      "id": "gh-rtk-ai-rtk",
-      "title": "rtk-ai/rtk",
-      "type": "tip",
-      "summary": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
-      "source": "https://github.com/rtk-ai/rtk",
-      "author": "rtk-ai",
-      "published_at": "2026-01-22",
-      "collected_at": "2026-09-10",
-      "views": 797060,
-      "tags": [
-        "anthropic",
-        "agentic-coding",
-        "ai-coding",
-        "anthropic",
-        "claude-code"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "github_trending/rtk-ai_rtk.md"
-      },
-      "hot": true
-    },
-    {
       "id": "gh-D4Vinci-Scrapling",
       "title": "D4Vinci/Scrapling",
       "type": "tip",
@@ -356,7 +333,7 @@
       "author": "D4Vinci",
       "published_at": "2024-10-13",
       "collected_at": "2026-09-10",
-      "views": 796720,
+      "views": 797450,
       "tags": [
         "mcp-server",
         "ai",
@@ -371,6 +348,29 @@
       "hot": true
     },
     {
+      "id": "gh-rtk-ai-rtk",
+      "title": "rtk-ai/rtk",
+      "type": "tip",
+      "summary": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "source": "https://github.com/rtk-ai/rtk",
+      "author": "rtk-ai",
+      "published_at": "2026-01-22",
+      "collected_at": "2026-09-10",
+      "views": 797290,
+      "tags": [
+        "anthropic",
+        "agentic-coding",
+        "ai-coding",
+        "anthropic",
+        "claude-code"
+      ],
+      "install": {
+        "kind": "note",
+        "dest_note": "github_trending/rtk-ai_rtk.md"
+      },
+      "hot": true
+    },
+    {
       "id": "gh-ruvnet-ruflo",
       "title": "ruvnet/ruflo",
       "type": "tip",
@@ -379,7 +379,7 @@
       "author": "ruvnet",
       "published_at": "2025-06-02",
       "collected_at": "2026-09-10",
-      "views": 718090,
+      "views": 718390,
       "tags": [
         "mcp-server",
         "agentic-ai",
@@ -402,7 +402,7 @@
       "author": "headroomlabs-ai",
       "published_at": "2026-01-07",
       "collected_at": "2026-09-10",
-      "views": 710740,
+      "views": 711300,
       "tags": [
         "anthropic",
         "agent",
@@ -425,7 +425,7 @@
       "author": "career-ops-hq",
       "published_at": "2026-04-04",
       "collected_at": "2026-09-10",
-      "views": 707780,
+      "views": 708210,
       "tags": [
         "anthropic",
         "ai",
@@ -448,7 +448,7 @@
       "author": "code-yeongyu",
       "published_at": "2025-12-03",
       "collected_at": "2026-09-10",
-      "views": 688580,
+      "views": 688660,
       "tags": [
         "anthropic",
         "ai",
@@ -471,7 +471,7 @@
       "author": "shanraisshan",
       "published_at": "2025-10-31",
       "collected_at": "2026-09-10",
-      "views": 657970,
+      "views": 658040,
       "tags": [
         "anthropic",
         "agentic-ai",
@@ -494,7 +494,7 @@
       "author": "sansan0",
       "published_at": "2025-04-28",
       "collected_at": "2026-09-10",
-      "views": 621480,
+      "views": 621550,
       "tags": [
         "mcp-server",
         "ai",
@@ -517,7 +517,7 @@
       "author": "upstash",
       "published_at": "2025-03-26",
       "collected_at": "2026-09-10",
-      "views": 618150,
+      "views": 618190,
       "tags": [
         "mcp-server",
         "llm",
@@ -540,7 +540,7 @@
       "author": "ChromeDevTools",
       "published_at": "2025-09-11",
       "collected_at": "2026-09-10",
-      "views": 514690,
+      "views": 514880,
       "tags": [
         "mcp-server",
         "browser",
@@ -563,7 +563,7 @@
       "author": "DeusData",
       "published_at": "2026-02-24",
       "collected_at": "2026-09-10",
-      "views": 427790,
+      "views": 427920,
       "tags": [
         "mcp-server",
         "aider",
@@ -586,7 +586,7 @@
       "author": "amruthpillai",
       "published_at": "2020-03-25",
       "collected_at": "2026-09-10",
-      "views": 423800,
+      "views": 423910,
       "tags": [
         "mcp-server",
         "agent-skills",
