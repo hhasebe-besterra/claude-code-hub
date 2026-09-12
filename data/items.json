@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T12:55:25+09:00",
+  "generated_at": "2026-09-12T17:31:19+09:00",
   "generator": "harvest.py",
   "items": [
     {
@@ -11,7 +11,7 @@
       "author": "affaan-m",
       "published_at": "2026-01-18",
       "collected_at": "2026-09-12",
-      "views": 2565910,
+      "views": 2567100,
       "tags": [
         "anthropic",
         "ai-agents",
@@ -34,7 +34,7 @@
       "author": "NousResearch",
       "published_at": "2025-07-22",
       "collected_at": "2026-09-12",
-      "views": 2446480,
+      "views": 2447210,
       "tags": [
         "anthropic",
         "ai",
@@ -57,7 +57,7 @@
       "author": "n8n-io",
       "published_at": "2019-06-22",
       "collected_at": "2026-09-12",
-      "views": 2040460,
+      "views": 2040590,
       "tags": [
         "mcp-server",
         "ai",
@@ -80,7 +80,7 @@
       "author": "langchain-ai",
       "published_at": "2022-10-17",
       "collected_at": "2026-09-12",
-      "views": 1461520,
+      "views": 1461730,
       "tags": [
         "anthropic",
         "agents",
@@ -103,7 +103,7 @@
       "author": "DietrichGebert",
       "published_at": "2026-06-12",
       "collected_at": "2026-09-12",
-      "views": 1359140,
+      "views": 1360880,
       "tags": [
         "claude-code",
         "agent-skills",
@@ -126,7 +126,7 @@
       "author": "farion1231",
       "published_at": "2025-08-04",
       "collected_at": "2026-09-12",
-      "views": 1323940,
+      "views": 1324380,
       "tags": [
         "claude-code",
         "ai-tools",
@@ -149,7 +149,7 @@
       "author": "nextlevelbuilder",
       "published_at": "2025-11-30",
       "collected_at": "2026-09-12",
-      "views": 1269500,
+      "views": 1269960,
       "tags": [
         "claude-code",
         "ai-skills",
@@ -172,7 +172,7 @@
       "author": "Graphify-Labs",
       "published_at": "2026-04-03",
       "collected_at": "2026-09-12",
-      "views": 1170400,
+      "views": 1170830,
       "tags": [
         "claude-code",
         "ai-agents",
@@ -195,7 +195,7 @@
       "author": "google-gemini",
       "published_at": "2025-04-17",
       "collected_at": "2026-09-12",
-      "views": 1069270,
+      "views": 1069330,
       "tags": [
         "mcp-server",
         "ai",
@@ -218,7 +218,7 @@
       "author": "JuliusBrussee",
       "published_at": "2026-04-04",
       "collected_at": "2026-09-12",
-      "views": 1050600,
+      "views": 1051180,
       "tags": [
         "anthropic",
         "ai",
@@ -241,7 +241,7 @@
       "author": "thedotmack",
       "published_at": "2025-08-31",
       "collected_at": "2026-09-12",
-      "views": 937020,
+      "views": 937070,
       "tags": [
         "anthropic",
         "ai",
@@ -264,7 +264,7 @@
       "author": "addyosmani",
       "published_at": "2026-02-15",
       "collected_at": "2026-09-12",
-      "views": 935860,
+      "views": 936210,
       "tags": [
         "claude-code",
         "agent-skills",
@@ -287,7 +287,7 @@
       "author": "Leonxlnx",
       "published_at": "2026-02-19",
       "collected_at": "2026-09-12",
-      "views": 863310,
+      "views": 863870,
       "tags": [
         "claude-code",
         "agent",
@@ -310,7 +310,7 @@
       "author": "koala73",
       "published_at": "2026-01-08",
       "collected_at": "2026-09-12",
-      "views": 860880,
+      "views": 861010,
       "tags": [
         "mcp-server",
         "agent",
@@ -333,7 +333,7 @@
       "author": "D4Vinci",
       "published_at": "2024-10-13",
       "collected_at": "2026-09-12",
-      "views": 803300,
+      "views": 803710,
       "tags": [
         "mcp-server",
         "ai",
@@ -356,7 +356,7 @@
       "author": "rtk-ai",
       "published_at": "2026-01-22",
       "collected_at": "2026-09-12",
-      "views": 800120,
+      "views": 800340,
       "tags": [
         "anthropic",
         "agentic-coding",
@@ -379,7 +379,7 @@
       "author": "ruvnet",
       "published_at": "2025-06-02",
       "collected_at": "2026-09-12",
-      "views": 721570,
+      "views": 721810,
       "tags": [
         "mcp-server",
         "agentic-ai",
@@ -402,7 +402,7 @@
       "author": "headroomlabs-ai",
       "published_at": "2026-01-07",
       "collected_at": "2026-09-12",
-      "views": 716150,
+      "views": 716490,
       "tags": [
         "anthropic",
         "agent",
@@ -425,7 +425,7 @@
       "author": "career-ops-hq",
       "published_at": "2026-04-04",
       "collected_at": "2026-09-12",
-      "views": 713020,
+      "views": 713140,
       "tags": [
         "anthropic",
         "ai",
@@ -448,7 +448,7 @@
       "author": "code-yeongyu",
       "published_at": "2025-12-03",
       "collected_at": "2026-09-12",
-      "views": 689520,
+      "views": 689560,
       "tags": [
         "anthropic",
         "ai",
@@ -471,7 +471,7 @@
       "author": "shanraisshan",
       "published_at": "2025-10-31",
       "collected_at": "2026-09-12",
-      "views": 658460,
+      "views": 658490,
       "tags": [
         "anthropic",
         "agentic-ai",
@@ -494,7 +494,7 @@
       "author": "sansan0",
       "published_at": "2025-04-28",
       "collected_at": "2026-09-12",
-      "views": 621910,
+      "views": 621980,
       "tags": [
         "mcp-server",
         "ai",
@@ -517,7 +517,7 @@
       "author": "upstash",
       "published_at": "2025-03-26",
       "collected_at": "2026-09-12",
-      "views": 619010,
+      "views": 619040,
       "tags": [
         "mcp-server",
         "llm",
@@ -540,7 +540,7 @@
       "author": "ChromeDevTools",
       "published_at": "2025-09-11",
       "collected_at": "2026-09-12",
-      "views": 516890,
+      "views": 517110,
       "tags": [
         "mcp-server",
         "browser",
@@ -563,7 +563,7 @@
       "author": "DeusData",
       "published_at": "2026-02-24",
       "collected_at": "2026-09-12",
-      "views": 429900,
+      "views": 429970,
       "tags": [
         "mcp-server",
         "aider",
@@ -578,15 +578,15 @@
       "hot": true
     },
     {
-      "id": "gh-reactive-resume-app",
-      "title": "reactive-resume/app",
+      "id": "gh-reactive-resume-reactive-resume",
+      "title": "reactive-resume/reactive-resume",
       "type": "tip",
       "summary": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
-      "source": "https://github.com/reactive-resume/app",
+      "source": "https://github.com/reactive-resume/reactive-resume",
       "author": "reactive-resume",
       "published_at": "2020-03-25",
       "collected_at": "2026-09-12",
-      "views": 424940,
+      "views": 425000,
       "tags": [
         "mcp-server",
         "agent-skills",
@@ -596,7 +596,7 @@
       ],
       "install": {
         "kind": "note",
-        "dest_note": "github_trending/reactive-resume_app.md"
+        "dest_note": "github_trending/reactive-resume_reactive-resume.md"
       },
       "hot": true
     },
