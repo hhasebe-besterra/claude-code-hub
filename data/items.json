@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T03:34:58+09:00",
+  "generated_at": "2026-11-06T08:58:16+09:00",
   "generator": "harvest.py",
   "items": [
     {
@@ -11,7 +11,7 @@
       "author": "morluto",
       "published_at": "2026-04-14",
       "collected_at": "2026-11-06",
-      "views": 4337540,
+      "views": 4342640,
       "tags": [
         "claude-code",
         "agent-skills",
@@ -34,7 +34,7 @@
       "author": "affaan-m",
       "published_at": "2026-01-18",
       "collected_at": "2026-11-06",
-      "views": 2977270,
+      "views": 2978590,
       "tags": [
         "anthropic",
         "ai-agents",
@@ -57,7 +57,7 @@
       "author": "NousResearch",
       "published_at": "2025-07-22",
       "collected_at": "2026-11-06",
-      "views": 2608130,
+      "views": 2608630,
       "tags": [
         "anthropic",
         "ai",
@@ -80,7 +80,7 @@
       "author": "n8n-io",
       "published_at": "2019-06-22",
       "collected_at": "2026-11-06",
-      "views": 2096260,
+      "views": 2096350,
       "tags": [
         "mcp-server",
         "ai",
@@ -103,7 +103,7 @@
       "author": "DietrichGebert",
       "published_at": "2026-06-12",
       "collected_at": "2026-11-06",
-      "views": 1851000,
+      "views": 1852260,
       "tags": [
         "claude-code",
         "agent-skills",
@@ -126,7 +126,7 @@
       "author": "farion1231",
       "published_at": "2025-08-04",
       "collected_at": "2026-11-06",
-      "views": 1520920,
+      "views": 1521020,
       "tags": [
         "claude-code",
         "ai-tools",
@@ -149,7 +149,7 @@
       "author": "langchain-ai",
       "published_at": "2022-10-17",
       "collected_at": "2026-11-06",
-      "views": 1490920,
+      "views": 1491040,
       "tags": [
         "anthropic",
         "agents",
@@ -172,7 +172,7 @@
       "author": "nextlevelbuilder",
       "published_at": "2025-11-30",
       "collected_at": "2026-11-06",
-      "views": 1456210,
+      "views": 1456990,
       "tags": [
         "claude-code",
         "ai-skills",
@@ -195,7 +195,7 @@
       "author": "Graphify-Labs",
       "published_at": "2026-04-03",
       "collected_at": "2026-11-06",
-      "views": 1428570,
+      "views": 1429740,
       "tags": [
         "claude-code",
         "ai-agents",
@@ -218,7 +218,7 @@
       "author": "JuliusBrussee",
       "published_at": "2026-04-04",
       "collected_at": "2026-11-06",
-      "views": 1177150,
+      "views": 1177670,
       "tags": [
         "anthropic",
         "ai",
@@ -236,45 +236,22 @@
       "id": "gh-stablyai-orca",
       "title": "stablyai/orca",
       "type": "tip",
-      "summary": "Orca is the place for working with a fleet of coding agents (e.g. Claude Code, Codex). Run any agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "summary": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.",
       "source": "https://github.com/stablyai/orca",
       "author": "stablyai",
       "published_at": "2026-03-17",
       "collected_at": "2026-11-06",
-      "views": 1164880,
+      "views": 1166690,
       "tags": [
         "claude-code",
-        "ade",
         "agent-ide",
         "ai-agents",
-        "automation"
+        "automation",
+        "bot"
       ],
       "install": {
         "kind": "note",
         "dest_note": "github_trending/stablyai_orca.md"
-      },
-      "hot": true
-    },
-    {
-      "id": "gh-addyosmani-agent-skills",
-      "title": "addyosmani/agent-skills",
-      "type": "tip",
-      "summary": "Production-grade engineering skills for AI coding agents.",
-      "source": "https://github.com/addyosmani/agent-skills",
-      "author": "addyosmani",
-      "published_at": "2026-02-15",
-      "collected_at": "2026-11-06",
-      "views": 1134620,
-      "tags": [
-        "claude-code",
-        "agent-skills",
-        "antigravity",
-        "claude-code",
-        "codex"
-      ],
-      "install": {
-        "kind": "note",
-        "dest_note": "github_trending/addyosmani_agent-skills.md"
       },
       "hot": true
     },
@@ -287,7 +264,7 @@
       "author": "thedotmack",
       "published_at": "2025-08-31",
       "collected_at": "2026-11-06",
-      "views": 1134310,
+      "views": 1135220,
       "tags": [
         "anthropic",
         "ai",
@@ -310,7 +287,7 @@
       "author": "google-gemini",
       "published_at": "2025-04-17",
       "collected_at": "2026-11-06",
-      "views": 1087340,
+      "views": 1087400,
       "tags": [
         "mcp-server",
         "ai",
@@ -333,7 +310,7 @@
       "author": "D4Vinci",
       "published_at": "2024-10-13",
       "collected_at": "2026-11-06",
-      "views": 977260,
+      "views": 979360,
       "tags": [
         "mcp-server",
         "ai",
@@ -356,7 +333,7 @@
       "author": "koala73",
       "published_at": "2026-01-08",
       "collected_at": "2026-11-06",
-      "views": 902050,
+      "views": 902160,
       "tags": [
         "mcp-server",
         "agent",
@@ -379,7 +356,7 @@
       "author": "rtk-ai",
       "published_at": "2026-01-22",
       "collected_at": "2026-11-06",
-      "views": 856410,
+      "views": 856560,
       "tags": [
         "anthropic",
         "agentic-coding",
@@ -402,7 +379,7 @@
       "author": "cheaper-inference",
       "published_at": "2026-02-13",
       "collected_at": "2026-11-06",
-      "views": 847780,
+      "views": 848500,
       "tags": [
         "anthropic",
         "a2a",
@@ -425,7 +402,7 @@
       "author": "ruvnet",
       "published_at": "2025-06-02",
       "collected_at": "2026-11-06",
-      "views": 809810,
+      "views": 809860,
       "tags": [
         "mcp-server",
         "agentic-ai",
@@ -448,7 +425,7 @@
       "author": "headroomlabs-ai",
       "published_at": "2026-01-07",
       "collected_at": "2026-11-06",
-      "views": 789200,
+      "views": 789370,
       "tags": [
         "anthropic",
         "agent",
@@ -471,7 +448,7 @@
       "author": "asgeirtj",
       "published_at": "2025-05-03",
       "collected_at": "2026-11-06",
-      "views": 708440,
+      "views": 708770,
       "tags": [
         "anthropic",
         "ai",
@@ -494,7 +471,7 @@
       "author": "code-yeongyu",
       "published_at": "2025-12-03",
       "collected_at": "2026-11-06",
-      "views": 707350,
+      "views": 707360,
       "tags": [
         "anthropic",
         "ai",
@@ -517,7 +494,7 @@
       "author": "upstash",
       "published_at": "2025-03-26",
       "collected_at": "2026-11-06",
-      "views": 642400,
+      "views": 642480,
       "tags": [
         "mcp-server",
         "llm",
@@ -540,7 +517,7 @@
       "author": "sansan0",
       "published_at": "2025-04-28",
       "collected_at": "2026-11-06",
-      "views": 634640,
+      "views": 634660,
       "tags": [
         "mcp-server",
         "ai",
@@ -563,7 +540,7 @@
       "author": "ChromeDevTools",
       "published_at": "2025-09-11",
       "collected_at": "2026-11-06",
-      "views": 548400,
+      "views": 548500,
       "tags": [
         "mcp-server",
         "browser",
@@ -586,7 +563,7 @@
       "author": "DeusData",
       "published_at": "2026-02-24",
       "collected_at": "2026-11-06",
-      "views": 481650,
+      "views": 481740,
       "tags": [
         "mcp-server",
         "aider",
@@ -609,7 +586,7 @@
       "author": "reactive-resume",
       "published_at": "2020-03-25",
       "collected_at": "2026-11-06",
-      "views": 453820,
+      "views": 453900,
       "tags": [
         "mcp-server",
         "agent-skills",
